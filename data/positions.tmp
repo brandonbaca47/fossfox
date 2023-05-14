@@ -1,0 +1,362 @@
+[
+  {
+    "id": "android-engineer",
+    "name": "Android Engineer",
+    "solo": false
+  },
+  {
+    "id": "angular-engineer",
+    "name": "Angular Engineer",
+    "solo": false
+  },
+  {
+    "id": "application-security-engineer",
+    "name": "Application Security Engineer",
+    "solo": false
+  },
+  {
+    "id": "applications-engineer",
+    "name": "Applications Engineer",
+    "solo": false
+  },
+  {
+    "id": "applied-cryptography-engineer",
+    "name": "Applied Cryptography Engineer",
+    "solo": false
+  },
+  {
+    "id": "backend-engineer",
+    "name": "Backend Engineer",
+    "solo": false
+  },
+  {
+    "id": "big-data-engineer",
+    "name": "Big Data Engineer",
+    "solo": false
+  },
+  {
+    "id": "blockchain-infrastructure-engineer",
+    "name": "Blockchain Infrastructure Engineer",
+    "solo": false
+  },
+  {
+    "id": "blockchain-security-engineer",
+    "name": "Blockchain Security Engineer",
+    "solo": false
+  },
+  {
+    "id": "c-engineer",
+    "name": "C Engineer",
+    "solo": false
+  },
+  {
+    "id": "c-sharp-engineer",
+    "name": "C# Engineer",
+    "solo": false
+  },
+  {
+    "id": "chief-architect",
+    "name": "Chief Architect",
+    "solo": false
+  },
+  {
+    "id": "clojure-engineer",
+    "name": "Clojure Engineer",
+    "solo": false
+  },
+  {
+    "id": "cloud-engineer",
+    "name": "Cloud Engineer",
+    "solo": false
+  },
+  {
+    "id": "compiler-backend-engineer",
+    "name": "Compiler Backend Engineer",
+    "solo": false
+  },
+  {
+    "id": "compiler-engineer",
+    "name": "Compiler Engineer",
+    "solo": false
+  },
+  {
+    "id": "compiler-frontend-engineer",
+    "name": "Compiler Frontend Engineer",
+    "solo": false
+  },
+  {
+    "id": "core-engineer",
+    "name": "Core Engineer",
+    "solo": false
+  },
+  {
+    "id": "cpp-engineer",
+    "name": "C++ Engineer",
+    "solo": false
+  },
+  {
+    "id": "cryptography-engineer",
+    "name": "Cryptography Engineer",
+    "solo": false
+  },
+  {
+    "id": "cto",
+    "name": "CTO",
+    "solo": true
+  },
+  {
+    "id": "cyber-security-engineer",
+    "name": "Cyber Security Engineer",
+    "solo": false
+  },
+  {
+    "id": "dart-engineer",
+    "name": "Dart Engineer",
+    "solo": false
+  },
+  {
+    "id": "data-engineer",
+    "name": "Data Engineer",
+    "solo": false
+  },
+  {
+    "id": "devops-engineer",
+    "name": "DevOps Engineer",
+    "solo": false
+  },
+  {
+    "id": "devsecops-engineer",
+    "name": "DevSecOps Engineer",
+    "solo": false
+  },
+  {
+    "id": "director-of-engineering",
+    "name": "Director of Engineering",
+    "solo": true
+  },
+  {
+    "id": "embedded-software-engineer",
+    "name": "Embedded Software Engineer",
+    "solo": false
+  },
+  {
+    "id": "engineering-manager",
+    "name": "Engineering Manager",
+    "solo": true
+  },
+  {
+    "id": "engineering-team-lead",
+    "name": "Engineering Team Lead",
+    "solo": false
+  },
+  {
+    "id": "frontend-engineer",
+    "name": "Frontend Engineer",
+    "solo": false
+  },
+  {
+    "id": "full-stack-engineer",
+    "name": "Full-Stack Engineer",
+    "solo": false
+  },
+  {
+    "id": "go-engineer",
+    "name": "Go Engineer",
+    "solo": false
+  },
+  {
+    "id": "head-of-engineering",
+    "name": "Head of Engineering",
+    "solo": true
+  },
+  {
+    "id": "infrastructure-engineer",
+    "name": "Infrastructure Engineer",
+    "solo": false
+  },
+  {
+    "id": "integrations-engineer",
+    "name": "Integrations Engineer",
+    "solo": false
+  },
+  {
+    "id": "ios-engineer",
+    "name": "iOS Engineer",
+    "solo": false
+  },
+  {
+    "id": "java-engineer",
+    "name": "Java Engineer",
+    "solo": false
+  },
+  {
+    "id": "javascript-engineer",
+    "name": "JavaScript Engineer",
+    "solo": false
+  },
+  {
+    "id": "julia-engineer",
+    "name": "Julia Engineer",
+    "solo": false
+  },
+  {
+    "id": "kotlin-engineer",
+    "name": "Kotlin Engineer",
+    "solo": false
+  },
+  {
+    "id": "llvm-compiler-engineer",
+    "name": "LLVM Compiler Engineer",
+    "solo": false
+  },
+  {
+    "id": "machine-learning-engineer",
+    "name": "Machine Learning Engineer",
+    "solo": false
+  },
+  {
+    "id": "mobile-engineer",
+    "name": "Mobile Engineer",
+    "solo": false
+  },
+  {
+    "id": "network-engineer",
+    "name": "Network Engineer",
+    "solo": false
+  },
+  {
+    "id": "objective-c-engineer",
+    "name": "Objective-C Engineer",
+    "solo": false
+  },
+  {
+    "id": "penetration-tester",
+    "name": "Penetration Tester",
+    "solo": false
+  },
+  {
+    "id": "performance-engineer",
+    "name": "Performance Engineer",
+    "solo": false
+  },
+  {
+    "id": "perl-engineer",
+    "name": "Perl Engineer",
+    "solo": false
+  },
+  {
+    "id": "php-engineer",
+    "name": "PHP Engineer",
+    "solo": false
+  },
+  {
+    "id": "platform-architect",
+    "name": "Platform Architect",
+    "solo": false
+  },
+  {
+    "id": "principle-engineer",
+    "name": "Principle Engineer",
+    "solo": true
+  },
+  {
+    "id": "protocol-engineer",
+    "name": "Protocol Engineer",
+    "solo": false
+  },
+  {
+    "id": "protocol-security-engineer",
+    "name": "Protocol Security Engineer",
+    "solo": false
+  },
+  {
+    "id": "python-engineer",
+    "name": "Python Engineer",
+    "solo": false
+  },
+  {
+    "id": "react-engineer",
+    "name": "React Engineer",
+    "solo": false
+  },
+  {
+    "id": "ruby-engineer",
+    "name": "Ruby Engineer",
+    "solo": false
+  },
+  {
+    "id": "rust-engineer",
+    "name": "Rust Engineer",
+    "solo": false
+  },
+  {
+    "id": "scala-engineer",
+    "name": "Scala Engineer",
+    "solo": false
+  },
+  {
+    "id": "security-research-engineer",
+    "name": "Security Research Engineer",
+    "solo": false
+  },
+  {
+    "id": "site-reliability-engineer",
+    "name": "Site Reliability Engineer",
+    "solo": false
+  },
+  {
+    "id": "smart-contract-engineer",
+    "name": "Smart Contract Engineer",
+    "solo": false
+  },
+  {
+    "id": "software-engineer",
+    "name": "Software Engineer",
+    "solo": false
+  },
+  {
+    "id": "software-engineering-lead",
+    "name": "Software Engineering Lead",
+    "solo": false
+  },
+  {
+    "id": "staff-engineer",
+    "name": "Staff Engineer",
+    "solo": true
+  },
+  {
+    "id": "svelte-engineer",
+    "name": "Svelte Engineer",
+    "solo": false
+  },
+  {
+    "id": "swift-engineer",
+    "name": "Swift Engineer",
+    "solo": false
+  },
+  {
+    "id": "system-administrator",
+    "name": "System Administrator",
+    "solo": false
+  },
+  {
+    "id": "systems-engineer",
+    "name": "Systems Engineer",
+    "solo": false
+  },
+  {
+    "id": "typescript-engineer",
+    "name": "TypeScript Engineer",
+    "solo": false
+  },
+  {
+    "id": "vp-of-engineering",
+    "name": "VP of Engineering",
+    "solo": true
+  },
+  {
+    "id": "vue-js-engineer",
+    "name": "Vue.js Engineer",
+    "solo": false
+  }
+]

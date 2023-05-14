@@ -1,0 +1,46 @@
+{
+    "name": "Tailscale",
+    "url": "https://tailscale.com/",
+    "email": "support@tailscale.com",
+    "building": [
+      {
+        "name": "Tailscale",
+        "url": "https://tailscale.com/"
+      }
+    ],
+    "socials": [
+      "https://github.com/tailscale",
+      "https://twitter.com/Tailscale"
+    ],
+    "offices": [
+      "toronto-canada"
+    ],
+    "headcount": 0,
+    "founded": 2019,
+    "jobs": [
+      {
+        "position": "ios-engineer",
+        "level": "any",
+        "type": "full-time",
+        "salary": {
+          "amount": [
+            0,
+            0
+          ],
+          "range": "yearly",
+          "currency": "usd"
+        },
+        "equity": [
+          0,
+          0
+        ],
+        "tech": [
+          "go",
+          "swift"
+        ],
+        "url": "https://boards.greenhouse.io/tailscale/jobs/4197939005"
+      }
+    ],
+    "updated": "2023-05-14T22:15:49.636Z"
+  }
+  

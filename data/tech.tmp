@@ -1,0 +1,726 @@
+[
+  {
+    "id": "algorand",
+    "name": "Algorand"
+  },
+  {
+    "id": "amazon-api-gateway",
+    "name": "Amazon API Gateway"
+  },
+  {
+    "id": "amazon-athena",
+    "name": "Amazon Athena"
+  },
+  {
+    "id": "amazon-cloudfront",
+    "name": "Amazon CloudFront"
+  },
+  {
+    "id": "amazon-cloudsearch",
+    "name": "Amazon CloudSearch"
+  },
+  {
+    "id": "amazon-cloudwatch",
+    "name": "Amazon CloudWatch"
+  },
+  {
+    "id": "amazon-documentdb",
+    "name": "Amazon DocumentDB"
+  },
+  {
+    "id": "amazon-dynamodb",
+    "name": "Amazon DynamoDB"
+  },
+  {
+    "id": "amazon-ec2",
+    "name": "Amazon EC2"
+  },
+  {
+    "id": "amazon-ecr",
+    "name": "Amazon ECR"
+  },
+  {
+    "id": "amazon-ecs",
+    "name": "Amazon ECS"
+  },
+  {
+    "id": "amazon-eks",
+    "name": "Amazon EKS"
+  },
+  {
+    "id": "amazon-elasticache",
+    "name": "Amazon ElastiCache"
+  },
+  {
+    "id": "amazon-iam",
+    "name": "Amazon IAM"
+  },
+  {
+    "id": "amazon-kinesis",
+    "name": "Amazon Kinesis"
+  },
+  {
+    "id": "amazon-lightsail",
+    "name": "Amazon Lightsail"
+  },
+  {
+    "id": "amazon-rds",
+    "name": "Amazon RDS"
+  },
+  {
+    "id": "amazon-redshift",
+    "name": "Amazon Redshift"
+  },
+  {
+    "id": "amazon-rekognition",
+    "name": "Amazon Rekognition"
+  },
+  {
+    "id": "amazon-route-53",
+    "name": "Amazon Route 53"
+  },
+  {
+    "id": "amazon-s3",
+    "name": "Amazon S3"
+  },
+  {
+    "id": "amazon-s3-glacier",
+    "name": "Amazon S3 Glacier"
+  },
+  {
+    "id": "amazon-sns",
+    "name": "Amazon SNS"
+  },
+  {
+    "id": "amazon-sqs",
+    "name": "Amazon SQS"
+  },
+  {
+    "id": "amazon-vpc",
+    "name": "Amazon VPC"
+  },
+  {
+    "id": "angular",
+    "name": "Angular"
+  },
+  {
+    "id": "ansible",
+    "name": "Ansible"
+  },
+  {
+    "id": "apache-cassandra",
+    "name": "Apache Cassandra"
+  },
+  {
+    "id": "apache-cordova",
+    "name": "Apache Cordova"
+  },
+  {
+    "id": "apache-couchdb",
+    "name": "Apache CouchDB"
+  },
+  {
+    "id": "apache-groovy",
+    "name": "Apache Groovy"
+  },
+  {
+    "id": "apache-hadoop",
+    "name": "Apache Hadoop"
+  },
+  {
+    "id": "apache-http-server",
+    "name": "Apache HTTP Server"
+  },
+  {
+    "id": "apache-kafka",
+    "name": "Apache Kafka"
+  },
+  {
+    "id": "apache-spark",
+    "name": "Apache Spark"
+  },
+  {
+    "id": "apache-subversion",
+    "name": "Apache Subversion"
+  },
+  {
+    "id": "arbitrum",
+    "name": "Arbitrum"
+  },
+  {
+    "id": "asp-net",
+    "name": "ASP.NET"
+  },
+  {
+    "id": "avalanche",
+    "name": "Avalanche"
+  },
+  {
+    "id": "aws",
+    "name": "AWS"
+  },
+  {
+    "id": "aws-cloudformation",
+    "name": "AWS CloudFormation"
+  },
+  {
+    "id": "aws-codecommit",
+    "name": "AWS CodeCommit"
+  },
+  {
+    "id": "aws-elastic-beanstalk",
+    "name": "AWS Elastic Beanstalk"
+  },
+  {
+    "id": "aws-fargate",
+    "name": "AWS Fargate"
+  },
+  {
+    "id": "aws-lambda",
+    "name": "AWS Lambda"
+  },
+  {
+    "id": "azure",
+    "name": "Azure"
+  },
+  {
+    "id": "azure-cosmos-db",
+    "name": "Azure Cosmos DB"
+  },
+  {
+    "id": "azure-functions",
+    "name": "Azure Functions"
+  },
+  {
+    "id": "azure-kubernetes-service",
+    "name": "Azure Kubernetes Service"
+  },
+  {
+    "id": "azure-sql",
+    "name": "Azure SQL"
+  },
+  {
+    "id": "bash",
+    "name": "Bash"
+  },
+  {
+    "id": "bitcoin",
+    "name": "Bitcoin"
+  },
+  {
+    "id": "bun",
+    "name": "Bun"
+  },
+  {
+    "id": "c",
+    "name": "C"
+  },
+  {
+    "id": "c-sharp",
+    "name": "C#"
+  },
+  {
+    "id": "cardano",
+    "name": "Cardano"
+  },
+  {
+    "id": "chef",
+    "name": "Chef"
+  },
+  {
+    "id": "clickhouse",
+    "name": "ClickHouse"
+  },
+  {
+    "id": "clojure",
+    "name": "Clojure"
+  },
+  {
+    "id": "cockroachdb",
+    "name": "CockroachDB"
+  },
+  {
+    "id": "common-lisp",
+    "name": "Common Lisp"
+  },
+  {
+    "id": "concurrent-versions-system",
+    "name": "Concurrent Versions System"
+  },
+  {
+    "id": "cosmos",
+    "name": "Cosmos"
+  },
+  {
+    "id": "couchbase",
+    "name": "Couchbase"
+  },
+  {
+    "id": "cpp",
+    "name": "C++"
+  },
+  {
+    "id": "crystal",
+    "name": "Crystal"
+  },
+  {
+    "id": "d",
+    "name": "D"
+  },
+  {
+    "id": "dart",
+    "name": "Dart"
+  },
+  {
+    "id": "delphi",
+    "name": "Delphi"
+  },
+  {
+    "id": "deno",
+    "name": "Deno"
+  },
+  {
+    "id": "digitalocean",
+    "name": "DigitalOcean"
+  },
+  {
+    "id": "django",
+    "name": "Django"
+  },
+  {
+    "id": "docker",
+    "name": "Docker"
+  },
+  {
+    "id": "drupal",
+    "name": "Drupal"
+  },
+  {
+    "id": "duckdb",
+    "name": "DuckDB"
+  },
+  {
+    "id": "elasticsearch",
+    "name": "Elasticsearch"
+  },
+  {
+    "id": "electron",
+    "name": "Electron"
+  },
+  {
+    "id": "elixir",
+    "name": "Elixir"
+  },
+  {
+    "id": "erlang",
+    "name": "Erlang"
+  },
+  {
+    "id": "ethereum",
+    "name": "Ethereum"
+  },
+  {
+    "id": "express",
+    "name": "Express"
+  },
+  {
+    "id": "f-sharp",
+    "name": "F#"
+  },
+  {
+    "id": "fastapi",
+    "name": "FastAPI"
+  },
+  {
+    "id": "fastify",
+    "name": "Fastify"
+  },
+  {
+    "id": "fe",
+    "name": "Fe"
+  },
+  {
+    "id": "flask",
+    "name": "Flask"
+  },
+  {
+    "id": "flutter",
+    "name": "Flutter"
+  },
+  {
+    "id": "fossil",
+    "name": "Fossil"
+  },
+  {
+    "id": "gatsby",
+    "name": "Gatsby"
+  },
+  {
+    "id": "gcp",
+    "name": "GCP"
+  },
+  {
+    "id": "git",
+    "name": "Git"
+  },
+  {
+    "id": "go",
+    "name": "Go"
+  },
+  {
+    "id": "google-bigquery",
+    "name": "Google BigQuery"
+  },
+  {
+    "id": "google-bigtable",
+    "name": "Google Bigtable"
+  },
+  {
+    "id": "google-cloud-cdn",
+    "name": "Google Cloud CDN"
+  },
+  {
+    "id": "google-cloud-functions",
+    "name": "Google Cloud Functions"
+  },
+  {
+    "id": "google-cloud-run",
+    "name": "Google Cloud Run"
+  },
+  {
+    "id": "google-cloud-sql",
+    "name": "Google Cloud SQL"
+  },
+  {
+    "id": "google-cloud-storage",
+    "name": "Google Cloud Storage"
+  },
+  {
+    "id": "google-compute-engine",
+    "name": "Google Compute Engine"
+  },
+  {
+    "id": "google-dataflow",
+    "name": "Google Dataflow"
+  },
+  {
+    "id": "google-filestore",
+    "name": "Google Filestore"
+  },
+  {
+    "id": "google-kubernetes-engine",
+    "name": "Google Kubernetes Engine"
+  },
+  {
+    "id": "google-memorystore",
+    "name": "Google Memorystore"
+  },
+  {
+    "id": "haskell",
+    "name": "Haskell"
+  },
+  {
+    "id": "haxe",
+    "name": "Haxe"
+  },
+  {
+    "id": "heroku",
+    "name": "Heroku"
+  },
+  {
+    "id": "ibm-db2",
+    "name": "IBM Db2"
+  },
+  {
+    "id": "io",
+    "name": "Io"
+  },
+  {
+    "id": "java",
+    "name": "Java"
+  },
+  {
+    "id": "javascript",
+    "name": "JavaScript"
+  },
+  {
+    "id": "jquery",
+    "name": "jQuery"
+  },
+  {
+    "id": "julia",
+    "name": "Julia"
+  },
+  {
+    "id": "keras",
+    "name": "Keras"
+  },
+  {
+    "id": "kotlin",
+    "name": "Kotlin"
+  },
+  {
+    "id": "kubernetes",
+    "name": "Kubernetes"
+  },
+  {
+    "id": "laravel",
+    "name": "Laravel"
+  },
+  {
+    "id": "leveldb",
+    "name": "LevelDB"
+  },
+  {
+    "id": "lighttpd",
+    "name": "lighttpd"
+  },
+  {
+    "id": "linode",
+    "name": "Linode"
+  },
+  {
+    "id": "litecoin",
+    "name": "Litecoin"
+  },
+  {
+    "id": "llvm",
+    "name": "LLVM"
+  },
+  {
+    "id": "lua",
+    "name": "Lua"
+  },
+  {
+    "id": "mariadb",
+    "name": "MariaDB"
+  },
+  {
+    "id": "memcached",
+    "name": "Memcached"
+  },
+  {
+    "id": "mercurial",
+    "name": "Mercurial"
+  },
+  {
+    "id": "micropython",
+    "name": "MicroPython"
+  },
+  {
+    "id": "microsoft-sql-server",
+    "name": "Microsoft SQL Server"
+  },
+  {
+    "id": "mongodb",
+    "name": "MongoDB"
+  },
+  {
+    "id": "mysql",
+    "name": "MySQL"
+  },
+  {
+    "id": "neo4j",
+    "name": "Neo4j"
+  },
+  {
+    "id": "next-js",
+    "name": "Next.js"
+  },
+  {
+    "id": "nginx",
+    "name": "Nginx"
+  },
+  {
+    "id": "nim",
+    "name": "Nim"
+  },
+  {
+    "id": "node-js",
+    "name": "Node.js"
+  },
+  {
+    "id": "npm",
+    "name": "npm"
+  },
+  {
+    "id": "nuxt-js",
+    "name": "Nuxt.js"
+  },
+  {
+    "id": "objective-c",
+    "name": "Objective-C"
+  },
+  {
+    "id": "ocaml",
+    "name": "OCaml"
+  },
+  {
+    "id": "oci",
+    "name": "OCI"
+  },
+  {
+    "id": "openstack",
+    "name": "OpenStack"
+  },
+  {
+    "id": "oracle-database",
+    "name": "Oracle Database"
+  },
+  {
+    "id": "ovhcloud",
+    "name": "OVHcloud"
+  },
+  {
+    "id": "perl",
+    "name": "Perl"
+  },
+  {
+    "id": "phoenix",
+    "name": "Phoenix"
+  },
+  {
+    "id": "php",
+    "name": "PHP"
+  },
+  {
+    "id": "play-framework",
+    "name": "Play Framework"
+  },
+  {
+    "id": "polkadot",
+    "name": "Polkadot"
+  },
+  {
+    "id": "polygon",
+    "name": "Polygon"
+  },
+  {
+    "id": "postgres",
+    "name": "Postgres"
+  },
+  {
+    "id": "pulumi",
+    "name": "Pulumi"
+  },
+  {
+    "id": "puppet",
+    "name": "Puppet"
+  },
+  {
+    "id": "python",
+    "name": "Python"
+  },
+  {
+    "id": "raku",
+    "name": "Raku"
+  },
+  {
+    "id": "react",
+    "name": "React"
+  },
+  {
+    "id": "react-native",
+    "name": "React Native"
+  },
+  {
+    "id": "redis",
+    "name": "Redis"
+  },
+  {
+    "id": "rocksdb",
+    "name": "RocksDB"
+  },
+  {
+    "id": "ruby",
+    "name": "Ruby"
+  },
+  {
+    "id": "ruby-on-rails",
+    "name": "Ruby on Rails"
+  },
+  {
+    "id": "rust",
+    "name": "Rust"
+  },
+  {
+    "id": "scala",
+    "name": "Scala"
+  },
+  {
+    "id": "scheme",
+    "name": "Scheme"
+  },
+  {
+    "id": "solana",
+    "name": "Solana"
+  },
+  {
+    "id": "solidity",
+    "name": "Solidity"
+  },
+  {
+    "id": "spring-framework",
+    "name": "Spring Framework"
+  },
+  {
+    "id": "sqlite",
+    "name": "SQLite"
+  },
+  {
+    "id": "svelte",
+    "name": "Svelte"
+  },
+  {
+    "id": "swift",
+    "name": "Swift"
+  },
+  {
+    "id": "symfony",
+    "name": "Symfony"
+  },
+  {
+    "id": "tensorflow",
+    "name": "TensorFlow"
+  },
+  {
+    "id": "terraform",
+    "name": "Terraform"
+  },
+  {
+    "id": "tezos",
+    "name": "Tezos"
+  },
+  {
+    "id": "typescript",
+    "name": "TypeScript"
+  },
+  {
+    "id": "visual-basic-net",
+    "name": "Visual Basic .NET"
+  },
+  {
+    "id": "vue-js",
+    "name": "Vue.js"
+  },
+  {
+    "id": "vyper",
+    "name": "Vyper"
+  },
+  {
+    "id": "yarn",
+    "name": "Yarn"
+  },
+  {
+    "id": "yul",
+    "name": "Yul"
+  },
+  {
+    "id": "yulp",
+    "name": "Yul+"
+  },
+  {
+    "id": "zig",
+    "name": "Zig"
+  }
+]
