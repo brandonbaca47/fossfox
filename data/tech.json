@@ -652,6 +652,10 @@
     "name": "Scheme"
   },
   {
+    "id": "snowflake",
+    "name": "Snowflake"
+  },
+  {
     "id": "solana",
     "name": "Solana"
   },

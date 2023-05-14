@@ -180,6 +180,11 @@
     "solo": false
   },
   {
+    "id": "internal-tools-engineer",
+    "name": "Internal Tools Engineer",
+    "solo": false
+  },
+  {
     "id": "ios-engineer",
     "name": "iOS Engineer",
     "solo": false
@@ -282,6 +287,11 @@
   {
     "id": "ruby-engineer",
     "name": "Ruby Engineer",
+    "solo": false
+  },
+  {
+    "id": "runtime-engineer",
+    "name": "Runtime Engineer",
     "solo": false
   },
   {
