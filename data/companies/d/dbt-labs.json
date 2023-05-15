@@ -1,0 +1,49 @@
+{
+  "name": "dbt Labs",
+  "url": "https://www.getdbt.com/",
+  "email": "recruiting@getdbt.com",
+  "building": [
+    {
+      "name": "dbt",
+      "url": "https://www.getdbt.com/"
+    }
+  ],
+  "socials": [
+    "https://github.com/dbt-labs",
+    "https://twitter.com/getdbt"
+  ],
+  "offices": [
+    "philadelphia-pennsylvania"
+  ],
+  "headcount": 150,
+  "founded": 2016,
+  "jobs": [
+    {
+      "position": "software-engineer",
+      "level": "senior",
+      "type": "full-time",
+      "salary": {
+        "amount": [
+          182000,
+          234000
+        ],
+        "range": "yearly",
+        "currency": "usd"
+      },
+      "equity": [
+        0,
+        0
+      ],
+      "tech": [
+        "python",
+        "django",
+        "go",
+        "postgres",
+        "kubernetes",
+        "aws"
+      ],
+      "url": "https://boards.greenhouse.io/dbtlabsinc/jobs/4137037005"
+    }
+  ],
+  "updated": "2023-05-15T15:03:57.217Z"
+}
