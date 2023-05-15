@@ -1,0 +1,56 @@
+{
+  "name": "Appsmith",
+  "url": "https://www.appsmith.com/",
+  "email": "support@@appsmith.com",
+  "building": [
+    {
+      "name": "Appsmith",
+      "url": "https://www.appsmith.com/"
+    }
+  ],
+  "socials": [
+    "https://github.com/appsmithorg/appsmith",
+    "https://twitter.com/theappsmith"
+  ],
+  "offices": [
+    "san-francisco-california",
+    "bengaluru-india"
+  ],
+  "headcount": 150,
+  "founded": 2019,
+  "jobs": [
+    {
+      "position": "staff-engineer",
+      "level": "any",
+      "type": "full-time",
+      "salary": {
+        "amount": [
+          45000,
+          85000
+        ],
+        "range": "yearly",
+        "currency": "usd"
+      },
+      "equity": [
+        0.01,
+        0.02
+      ],
+      "tech": [
+        "python",
+        "java",
+        "mysql",
+        "postgres",
+        "mongodb",
+        "aws",
+        "azure",
+        "react",
+        "angular",
+        "terraform",
+        "ansible",
+        "docker"
+      ],
+      "url": "https://wellfound.com/company/appsmith/jobs/610609-staff-engineer-principal-engineer-backend"
+    }
+  ],
+  "updated": "2023-05-15T01:44:08.476Z"
+}
