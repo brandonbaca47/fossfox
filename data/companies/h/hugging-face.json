@@ -1,0 +1,48 @@
+{
+  "name": "Hugging Face",
+  "url": "https://huggingface.co/",
+  "email": "careers@huggingface.co",
+  "building": [
+    {
+      "name": "Models",
+      "url": "https://huggingface.co/models"
+    }
+  ],
+  "socials": [
+    "https://github.com/huggingface",
+    "https://twitter.com/huggingface"
+  ],
+  "offices": [
+    "new-york-city",
+    "paris-france"
+  ],
+  "headcount": 150,
+  "founded": 2016,
+  "jobs": [
+    {
+      "position": "frontend-engineer",
+      "level": "senior",
+      "type": "full-time",
+      "salary": {
+        "amount": [
+          0,
+          0
+        ],
+        "range": "yearly",
+        "currency": "usd"
+      },
+      "equity": [
+        0,
+        0
+      ],
+      "tech": [
+        "typescript",
+        "javascript",
+        "react",
+        "svelte"
+      ],
+      "url": "https://apply.workable.com/huggingface/j/09B44FE57C/"
+    }
+  ],
+  "updated": "2023-05-15T15:36:16.306Z"
+}
