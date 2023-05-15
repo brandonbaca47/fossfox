@@ -1,0 +1,48 @@
+{
+  "name": "Oven",
+  "url": "https://oven.sh/",
+  "email": "jobs@oven.sh",
+  "building": [
+    {
+      "name": "Bun",
+      "url": "https://bun.sh/"
+    }
+  ],
+  "socials": [
+    "https://github.com/oven-sh",
+    "https://twitter.com/oven_sh"
+  ],
+  "offices": [
+    "san-francisco-california"
+  ],
+  "headcount": 15,
+  "founded": 2022,
+  "jobs": [
+    {
+      "position": "runtime-engineer",
+      "level": "any",
+      "type": "full-time",
+      "salary": {
+        "amount": [
+          0,
+          0
+        ],
+        "range": "yearly",
+        "currency": "usd"
+      },
+      "equity": [
+        0,
+        0
+      ],
+      "tech": [
+        "zig",
+        "c",
+        "cpp",
+        "javascript",
+        "typescript"
+      ],
+      "url": "https://oven.rippling-ats.com/job/535740/runtime-engineer-zig-or-c-c"
+    }
+  ],
+  "updated": "2023-05-15T01:57:00.017Z"
+}
