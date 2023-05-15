@@ -1,0 +1,52 @@
+{
+  "name": "QuestDB",
+  "url": "https://questdb.io/",
+  "email": "support@questdb.io",
+  "building": [
+    {
+      "name": "QuestDB",
+      "url": "https://questdb.io/"
+    }
+  ],
+  "socials": [
+    "https://github.com/questdb",
+    "https://twitter.com/QuestDb"
+  ],
+  "offices": [
+    "london-united-kingdom"
+  ],
+  "headcount": 15,
+  "founded": 2019,
+  "jobs": [
+    {
+      "position": "backend-engineer",
+      "level": "senior",
+      "type": "full-time",
+      "salary": {
+        "amount": [
+          0,
+          0
+        ],
+        "range": "yearly",
+        "currency": "usd"
+      },
+      "equity": [
+        0,
+        0
+      ],
+      "tech": [
+        "python",
+        "go",
+        "fastapi",
+        "docker",
+        "kubernetes",
+        "aws",
+        "postgres",
+        "react",
+        "next-js"
+      ],
+      "url": "https://questdb.io/careers/senior-backend-engineer/"
+    }
+  ],
+  "updated": "2023-05-15T15:49:38.230Z"
+}
