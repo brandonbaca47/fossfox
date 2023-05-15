@@ -1,0 +1,51 @@
+{
+  "name": "Sentry",
+  "url": "https://sentry.io/",
+  "email": "hr@sentry.io",
+  "building": [
+    {
+      "name": "Sentry",
+      "url": "https://sentry.io/"
+    }
+  ],
+  "socials": [
+    "https://github.com/getsentry",
+    "https://twitter.com/getsentry"
+  ],
+  "offices": [
+    "san-francisco-california",
+    "seattle-washington",
+    "vienna-austria",
+    "toronto-canada"
+  ],
+  "headcount": 250,
+  "founded": 2008,
+  "jobs": [
+    {
+      "position": "full-stack-engineer",
+      "level": "senior",
+      "type": "full-time",
+      "salary": {
+        "amount": [
+          80000,
+          220000
+        ],
+        "range": "yearly",
+        "currency": "usd"
+      },
+      "equity": [
+        0,
+        0
+      ],
+      "tech": [
+        "python",
+        "javascript",
+        "django",
+        "react",
+        "postgres"
+      ],
+      "url": "https://sentry.io/careers/4884870/"
+    }
+  ],
+  "updated": "2023-05-15T15:21:51.350Z"
+}
