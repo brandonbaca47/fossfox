@@ -1,0 +1,43 @@
+{
+  "name": "Rotki",
+  "url": "https://rotki.com/",
+  "email": "careers@rotki.com",
+  "building": [
+    {
+      "name": "Rotki",
+      "url": "https://rotki.com/"
+    }
+  ],
+  "socials": [
+    "https://github.com/rotki",
+    "https://twitter.com/rotkiapp"
+  ],
+  "offices": [],
+  "headcount": 15,
+  "founded": 2018,
+  "jobs": [
+    {
+      "position": "python-engineer",
+      "level": "any",
+      "type": "full-time",
+      "salary": {
+        "amount": [
+          0,
+          0
+        ],
+        "range": "yearly",
+        "currency": "usd"
+      },
+      "equity": [
+        0,
+        0
+      ],
+      "tech": [
+        "python",
+        "ethereum"
+      ],
+      "url": "https://rotki.com/jobs/backend"
+    }
+  ],
+  "updated": "2023-05-16T13:42:28.981Z"
+}

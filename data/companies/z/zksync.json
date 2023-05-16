@@ -1,0 +1,45 @@
+{
+  "name": "zkSync",
+  "url": "https://zksync.io/",
+  "email": "support@zksync.io",
+  "building": [
+    {
+      "name": "zkSync",
+      "url": "https://zksync.io/"
+    }
+  ],
+  "socials": [
+    "https://github.com/matter-labs",
+    "https://twitter.com/zksync"
+  ],
+  "offices": [
+    "berlin-germany"
+  ],
+  "headcount": 15,
+  "founded": 2018,
+  "jobs": [
+    {
+      "position": "smart-contract-engineer",
+      "level": "senior",
+      "type": "full-time",
+      "salary": {
+        "amount": [
+          0,
+          0
+        ],
+        "range": "yearly",
+        "currency": "usd"
+      },
+      "equity": [
+        0,
+        0
+      ],
+      "tech": [
+        "solidity",
+        "ethereum"
+      ],
+      "url": "https://jobs.eu.lever.co/matterlabs/acc28014-62e3-4df3-908e-1eaa416454f2"
+    }
+  ],
+  "updated": "2023-05-16T13:34:38.572Z"
+}
