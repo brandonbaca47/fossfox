@@ -1,0 +1,46 @@
+{
+  "name": "Tutao",
+  "url": "https://tutao.de/",
+  "email": "hello@tutao.de",
+  "building": [
+    {
+      "name": "Tutanota",
+      "url": "https://tutanota.com/"
+    }
+  ],
+  "socials": [
+    "https://github.com/tutao",
+    "https://twitter.com/TutanotaTeam"
+  ],
+  "offices": [
+    "hannover-germany"
+  ],
+  "headcount": 15,
+  "founded": 2016,
+  "jobs": [
+    {
+      "position": "software-engineer",
+      "level": "any",
+      "type": "full-time",
+      "salary": {
+        "amount": [
+          0,
+          0
+        ],
+        "range": "yearly",
+        "currency": "usd"
+      },
+      "equity": [
+        0,
+        0
+      ],
+      "tech": [
+        "javascript",
+        "typescript",
+        "java"
+      ],
+      "url": "https://tutanota.com/job/0_software_engineer"
+    }
+  ],
+  "updated": "2023-05-18T01:14:13.473Z"
+}
