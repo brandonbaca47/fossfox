@@ -1,8 +1,9 @@
 {
   "name": "QuestDB",
   "url": "https://questdb.io/",
-  "email": "support@questdb.io",
-  "building": [
+  "at": "support",
+  "building": "high-performance time-series database and analytics",
+  "products": [
     {
       "name": "QuestDB",
       "url": "https://questdb.io/"
@@ -48,5 +49,5 @@
       "url": "https://questdb.io/careers/senior-backend-engineer/"
     }
   ],
-  "updated": "2023-05-15T15:49:38.230Z"
+  "updated": "2023-05-15T15:49:38.231Z"
 }

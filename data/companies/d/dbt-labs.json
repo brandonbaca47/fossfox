@@ -1,8 +1,9 @@
 {
   "name": "dbt Labs",
   "url": "https://www.getdbt.com/",
-  "email": "recruiting@getdbt.com",
-  "building": [
+  "at": "recruiting",
+  "building": "data transformation for modern analytics",
+  "products": [
     {
       "name": "dbt",
       "url": "https://www.getdbt.com/"
@@ -45,5 +46,5 @@
       "url": "https://boards.greenhouse.io/dbtlabsinc/jobs/4137037005"
     }
   ],
-  "updated": "2023-05-15T15:03:57.217Z"
+  "updated": "2023-05-15T15:03:57.218Z"
 }

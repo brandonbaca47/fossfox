@@ -1,8 +1,9 @@
 {
   "name": "Timescale",
   "url": "https://www.timescale.com/",
-  "email": "support@timescale.com",
-  "building": [
+  "at": "support",
+  "building": "scalable time-series databases and analytics",
+  "products": [
     {
       "name": "Timescale",
       "url": "https://www.timescale.com/"
@@ -42,5 +43,5 @@
       "url": "https://www.timescale.com/careers/6652057002"
     }
   ],
-  "updated": "2023-05-16T13:50:52.711Z"
+  "updated": "2023-05-16T13:50:52.712Z"
 }

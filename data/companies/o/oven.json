@@ -1,8 +1,9 @@
 {
   "name": "Oven",
   "url": "https://oven.sh/",
-  "email": "jobs@oven.sh",
-  "building": [
+  "at": "jobs",
+  "building": "bun development and hosting",
+  "products": [
     {
       "name": "Bun",
       "url": "https://bun.sh/"
@@ -44,5 +45,5 @@
       "url": "https://oven.rippling-ats.com/job/535740/runtime-engineer-zig-or-c-c"
     }
   ],
-  "updated": "2023-05-15T01:57:00.017Z"
+  "updated": "2023-05-15T01:57:00.018Z"
 }

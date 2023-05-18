@@ -1,8 +1,9 @@
 {
   "name": "Rotki",
   "url": "https://rotki.com/",
-  "email": "careers@rotki.com",
-  "building": [
+  "at": "careers",
+  "building": "crypto portfolio management and analytics",
+  "products": [
     {
       "name": "Rotki",
       "url": "https://rotki.com/"
@@ -39,5 +40,5 @@
       "url": "https://rotki.com/jobs/backend"
     }
   ],
-  "updated": "2023-05-16T13:42:28.981Z"
+  "updated": "2023-05-16T13:42:28.982Z"
 }

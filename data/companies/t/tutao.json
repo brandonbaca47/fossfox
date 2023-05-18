@@ -1,8 +1,9 @@
 {
   "name": "Tutao",
   "url": "https://tutao.de/",
-  "email": "hello@tutao.de",
-  "building": [
+  "at": "hello",
+  "building": "privacy-focused secure email provider",
+  "products": [
     {
       "name": "Tutanota",
       "url": "https://tutanota.com/"
@@ -42,5 +43,5 @@
       "url": "https://tutanota.com/job/0_software_engineer"
     }
   ],
-  "updated": "2023-05-18T01:14:13.473Z"
+  "updated": "2023-05-18T01:14:13.474Z"
 }

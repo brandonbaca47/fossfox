@@ -1,8 +1,9 @@
 {
   "name": "zkSync",
   "url": "https://zksync.io/",
-  "email": "support@zksync.io",
-  "building": [
+  "at": "support",
+  "building": "layer2 protocol for scaling Ethereum",
+  "products": [
     {
       "name": "zkSync",
       "url": "https://zksync.io/"
@@ -41,5 +42,5 @@
       "url": "https://jobs.eu.lever.co/matterlabs/acc28014-62e3-4df3-908e-1eaa416454f2"
     }
   ],
-  "updated": "2023-05-16T13:34:38.572Z"
+  "updated": "2023-05-16T13:34:38.573Z"
 }

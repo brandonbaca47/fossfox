@@ -1,8 +1,9 @@
 {
   "name": "Appsmith",
   "url": "https://www.appsmith.com/",
-  "email": "support@appsmith.com",
-  "building": [
+  "at": "support",
+  "building": "low-code development platform for applications",
+  "products": [
     {
       "name": "Appsmith",
       "url": "https://www.appsmith.com/"
@@ -52,5 +53,5 @@
       "url": "https://wellfound.com/company/appsmith/jobs/610609-staff-engineer-principal-engineer-backend"
     }
   ],
-  "updated": "2023-05-15T01:44:08.476Z"
+  "updated": "2023-05-15T01:44:08.477Z"
 }

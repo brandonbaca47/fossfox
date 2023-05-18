@@ -1,8 +1,9 @@
 {
   "name": "Sentry",
   "url": "https://sentry.io/",
-  "email": "hr@sentry.io",
-  "building": [
+  "at": "hr",
+  "building": "error monitoring and crash reporting",
+  "products": [
     {
       "name": "Sentry",
       "url": "https://sentry.io/"
@@ -47,5 +48,5 @@
       "url": "https://sentry.io/careers/4884870/"
     }
   ],
-  "updated": "2023-05-15T15:21:51.350Z"
+  "updated": "2023-05-15T15:21:51.351Z"
 }

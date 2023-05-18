@@ -1,8 +1,9 @@
 {
   "name": "Hugging Face",
   "url": "https://huggingface.co/",
-  "email": "careers@huggingface.co",
-  "building": [
+  "at": "careers",
+  "building": "tools for machine learning apps",
+  "products": [
     {
       "name": "Models",
       "url": "https://huggingface.co/models"
@@ -44,5 +45,5 @@
       "url": "https://apply.workable.com/huggingface/j/09B44FE57C/"
     }
   ],
-  "updated": "2023-05-15T15:36:16.306Z"
+  "updated": "2023-05-15T15:36:16.307Z"
 }

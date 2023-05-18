@@ -1,8 +1,9 @@
 {
     "name": "Tailscale",
     "url": "https://tailscale.com/",
-    "email": "support@tailscale.com",
-    "building": [
+    "at": "support",
+    "building": "secure network for distributed teams",
+    "products": [
       {
         "name": "Tailscale",
         "url": "https://tailscale.com/"
@@ -41,6 +42,6 @@
         "url": "https://boards.greenhouse.io/tailscale/jobs/4197939005"
       }
     ],
-    "updated": "2023-05-14T22:15:49.636Z"
+    "updated": "2023-05-14T22:15:49.637Z"
   }
   
