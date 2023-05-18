@@ -1,0 +1,47 @@
+{
+  "name": "Neon",
+  "url": "https://neon.tech/",
+  "at": "support",
+  "building": "serverless Postgres in the cloud",
+  "products": [
+    {
+      "name": "Neon",
+      "url": "https://neon.tech/"
+    }
+  ],
+  "socials": [
+    "https://github.com/neondatabase",
+    "https://twitter.com/neondatabase"
+  ],
+  "offices": [
+    "san-francisco-california"
+  ],
+  "headcount": 50,
+  "founded": 2022,
+  "jobs": [
+    {
+      "position": "rust-engineer",
+      "level": "any",
+      "type": "full-time",
+      "salary": {
+        "amount": [
+          0,
+          0
+        ],
+        "range": "yearly",
+        "currency": "usd"
+      },
+      "equity": [
+        0,
+        0
+      ],
+      "tech": [
+        "rust",
+        "c",
+        "cpp"
+      ],
+      "url": "https://boards.greenhouse.io/neondatabase/jobs/4817637004"
+    }
+  ],
+  "updated": "2023-05-18T22:16:12.070Z"
+}
