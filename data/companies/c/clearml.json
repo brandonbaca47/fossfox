@@ -1,0 +1,72 @@
+{
+  "name": "ClearML",
+  "url": "https://clear.ml/",
+  "at": "jobs",
+  "building": "deep learning lifecycle management tools",
+  "products": [
+    {
+      "name": "ClearML",
+      "url": "https://clear.ml/"
+    }
+  ],
+  "socials": [
+    "https://github.com/allegroai",
+    "https://twitter.com/clearmlapp"
+  ],
+  "offices": [
+    "montreal-canada",
+    "tel-aviv-israel"
+  ],
+  "headcount": 0,
+  "founded": 2016,
+  "jobs": [
+    {
+      "position": "devops-engineer",
+      "level": "any",
+      "type": "full-time",
+      "salary": {
+        "amount": [
+          0,
+          0
+        ],
+        "range": "yearly",
+        "currency": "usd"
+      },
+      "equity": [
+        0,
+        0
+      ],
+      "tech": [
+        "kubernetes",
+        "python",
+        "aws",
+        "gcp",
+        "azure",
+        "docker"
+      ],
+      "url": "https://clear.ml/careers/"
+    },
+    {
+      "position": "frontend-engineer",
+      "level": "senior",
+      "type": "full-time",
+      "salary": {
+        "amount": [
+          0,
+          0
+        ],
+        "range": "yearly",
+        "currency": "usd"
+      },
+      "equity": [
+        0,
+        0
+      ],
+      "tech": [
+        "angular"
+      ],
+      "url": "https://clear.ml/careers/"
+    }
+  ],
+  "updated": "2023-05-19T22:02:21.821Z"
+}
