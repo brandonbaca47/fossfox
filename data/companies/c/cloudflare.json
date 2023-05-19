@@ -58,10 +58,13 @@
         "react",
         "elasticsearch",
         "clickhouse",
-        "google-bigquery"
+        "google-bigquery",
+        "grafana",
+        "prometheus",
+        "kibana"
       ],
       "url": "https://boards.greenhouse.io/cloudflare/jobs/4973069"
     }
   ],
-  "updated": "2023-05-18T22:29:59.451Z"
+  "updated": "2023-05-18T22:29:59.452Z"
 }
