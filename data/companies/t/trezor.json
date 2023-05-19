@@ -1,0 +1,46 @@
+{
+  "name": "Trezor",
+  "url": "https://trezor.io/",
+  "at": "fossfox",
+  "building": "cryptocurrency hardware wallets",
+  "products": [
+    {
+      "name": "Trezor",
+      "url": "https://trezor.io/"
+    }
+  ],
+  "socials": [
+    "https://github.com/trezor",
+    "https://twitter.com/Trezor"
+  ],
+  "offices": [
+    "prague-czech-republic"
+  ],
+  "headcount": 0,
+  "founded": 2013,
+  "jobs": [
+    {
+      "position": "firmware-engineer",
+      "level": "any",
+      "type": "full-time",
+      "salary": {
+        "amount": [
+          0,
+          0
+        ],
+        "range": "yearly",
+        "currency": "usd"
+      },
+      "equity": [
+        0,
+        0
+      ],
+      "tech": [
+        "python",
+        "c"
+      ],
+      "url": "https://satoshilabs.com/job/426822-firmware-engineer.html"
+    }
+  ],
+  "updated": "2023-05-19T21:35:55.178Z"
+}
