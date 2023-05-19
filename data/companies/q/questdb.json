@@ -42,7 +42,7 @@
         "docker",
         "kubernetes",
         "aws",
-        "postgres",
+        "postgresql",
         "react",
         "next-js"
       ],

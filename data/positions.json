@@ -135,6 +135,11 @@
     "solo": true
   },
   {
+    "id": "distributed-systems-engineer",
+    "name": "Distributed Systems Engineer",
+    "solo": false
+  },
+  {
     "id": "embedded-software-engineer",
     "name": "Embedded Software Engineer",
     "solo": false
@@ -147,6 +152,11 @@
   {
     "id": "engineering-team-lead",
     "name": "Engineering Team Lead",
+    "solo": false
+  },
+  {
+    "id": "firmware-engineer",
+    "name": "Firmware Engineer",
     "solo": false
   },
   {
@@ -260,8 +270,8 @@
     "solo": false
   },
   {
-    "id": "principle-engineer",
-    "name": "Principle Engineer",
+    "id": "principal-engineer",
+    "name": "Principal Engineer",
     "solo": true
   },
   {

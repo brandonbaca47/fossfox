@@ -39,7 +39,7 @@
         "python",
         "django",
         "go",
-        "postgres",
+        "postgresql",
         "kubernetes",
         "aws"
       ],

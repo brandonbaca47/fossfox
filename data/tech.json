@@ -144,6 +144,10 @@
     "name": "Apache Subversion"
   },
   {
+    "id": "apache-zookeeper",
+    "name": "Apache ZooKeeper"
+  },
+  {
     "id": "arbitrum",
     "name": "Arbitrum"
   },
@@ -248,6 +252,10 @@
     "name": "Concurrent Versions System"
   },
   {
+    "id": "consul",
+    "name": "Consul"
+  },
+  {
     "id": "cosmos",
     "name": "Cosmos"
   },
@@ -314,6 +322,10 @@
   {
     "id": "erlang",
     "name": "Erlang"
+  },
+  {
+    "id": "etcd",
+    "name": "etcd"
   },
   {
     "id": "ethereum",
@@ -416,6 +428,14 @@
     "name": "Google Memorystore"
   },
   {
+    "id": "grafana",
+    "name": "Grafana"
+  },
+  {
+    "id": "graphql",
+    "name": "GraphQL"
+  },
+  {
     "id": "haskell",
     "name": "Haskell"
   },
@@ -444,6 +464,10 @@
     "name": "JavaScript"
   },
   {
+    "id": "jax",
+    "name": "JAX"
+  },
+  {
     "id": "jquery",
     "name": "jQuery"
   },
@@ -454,6 +478,10 @@
   {
     "id": "keras",
     "name": "Keras"
+  },
+  {
+    "id": "kibana",
+    "name": "Kibana"
   },
   {
     "id": "kotlin",
@@ -572,6 +600,10 @@
     "name": "OVHcloud"
   },
   {
+    "id": "patroni",
+    "name": "Patroni"
+  },
+  {
     "id": "perl",
     "name": "Perl"
   },
@@ -596,8 +628,12 @@
     "name": "Polygon"
   },
   {
-    "id": "postgres",
-    "name": "Postgres"
+    "id": "postgresql",
+    "name": "PostgreSQL"
+  },
+  {
+    "id": "prometheus",
+    "name": "Prometheus"
   },
   {
     "id": "pulumi",
@@ -610,6 +646,10 @@
   {
     "id": "python",
     "name": "Python"
+  },
+  {
+    "id": "pytorch",
+    "name": "PyTorch"
   },
   {
     "id": "raku",

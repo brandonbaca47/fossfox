@@ -34,7 +34,7 @@
         0
       ],
       "tech": [
-        "postgres",
+        "postgresql",
         "go",
         "kubernetes",
         "rust",

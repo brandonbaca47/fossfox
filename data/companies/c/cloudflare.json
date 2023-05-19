@@ -53,7 +53,7 @@
         "rust",
         "go",
         "kubernetes",
-        "postgres",
+        "postgresql",
         "typescript",
         "react",
         "elasticsearch",

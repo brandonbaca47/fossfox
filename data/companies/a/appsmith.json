@@ -40,7 +40,7 @@
         "python",
         "java",
         "mysql",
-        "postgres",
+        "postgresql",
         "mongodb",
         "aws",
         "azure",
