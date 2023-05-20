@@ -1,0 +1,100 @@
+{
+  "name": "Uniswap Labs",
+  "url": "https://uniswap.org/",
+  "at": "fossfox",
+  "building": "a decentralized cryptocurrency exchange",
+  "products": [
+    {
+      "name": "Uniswap",
+      "url": "https://app.uniswap.org/"
+    }
+  ],
+  "socials": [
+    "https://github.com/Uniswap",
+    "https://twitter.com/Uniswap"
+  ],
+  "offices": [
+    "new-york-city"
+  ],
+  "headcount": 150,
+  "founded": 2018,
+  "jobs": [
+    {
+      "position": "backend-engineer",
+      "level": "senior",
+      "type": "full-time",
+      "salary": {
+        "amount": [
+          180000,
+          220000
+        ],
+        "range": "yearly",
+        "currency": "usd"
+      },
+      "equity": [
+        0,
+        0
+      ],
+      "tech": [
+        "typescript",
+        "rust",
+        "go",
+        "cpp",
+        "aws",
+        "azure",
+        "gcp"
+      ],
+      "url": "https://boards.greenhouse.io/uniswaplabs/jobs/4231350005"
+    },
+    {
+      "position": "smart-contract-engineer",
+      "level": "senior",
+      "type": "full-time",
+      "salary": {
+        "amount": [
+          210000,
+          240000
+        ],
+        "range": "yearly",
+        "currency": "usd"
+      },
+      "equity": [
+        0,
+        0
+      ],
+      "tech": [
+        "ethereum",
+        "solidity"
+      ],
+      "url": "https://boards.greenhouse.io/uniswaplabs/jobs/4003103005"
+    },
+    {
+      "position": "software-engineer",
+      "level": "senior",
+      "type": "full-time",
+      "salary": {
+        "amount": [
+          210000,
+          240000
+        ],
+        "range": "yearly",
+        "currency": "usd"
+      },
+      "equity": [
+        0,
+        0
+      ],
+      "tech": [
+        "ethereum",
+        "go",
+        "rust",
+        "aws",
+        "docker",
+        "amazon-ecs",
+        "amazon-dynamodb"
+      ],
+      "url": "https://boards.greenhouse.io/uniswaplabs/jobs/4169990005"
+    }
+  ],
+  "updated": "2023-05-20T15:52:10.834Z"
+}
