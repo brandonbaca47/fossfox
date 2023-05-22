@@ -108,6 +108,10 @@
     "name": "Ansible"
   },
   {
+    "id": "apache-airflow",
+    "name": "Apache Airflow"
+  },
+  {
     "id": "apache-cassandra",
     "name": "Apache Cassandra"
   },
@@ -120,12 +124,20 @@
     "name": "Apache CouchDB"
   },
   {
+    "id": "apache-flink",
+    "name": "Apache Flink"
+  },
+  {
     "id": "apache-groovy",
     "name": "Apache Groovy"
   },
   {
     "id": "apache-hadoop",
     "name": "Apache Hadoop"
+  },
+  {
+    "id": "apache-hive",
+    "name": "Apache Hive"
   },
   {
     "id": "apache-http-server",
@@ -136,8 +148,16 @@
     "name": "Apache Kafka"
   },
   {
+    "id": "apache-pig",
+    "name": "Apache Pig"
+  },
+  {
     "id": "apache-spark",
     "name": "Apache Spark"
+  },
+  {
+    "id": "apache-storm",
+    "name": "Apache Storm"
   },
   {
     "id": "apache-subversion",
@@ -148,8 +168,16 @@
     "name": "Apache ZooKeeper"
   },
   {
+    "id": "apollo-graphql",
+    "name": "Apollo GraphQL"
+  },
+  {
     "id": "arbitrum",
     "name": "Arbitrum"
+  },
+  {
+    "id": "arch-linux",
+    "name": "Arch Linux"
   },
   {
     "id": "asp-net",
@@ -182,6 +210,10 @@
   {
     "id": "aws-lambda",
     "name": "AWS Lambda"
+  },
+  {
+    "id": "azkaban",
+    "name": "Azkaban"
   },
   {
     "id": "azure",
@@ -226,6 +258,10 @@
   {
     "id": "cardano",
     "name": "Cardano"
+  },
+  {
+    "id": "centos",
+    "name": "CentOS"
   },
   {
     "id": "chef",
@@ -278,6 +314,18 @@
   {
     "id": "dart",
     "name": "Dart"
+  },
+  {
+    "id": "datadog",
+    "name": "Datadog"
+  },
+  {
+    "id": "dbt",
+    "name": "dbt"
+  },
+  {
+    "id": "debian",
+    "name": "Debian"
   },
   {
     "id": "delphi",
@@ -352,6 +400,10 @@
     "name": "Fe"
   },
   {
+    "id": "fedora-linux",
+    "name": "Fedora Linux"
+  },
+  {
     "id": "flask",
     "name": "Flask"
   },
@@ -374,6 +426,10 @@
   {
     "id": "git",
     "name": "Git"
+  },
+  {
+    "id": "github-actions",
+    "name": "Github Actions"
   },
   {
     "id": "go",
@@ -520,6 +576,10 @@
     "name": "Lua"
   },
   {
+    "id": "luigi",
+    "name": "Luigi"
+  },
+  {
     "id": "mariadb",
     "name": "MariaDB"
   },
@@ -592,6 +652,10 @@
     "name": "OpenStack"
   },
   {
+    "id": "opensuse",
+    "name": "openSUSE"
+  },
+  {
     "id": "oracle-database",
     "name": "Oracle Database"
   },
@@ -652,6 +716,10 @@
     "name": "PyTorch"
   },
   {
+    "id": "rabbitmq",
+    "name": "RabbitMQ"
+  },
+  {
     "id": "raku",
     "name": "Raku"
   },
@@ -662,6 +730,10 @@
   {
     "id": "react-native",
     "name": "React Native"
+  },
+  {
+    "id": "red-hat-enterprise-linux",
+    "name": "Red Hat Enterprise Linux"
   },
   {
     "id": "redis",
@@ -712,6 +784,10 @@
     "name": "SQLite"
   },
   {
+    "id": "supabase",
+    "name": "Supabase"
+  },
+  {
     "id": "svelte",
     "name": "Svelte"
   },
@@ -740,6 +816,10 @@
     "name": "TypeScript"
   },
   {
+    "id": "ubuntu",
+    "name": "Ubuntu"
+  },
+  {
     "id": "visual-basic-net",
     "name": "Visual Basic .NET"
   },
@@ -754,6 +834,10 @@
   {
     "id": "yarn",
     "name": "Yarn"
+  },
+  {
+    "id": "yocto-project",
+    "name": "Yocto Project"
   },
   {
     "id": "yul",
