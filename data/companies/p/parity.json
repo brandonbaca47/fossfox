@@ -1,0 +1,55 @@
+{
+  "name": "Parity Technologies",
+  "url": "https://www.parity.io/",
+  "at": "info",
+  "building": "decentralized blockchain infrastructure and tools",
+  "products": [
+    {
+      "name": "Polkadot",
+      "url": "https://polkadot.network/"
+    },
+    {
+      "name": "Substrate",
+      "url": "https://substrate.io/"
+    }
+  ],
+  "socials": [
+    "https://github.com/paritytech",
+    "https://twitter.com/paritytech"
+  ],
+  "offices": [
+    "berlin-germany",
+    "london-united-kingdom",
+    "cambridge-united-kingdom",
+    "lisbon-portugal"
+  ],
+  "headcount": 150,
+  "founded": 2018,
+  "jobs": [
+    {
+      "position": "software-engineer",
+      "level": "any",
+      "type": "full-time",
+      "salary": {
+        "amount": [
+          0,
+          0
+        ],
+        "range": "yearly",
+        "currency": "usd"
+      },
+      "equity": [
+        0,
+        0
+      ],
+      "tech": [
+        "rust",
+        "c",
+        "cpp",
+        "go"
+      ],
+      "url": "https://boards.greenhouse.io/parity/jobs/5213777003"
+    }
+  ],
+  "updated": "2023-05-23T00:51:27.612Z"
+}
