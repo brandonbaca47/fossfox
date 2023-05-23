@@ -1,0 +1,50 @@
+{
+  "name": "Ava Labs",
+  "url": "https://www.avalabs.org/",
+  "at": "contact",
+  "building": "scalable blockchain platform for applications",
+  "products": [
+    {
+      "name": "Avalanche",
+      "url": "https://www.avax.network/"
+    }
+  ],
+  "socials": [
+    "https://github.com/ava-labs",
+    "https://twitter.com/avalabsofficial"
+  ],
+  "offices": [
+    "new-york-city"
+  ],
+  "headcount": 150,
+  "founded": 2018,
+  "jobs": [
+    {
+      "position": "software-engineer",
+      "level": "senior",
+      "type": "full-time",
+      "salary": {
+        "amount": [
+          151200,
+          208200
+        ],
+        "range": "yearly",
+        "currency": "usd"
+      },
+      "equity": [
+        0,
+        0
+      ],
+      "tech": [
+        "cpp",
+        "go",
+        "solidity",
+        "aws",
+        "azure",
+        "ansible"
+      ],
+      "url": "https://boards.greenhouse.io/avalabs/jobs/4771997004"
+    }
+  ],
+  "updated": "2023-05-23T00:40:50.079Z"
+}
