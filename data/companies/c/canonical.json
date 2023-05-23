@@ -1,0 +1,53 @@
+{
+  "name": "Canonical",
+  "url": "https://canonical.com/",
+  "at": "fossfox",
+  "building": "open-source software and cloud services",
+  "products": [
+    {
+      "name": "Ubuntu",
+      "url": "https://ubuntu.com/"
+    }
+  ],
+  "socials": [
+    "https://github.com/canonical",
+    "https://twitter.com/Canonical"
+  ],
+  "offices": [
+    "boston-massachusetts",
+    "austin-texas"
+  ],
+  "headcount": 500,
+  "founded": 2004,
+  "jobs": [
+    {
+      "position": "embedded-software-engineer",
+      "level": "any",
+      "type": "full-time",
+      "salary": {
+        "amount": [
+          0,
+          0
+        ],
+        "range": "yearly",
+        "currency": "usd"
+      },
+      "equity": [
+        0,
+        0
+      ],
+      "tech": [
+        "debian",
+        "ubuntu",
+        "yocto-project",
+        "go",
+        "python",
+        "c",
+        "cpp",
+        "rust"
+      ],
+      "url": "https://canonical.com/careers/3362765"
+    }
+  ],
+  "updated": "2023-05-23T00:30:16.182Z"
+}
