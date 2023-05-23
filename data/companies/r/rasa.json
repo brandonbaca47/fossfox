@@ -1,0 +1,54 @@
+{
+  "name": "Rasa",
+  "url": "https://rasa.com/",
+  "at": "support",
+  "building": "open-source conversational AI framework",
+  "products": [
+    {
+      "name": "Rasa",
+      "url": "https://rasa.com/"
+    }
+  ],
+  "socials": [
+    "https://github.com/RasaHQ",
+    "https://twitter.com/Rasa_HQ"
+  ],
+  "offices": [
+    "berlin-germany"
+  ],
+  "headcount": 75,
+  "founded": 2014,
+  "jobs": [
+    {
+      "position": "full-stack-engineer",
+      "level": "senior",
+      "type": "full-time",
+      "salary": {
+        "amount": [
+          0,
+          0
+        ],
+        "range": "yearly",
+        "currency": "usd"
+      },
+      "equity": [
+        0,
+        0
+      ],
+      "tech": [
+        "typescript",
+        "node-js",
+        "react",
+        "apollo-graphql",
+        "python",
+        "redis",
+        "rabbitmq",
+        "postgresql",
+        "github-actions",
+        "kubernetes"
+      ],
+      "url": "https://boards.greenhouse.io/rasa/jobs/6371347002"
+    }
+  ],
+  "updated": "2023-05-23T01:02:13.827Z"
+}
