@@ -1,0 +1,51 @@
+{
+  "name": "Iron Fish",
+  "url": "https://ironfish.network/",
+  "at": "contact",
+  "building": "a cryptocurrency with scalable architecture",
+  "products": [
+    {
+      "name": "Iron Fish",
+      "url": "https://ironfish.network/"
+    }
+  ],
+  "socials": [
+    "https://github.com/iron-fish",
+    "https://twitter.com/ironfishcrypto"
+  ],
+  "offices": [
+    "san-francisco-california"
+  ],
+  "headcount": 15,
+  "founded": 2019,
+  "jobs": [
+    {
+      "position": "software-engineer",
+      "level": "senior",
+      "type": "full-time",
+      "salary": {
+        "amount": [
+          0,
+          0
+        ],
+        "range": "yearly",
+        "currency": "usd"
+      },
+      "equity": [
+        0,
+        0
+      ],
+      "tech": [
+        "typescript",
+        "javascript",
+        "node-js",
+        "react",
+        "rust",
+        "bitcoin",
+        "ethereum"
+      ],
+      "url": "https://jobs.lever.co/ironfish/c0c4b6ac-2fb8-4b41-a196-5766288ce87d"
+    }
+  ],
+  "updated": "2023-05-23T00:24:30.616Z"
+}
