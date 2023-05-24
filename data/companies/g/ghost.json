@@ -1,0 +1,48 @@
+{
+  "name": "Ghost",
+  "url": "https://ghost.org/",
+  "at": "support",
+  "building": "modern publishing platform and tools",
+  "products": [
+    {
+      "name": "Ghost",
+      "url": "https://ghost.org/"
+    }
+  ],
+  "socials": [
+    "https://github.com/TryGhost",
+    "https://twitter.com/Ghost"
+  ],
+  "offices": [
+    "singapore"
+  ],
+  "headcount": 50,
+  "founded": 2013,
+  "jobs": [
+    {
+      "position": "infrastructure-engineer",
+      "level": "any",
+      "type": "full-time",
+      "salary": {
+        "amount": [
+          0,
+          0
+        ],
+        "range": "yearly",
+        "currency": "usd"
+      },
+      "equity": [
+        0,
+        0
+      ],
+      "tech": [
+        "mysql",
+        "nginx",
+        "docker",
+        "node-js"
+      ],
+      "url": "https://careers.ghost.org/infrastructure-engineer/en"
+    }
+  ],
+  "updated": "2023-05-24T22:42:11.546Z"
+}
