@@ -1,0 +1,47 @@
+{
+  "name": "Grafana Labs",
+  "url": "https://grafana.com/",
+  "at": "info",
+  "building": "monitoring platform for metrics",
+  "products": [
+    {
+      "name": "Grafana",
+      "url": "https://grafana.com/"
+    }
+  ],
+  "socials": [
+    "https://github.com/grafana",
+    "https://twitter.com/grafana"
+  ],
+  "offices": [
+    "mountain-view-california"
+  ],
+  "headcount": 200,
+  "founded": 2014,
+  "jobs": [
+    {
+      "position": "software-engineer",
+      "level": "any",
+      "type": "full-time",
+      "salary": {
+        "amount": [
+          116000,
+          140000
+        ],
+        "range": "yearly",
+        "currency": "usd"
+      },
+      "equity": [
+        0,
+        0
+      ],
+      "tech": [
+        "go",
+        "react",
+        "typescript"
+      ],
+      "url": "https://boards.greenhouse.io/grafanalabs/jobs/4837645004"
+    }
+  ],
+  "updated": "2023-05-24T22:37:03.862Z"
+}
