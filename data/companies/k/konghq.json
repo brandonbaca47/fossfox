@@ -1,0 +1,54 @@
+{
+  "name": "Kong",
+  "url": "https://konghq.com/",
+  "at": "fossfox",
+  "building": "API gateway and service mesh",
+  "products": [
+    {
+      "name": "Kong",
+      "url": "https://konghq.com/"
+    }
+  ],
+  "socials": [
+    "https://github.com/Kong",
+    "https://twitter.com/thekonginc"
+  ],
+  "offices": [
+    "san-francisco-california"
+  ],
+  "headcount": 250,
+  "founded": 2017,
+  "jobs": [
+    {
+      "position": "software-engineer",
+      "level": "senior",
+      "type": "full-time",
+      "salary": {
+        "amount": [
+          112000,
+          145000
+        ],
+        "range": "yearly",
+        "currency": "usd"
+      },
+      "equity": [
+        0,
+        0
+      ],
+      "tech": [
+        "go",
+        "nginx",
+        "haproxy",
+        "envoy",
+        "kubernetes",
+        "openresty",
+        "kong",
+        "luajit",
+        "datadog",
+        "opentelemetry"
+      ],
+      "url": "https://jobs.lever.co/kong/d835a697-eda8-488f-8238-65466d1ca777"
+    }
+  ],
+  "updated": "2023-05-29T16:31:32.619Z"
+}
