@@ -70,6 +70,16 @@
     "solo": false
   },
   {
+    "id": "cloud-infrastructure-engineer",
+    "name": "Cloud Infrastructure Engineer",
+    "solo": false
+  },
+  {
+    "id": "cloud-software-engineer",
+    "name": "Cloud Software Engineer",
+    "solo": false
+  },
+  {
     "id": "compiler-backend-engineer",
     "name": "Compiler Backend Engineer",
     "solo": false

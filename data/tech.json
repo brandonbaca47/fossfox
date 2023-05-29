@@ -368,6 +368,10 @@
     "name": "Elixir"
   },
   {
+    "id": "envoy",
+    "name": "Envoy"
+  },
+  {
     "id": "erlang",
     "name": "Erlang"
   },
@@ -432,6 +436,10 @@
     "name": "Github Actions"
   },
   {
+    "id": "gluster",
+    "name": "Gluster"
+  },
+  {
     "id": "go",
     "name": "Go"
   },
@@ -492,6 +500,10 @@
     "name": "GraphQL"
   },
   {
+    "id": "haproxy",
+    "name": "HAProxy"
+  },
+  {
     "id": "haskell",
     "name": "Haskell"
   },
@@ -510,6 +522,10 @@
   {
     "id": "io",
     "name": "Io"
+  },
+  {
+    "id": "istio",
+    "name": "Istio"
   },
   {
     "id": "java",
@@ -538,6 +554,10 @@
   {
     "id": "kibana",
     "name": "Kibana"
+  },
+  {
+    "id": "kong",
+    "name": "Kong"
   },
   {
     "id": "kotlin",
@@ -574,6 +594,10 @@
   {
     "id": "lua",
     "name": "Lua"
+  },
+  {
+    "id": "luajit",
+    "name": "LuaJIT"
   },
   {
     "id": "luigi",
@@ -648,12 +672,20 @@
     "name": "OCI"
   },
   {
+    "id": "openresty",
+    "name": "OpenResty"
+  },
+  {
     "id": "openstack",
     "name": "OpenStack"
   },
   {
     "id": "opensuse",
     "name": "openSUSE"
+  },
+  {
+    "id": "opentelemetry",
+    "name": "OpenTelemetry"
   },
   {
     "id": "oracle-database",
@@ -818,6 +850,10 @@
   {
     "id": "ubuntu",
     "name": "Ubuntu"
+  },
+  {
+    "id": "varnish",
+    "name": "Varnish"
   },
   {
     "id": "visual-basic-net",
