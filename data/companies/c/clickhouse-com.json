@@ -1,0 +1,54 @@
+{
+  "name": "Clickhouse",
+  "url": "https://clickhouse.com/",
+  "at": "support",
+  "building": "scalable, real-time, analytical data warehouse",
+  "products": [
+    {
+      "name": "Clickhouse",
+      "url": "https://clickhouse.com/"
+    }
+  ],
+  "socials": [
+    "https://github.com/ClickHouse",
+    "https://twitter.com/ClickHouseDB"
+  ],
+  "offices": [
+    "palo-alto-california",
+    "amsterdam-netherlands"
+  ],
+  "headcount": 0,
+  "founded": 2012,
+  "jobs": [
+    {
+      "position": "cloud-software-engineer",
+      "level": "senior",
+      "type": "full-time",
+      "salary": {
+        "amount": [
+          0,
+          0
+        ],
+        "range": "yearly",
+        "currency": "usd"
+      },
+      "equity": [
+        0,
+        0
+      ],
+      "tech": [
+        "go",
+        "c",
+        "cpp",
+        "java",
+        "kubernetes",
+        "aws",
+        "gcp",
+        "azure",
+        "amazon-ec2"
+      ],
+      "url": "https://boards.greenhouse.io/clickhouse/jobs/4798282004"
+    }
+  ],
+  "updated": "2023-05-29T16:09:40.839Z"
+}
