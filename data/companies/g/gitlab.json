@@ -1,0 +1,53 @@
+{
+  "name": "Gitlab",
+  "url": "https://gitlab.com/",
+  "at": "fossfox",
+  "building": "DevOps platform for collaborative development",
+  "products": [
+    {
+      "name": "Gitlab",
+      "url": "https://about.gitlab.com/"
+    }
+  ],
+  "socials": [
+    "https://gitlab.com/gitlab-org",
+    "https://twitter.com/gitlab"
+  ],
+  "offices": [],
+  "headcount": 1800,
+  "founded": 2011,
+  "jobs": [
+    {
+      "position": "backend-engineer",
+      "level": "senior",
+      "type": "full-time",
+      "salary": {
+        "amount": [
+          92400,
+          198000
+        ],
+        "range": "yearly",
+        "currency": "usd"
+      },
+      "equity": [
+        0,
+        0
+      ],
+      "tech": [
+        "ruby",
+        "ruby-on-rails",
+        "prometheus",
+        "gcp",
+        "aws",
+        "ansible",
+        "terraform",
+        "postgresql",
+        "kubernetes",
+        "apache-kafka",
+        "apache-zookeeper"
+      ],
+      "url": "https://boards.greenhouse.io/gitlab/jobs/6496660002"
+    }
+  ],
+  "updated": "2023-05-29T16:43:26.165Z"
+}
