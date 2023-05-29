@@ -45,7 +45,7 @@
         0.2
       ],
       "tech": [
-        "look in data/tech.json for more ids"
+        "look in data/tech.json for ids"
       ],
       "url": "https://example.com/apply-for-software-engineer-position-here"
     }
