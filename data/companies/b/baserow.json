@@ -1,0 +1,52 @@
+{
+  "name": "Baserow",
+  "url": "https://baserow.io/",
+  "at": "bram",
+  "building": "database and spreadsheet tools",
+  "products": [
+    {
+      "name": "Baserow",
+      "url": "https://baserow.io/"
+    }
+  ],
+  "socials": [
+    "https://gitlab.com/baserow",
+    "https://twitter.com/baserow"
+  ],
+  "offices": [],
+  "headcount": 0,
+  "founded": 2019,
+  "jobs": [
+    {
+      "position": "full-stack-engineer",
+      "level": "senior",
+      "type": "full-time",
+      "salary": {
+        "amount": [
+          4000,
+          7000
+        ],
+        "range": "monthly",
+        "currency": "eur"
+      },
+      "equity": [
+        0,
+        0
+      ],
+      "tech": [
+        "python",
+        "django",
+        "vue-js",
+        "react",
+        "angular",
+        "postgresql",
+        "mysql",
+        "docker",
+        "nginx",
+        "redis"
+      ],
+      "url": "https://baserow.io/jobs/experienced-full-stack-developer"
+    }
+  ],
+  "updated": "2023-05-30T21:19:32.202Z"
+}
