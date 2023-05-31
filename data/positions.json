@@ -170,6 +170,11 @@
     "solo": false
   },
   {
+    "id": "flutter-engineer",
+    "name": "Flutter Engineer",
+    "solo": false
+  },
+  {
     "id": "frontend-engineer",
     "name": "Frontend Engineer",
     "solo": false
