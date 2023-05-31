@@ -1,0 +1,46 @@
+{
+  "name": "Zulip",
+  "url": "https://zulip.com/",
+  "at": "jobs",
+  "building": "real-time open-source team communication",
+  "products": [
+    {
+      "name": "Zulip",
+      "url": "https://zulip.com/"
+    }
+  ],
+  "socials": [
+    "https://github.com/zulip",
+    "https://twitter.com/zulip"
+  ],
+  "offices": [
+    "san-francisco-california"
+  ],
+  "headcount": 15,
+  "founded": 2012,
+  "jobs": [
+    {
+      "position": "flutter-engineer",
+      "level": "senior",
+      "type": "full-time",
+      "salary": {
+        "amount": [
+          0,
+          0
+        ],
+        "range": "yearly",
+        "currency": "usd"
+      },
+      "equity": [
+        0,
+        0
+      ],
+      "tech": [
+        "flutter",
+        "dart"
+      ],
+      "url": "https://zulip.com/jobs/#flutter"
+    }
+  ],
+  "updated": "2023-05-31T21:33:42.994Z"
+}
