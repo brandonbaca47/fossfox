@@ -1,8 +1,8 @@
-# Fossfox
+# [Fossfox](https://fossfox.com/)
 
 ## What Is Fossfox
 
-Fossfox is a **job board for software engineers** 👩‍💻👨‍💻
+[Fossfox](https://fossfox.com/) is a **job board for software engineers** 👩‍💻👨‍💻
 
 It lists companies whose products are open-source. Our goal is to get software engineers better jobs.
 
@@ -25,7 +25,7 @@ There are 2 ways to post new jobs on Fossfox:
 1. Fill it out with your company details & engineering roles
 1. Rename your new file to a relevant slug (eg: "My Company" → `my-company.json`)
 1. Place your new file in the companies folder (eg: `data/companies/m/my-company.json`)
-1. Push & [create a pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)
+1. [Create a pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) so we can merge it
 
 ### Using a CLI wizard
 
@@ -33,7 +33,7 @@ There are 2 ways to post new jobs on Fossfox:
 1. [Install Rust](https://www.rust-lang.org/tools/install) if you don't have it
 1. Run `cargo run` and follow the wizard
 
-The job posts will automatically appear on homepage after your PR will be accepted.
+The job posts will automatically appear on the homepage after your PR will be accepted.
 
 ## FAQs
 
