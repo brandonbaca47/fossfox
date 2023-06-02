@@ -1,28 +1,14 @@
 use console::Style;
 use dialoguer::{theme::ColorfulTheme, Input};
-use serde::{Deserialize, Serialize};
 use slugify::slugify;
 use std::{env, error::Error, fs};
-use thiserror::Error;
 
-#[derive(Debug, Serialize, Deserialize)]
-#[serde(rename_all = "camelCase")]
-struct Config {
-	#[serde(skip_serializing)]
-	slug: String,
-	name: String,
-	fqdn: String,
-}
+mod app;
+pub mod common;
 
-#[derive(Error, Debug)]
-pub enum AppError {
-	#[error("Could not write JSON file to {0}")]
-	CouldNotWrite(String),
-	#[error("Unknown")]
-	Unknown,
-}
+use app::App;
 
-fn init_config() -> Result<Option<Config>, Box<dyn Error>> {
+fn init_config() -> Result<Option<common::Config>, Box<dyn Error>> {
 	let theme =
 		ColorfulTheme { values_style: Style::new().green().bright(), ..ColorfulTheme::default() };
 	println!("Fossfox CLI (work-in-progress; do not use yet)");
@@ -34,10 +20,10 @@ fn init_config() -> Result<Option<Config>, Box<dyn Error>> {
 		Input::with_theme(&theme).with_prompt("Company name (eg: Example)").interact()?;
 	let slug = slugify!(&name);
 
-	Ok(Some(Config { slug, name, fqdn }))
+	Ok(Some(common::Config { slug, name, fqdn }))
 }
 
-fn write_file(config: &Config) -> Result<(), AppError> {
+fn write_file(config: &common::Config) -> Result<(), common::AppError> {
 	let file_contents = serde_json::to_string_pretty(config).unwrap();
 
 	let mut file_path = env::current_dir().unwrap();
@@ -54,12 +40,14 @@ fn write_file(config: &Config) -> Result<(), AppError> {
 	Ok(())
 }
 
-fn print_success() -> Result<(), AppError> {
+fn print_success() -> Result<(), common::AppError> {
 	println!("success");
 	Ok(())
 }
 
 fn main() {
+	let _app = App::new().unwrap();
+
 	match init_config() {
 		Ok(None) => println!("Aborted."),
 		Ok(Some(config)) => {
