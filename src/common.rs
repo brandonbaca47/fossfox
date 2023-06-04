@@ -18,8 +18,8 @@ pub enum AppError {
 	CouldNotRead,
 	#[error("Could not write JSON file to {0}")]
 	CouldNotWrite(String),
-	#[error("Unknown")]
-	Unknown,
+	#[error("Unexpected: {0}")]
+	Unexpected(String),
 }
 
 #[derive(Clone, Debug, Deserialize)]
