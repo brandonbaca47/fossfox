@@ -57,7 +57,7 @@ impl Wizard {
 			println!(
 				"\n👋 Cool, looks like we don't list your company yet. Let's add it real quick:"
 			);
-			self.app.company = Some(self.company(&slug, &domain, &url)?);
+			self.app.company = Some(self.company(&slug, Some(url))?);
 			self.data_changed = true;
 		}
 
@@ -74,7 +74,7 @@ impl Wizard {
 		Ok(())
 	}
 
-	pub fn menu(&self) -> Result<()> {
+	pub fn menu(&mut self) -> Result<()> {
 		if let Some(company) = self.app.company.clone() {
 			let action = Select::with_theme(&self.theme)
 				.with_prompt(format!("What would you like to do with {}?", company.name))
@@ -84,7 +84,10 @@ impl Wizard {
 
 			match action {
 				0 => self.menu_jobs()?,
-				1 => println!("@todo edit company"),
+				1 => {
+					self.app.company = Some(self.company(&company.slug, Some(company.url))?);
+					self.data_changed = true;
+				}
 				_ => {}
 			}
 		}
@@ -119,14 +122,35 @@ impl Wizard {
 
 		Ok(())
 	}
-	pub fn company(&self, slug: &str, domain: &str, url: &str) -> Result<Company> {
-		let name: String =
-			Input::with_theme(&self.theme).with_prompt("Company name (eg: Example)").interact()?;
+
+	pub fn company(&self, slug: &str, maybe_url: Option<String>) -> Result<Company> {
+		let mut domain = "".to_string();
+		let mut url = "".to_string();
+
+		if let Some(new_url) = maybe_url {
+			if let Some((_, d, u)) = utils::parse_url(&new_url)? {
+				domain = d;
+				url = u;
+			}
+		}
+
+		let name: String = Input::with_theme(&self.theme)
+			.with_prompt("Company name (eg: Example)")
+			.default(if let Some(company) = self.app.company.clone() {
+				company.name
+			} else {
+				"".to_string()
+			})
+			.interact()?;
 
 		let mut at = "".to_string();
 		Input::with_theme(&self.theme)
 			.with_prompt("Email address for job applications")
-			.default(format!("careers@{domain}"))
+			.default(if let Some(company) = self.app.company.clone() {
+				format!("{}@{domain}", company.at)
+			} else {
+				format!("careers@{domain}")
+			})
 			.validate_with(|input: &String| -> Result<(), &str> {
 				if let Ok(email) = EmailAddress::from_str(input) {
 					at = email.local_part().to_string();
@@ -139,6 +163,11 @@ impl Wizard {
 
 		let building: String = Input::with_theme(&self.theme)
 			.with_prompt("What are you building in 5 words or less")
+			.default(if let Some(company) = self.app.company.clone() {
+				company.building
+			} else {
+				"".to_string()
+			})
 			.validate_with(|input: &String| -> Result<(), &str> {
 				let words =
 					input.split_whitespace().map(|s| s.to_string()).collect::<Vec<String>>();
@@ -178,7 +207,11 @@ impl Wizard {
 				Err("Invalid year")
 			})
 			.allow_empty(true)
-			.default(chrono::Utc::now().year().to_string())
+			.default(if let Some(company) = self.app.company.clone() {
+				company.founded.to_string()
+			} else {
+				chrono::Utc::now().year().to_string()
+			})
 			.interact()?
 			.parse::<u16>()
 			.unwrap();
@@ -193,7 +226,11 @@ impl Wizard {
 				}
 			})
 			.allow_empty(true)
-			.default("0".to_string())
+			.default(if let Some(company) = self.app.company.clone() {
+				company.headcount.to_string()
+			} else {
+				"0".to_string()
+			})
 			.interact()?
 			.parse::<u16>()
 			.unwrap();
@@ -279,12 +316,12 @@ impl Wizard {
 			socials.insert(format!("https://twitter.com/{twitter_username}"));
 		}
 
-		let jobs = vec![];
+		let jobs = if let Some(company) = self.app.company.clone() { company.jobs } else { vec![] };
 
 		Ok(Company {
 			slug: slug.to_string(),
 			name,
-			url: url.to_string(),
+			url,
 			at,
 			building,
 			products,
