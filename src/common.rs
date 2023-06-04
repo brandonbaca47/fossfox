@@ -22,7 +22,7 @@ pub enum AppError {
 	Unknown,
 }
 
-#[derive(Debug, Deserialize)]
+#[derive(Clone, Debug, Deserialize)]
 pub struct Item {
 	pub id: String,
 	pub name: String,

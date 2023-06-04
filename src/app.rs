@@ -1,6 +1,6 @@
 use chrono::{DateTime, Datelike, Utc};
 use console::Style;
-use dialoguer::{theme::ColorfulTheme, Input, Select};
+use dialoguer::{theme::ColorfulTheme, FuzzySelect, Input, Select};
 use email_address::*;
 use glob::glob;
 use std::{
@@ -187,6 +187,52 @@ impl App {
 				.parse::<u16>()
 				.unwrap();
 
+			let offices = {
+				let mut office_ids = HashSet::new();
+				let mut offices = HashSet::new();
+
+				let done = "Done".to_string();
+
+				let locations = self.locations.values().cloned().collect::<Vec<Item>>();
+				let mut all_offices =
+					locations.iter().map(|loc| loc.name.clone()).collect::<Vec<String>>();
+
+				all_offices.insert(0, done);
+
+				loop {
+					let index = FuzzySelect::with_theme(&theme)
+						.with_prompt("Any physical offices (besides remote)?")
+						.default(0)
+						.items(&all_offices[..])
+						.interact()
+						.unwrap();
+
+					if index == 0 {
+						break;
+					}
+
+					if let Some(office) = all_offices.get(index) {
+						offices.insert(office.clone());
+						if let Some(location) = locations.iter().find(|loc| loc.name == *office) {
+							office_ids.insert(location.id.clone());
+						}
+					}
+				}
+
+				if !office_ids.is_empty() {
+					println!(
+						"Offices in:\n{}",
+						offices
+							.into_iter()
+							.map(|o| format!("- {o}"))
+							.collect::<Vec<String>>()
+							.join("\n")
+					);
+				}
+
+				office_ids
+			};
+
 			let products = HashSet::new();
 
 			let mut socials = HashSet::new();
@@ -199,7 +245,6 @@ impl App {
 				socials.insert(format!("https://twitter.com/{twitter_username}"));
 			}
 
-			let offices = HashSet::new();
 			let jobs = vec![];
 
 			let now = SystemTime::now();
