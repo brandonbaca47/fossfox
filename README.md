@@ -1,10 +1,10 @@
-# [Fossfox](https://fossfox.com/)
+# [Fossfox](https://fossfox.com/)'s Open-Source Database of Engineering Careers
 
 ## What Is Fossfox
 
 [Fossfox](https://fossfox.com/) is a **job board for software engineers** 👩‍💻👨‍💻
 
-It lists companies whose products are open-source (or are a major contributor to OSS). Our goal is to get software engineers better jobs.
+It lists available engineering positions of companies whose products are open-source. The goal is to get software engineers better jobs.
 
 [![Fossfox](static/img/fossfox.webp)](https://fossfox.com/)
 
