@@ -1,6 +1,6 @@
-use chrono::{DateTime, Datelike, Utc};
+use chrono::Datelike;
 use console::Style;
-use dialoguer::{theme::ColorfulTheme, FuzzySelect, Input, Select};
+use dialoguer::{theme::ColorfulTheme, Confirm, FuzzySelect, Input, Select};
 use email_address::*;
 use glob::glob;
 use std::{
@@ -11,9 +11,10 @@ use std::{
 	str::FromStr,
 	time::SystemTime,
 };
+use url::Url;
 
 use crate::{
-	common::{AppError, Company, Item},
+	common::{AppError, Company, Item, Product},
 	utils,
 };
 
@@ -221,7 +222,42 @@ impl App {
 				office_ids
 			};
 
-			let products = HashSet::new();
+			let products = {
+				let mut ret = HashSet::new();
+
+				println!("\n✨ We can showcase product(s) that you're working on so applicants can check them out.");
+
+				if Confirm::with_theme(&theme)
+					.with_prompt("Would you like to list them now?")
+					.interact()?
+				{
+					let count = Select::with_theme(&theme)
+						.with_prompt("How many products are you working on?")
+						.items(&["1", "2", "3+"])
+						.default(0)
+						.interact()? + 1;
+
+					for i in 1..=count {
+						ret.insert(Product {
+							name: Input::with_theme(&theme)
+								.with_prompt(format!("Product #{i} Name"))
+								.interact()?,
+							url: Input::with_theme(&theme)
+								.with_prompt(format!("Product #{i} URL"))
+								.validate_with(|input: &String| -> Result<(), &str> {
+									if Url::parse(input).is_ok() {
+										Ok(())
+									} else {
+										Err("invalid url")
+									}
+								})
+								.interact()?,
+						});
+					}
+				}
+
+				ret
+			};
 
 			let mut socials = HashSet::new();
 			if service == 0 {
@@ -235,11 +271,6 @@ impl App {
 
 			let jobs = vec![];
 
-			let now = SystemTime::now();
-			let now: DateTime<Utc> = now.into();
-
-			let updated = now;
-
 			self.company = Some(Company {
 				slug,
 				name,
@@ -252,7 +283,7 @@ impl App {
 				headcount,
 				founded,
 				jobs,
-				updated,
+				updated: SystemTime::now().into(),
 			});
 		}
 
