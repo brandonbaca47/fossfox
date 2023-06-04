@@ -1,12 +1,14 @@
-use chrono::{DateTime, Utc};
+use chrono::{DateTime, Datelike, Utc};
 use console::Style;
-use dialoguer::{theme::ColorfulTheme, Input};
+use dialoguer::{theme::ColorfulTheme, Input, Select};
+use email_address::*;
 use glob::glob;
 use std::{
 	collections::{HashMap, HashSet},
 	env,
 	error::Error,
 	fs,
+	str::FromStr,
 	time::SystemTime,
 };
 
@@ -74,7 +76,7 @@ impl App {
 	}
 
 	pub fn run(&mut self) -> Result<Option<Company>, Box<dyn Error>> {
-		println!("Fossfox v{} 👩‍💻", env!("CARGO_PKG_VERSION"));
+		println!("Fossfox v{} 🦊", env!("CARGO_PKG_VERSION"));
 
 		let theme = ColorfulTheme {
 			values_style: Style::new().green().bright(),
@@ -102,41 +104,130 @@ impl App {
 
 		if let Some(company) = self.companies.get(&slug) {
 			self.company = Some(company.clone());
-			println!("company exists, {company:?}");
 		} else {
-			println!("company does not exist");
+			println!(
+				"\n👋 Cool, looks like we don't list your company yet. Let's add it real quick:"
+			);
+
+			let name: String =
+				Input::with_theme(&theme).with_prompt("Company name (eg: Example)").interact()?;
+
+			let mut at = "".to_string();
+			Input::with_theme(&theme)
+				.with_prompt("Email address for job applications")
+				.default(format!("careers@{domain}"))
+				.validate_with(|input: &String| -> Result<(), &str> {
+					if let Ok(email) = EmailAddress::from_str(input) {
+						at = email.local_part().to_string();
+						Ok(())
+					} else {
+						Err("invalid email")
+					}
+				})
+				.interact()?;
+
+			let building: String = Input::with_theme(&theme)
+				.with_prompt("What are you building in 5 words or less")
+				.validate_with(|input: &String| -> Result<(), &str> {
+					let words =
+						input.split_whitespace().map(|s| s.to_string()).collect::<Vec<String>>();
+					if words.is_empty() || words.len() > 5 {
+						Err("invalid length")
+					} else {
+						Ok(())
+					}
+				})
+				.interact()?;
+
+			let services = vec!["Github", "Gitlab"];
+			let service = Select::with_theme(&theme)
+				.with_prompt("Does your org use Github or Gitlab?")
+				.items(&services)
+				.default(0)
+				.interact()?;
+
+			let service_username: String = Input::with_theme(&theme)
+				.with_prompt(format!("{} username", services[service]))
+				.interact()?;
+
+			println!("\n👔 Some useful info for applicants (all optional):");
+
+			let twitter_username: String =
+				Input::with_theme(&theme).with_prompt("Twitter username").interact()?;
+
+			let founded = Input::with_theme(&theme)
+				.with_prompt("What year was it founded?")
+				.validate_with(|input: &String| -> Result<(), &str> {
+					if let Ok(year) = input.parse::<u16>() {
+						if year >= 1900 && i32::from(year) <= chrono::Utc::now().year() {
+							return Ok(());
+						}
+					}
+
+					Err("Invalid year")
+				})
+				.allow_empty(true)
+				.default(chrono::Utc::now().year().to_string())
+				.interact()?
+				.parse::<u16>()
+				.unwrap();
+
+			let headcount = Input::with_theme(&theme)
+				.with_prompt("What's the company's approximate headcount?")
+				.validate_with(|input: &String| -> Result<(), &str> {
+					if input.parse::<u16>().is_ok() {
+						Ok(())
+					} else {
+						Err("Invalid headcount")
+					}
+				})
+				.allow_empty(true)
+				.default("0".to_string())
+				.interact()?
+				.parse::<u16>()
+				.unwrap();
+
+			let products = HashSet::new();
+
+			let mut socials = HashSet::new();
+			if service == 0 {
+				socials.insert(format!("https://github.com/{service_username}"));
+			} else {
+				socials.insert(format!("https://gitlab.com/{service_username}"));
+			}
+			if !twitter_username.is_empty() {
+				socials.insert(format!("https://twitter.com/{twitter_username}"));
+			}
+
+			let offices = HashSet::new();
+			let jobs = vec![];
+
+			let now = SystemTime::now();
+			let now: DateTime<Utc> = now.into();
+
+			let updated = now;
+
+			self.company = Some(Company {
+				slug,
+				name,
+				url,
+				at,
+				building,
+				products,
+				socials,
+				offices,
+				headcount,
+				founded,
+				jobs,
+				updated,
+			});
 		}
 
-		let name: String =
-			Input::with_theme(&theme).with_prompt("Company name (eg: Example)").interact()?;
+		self.show_menu()
+	}
 
-		let at = "".to_string();
-		let building = "".to_string();
-		let products = HashSet::new();
-		let socials = HashSet::new();
-		let offices = HashSet::new();
-		let headcount = 0;
-		let founded = 0;
-		let jobs = vec![];
-
-		let now = SystemTime::now();
-		let now: DateTime<Utc> = now.into();
-
-		let updated = now;
-
-		Ok(Some(Company {
-			slug,
-			name,
-			url,
-			at,
-			building,
-			products,
-			socials,
-			offices,
-			headcount,
-			founded,
-			jobs,
-			updated,
-		}))
+	fn show_menu(&mut self) -> Result<Option<Company>, Box<dyn Error>> {
+		println!("showing menu");
+		Ok(self.company.clone())
 	}
 }
