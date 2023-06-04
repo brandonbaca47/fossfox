@@ -189,7 +189,6 @@ impl App {
 
 			let offices = {
 				let mut office_ids = HashSet::new();
-				let mut offices = HashSet::new();
 
 				let done = "Done".to_string();
 
@@ -204,6 +203,7 @@ impl App {
 						.with_prompt("Any physical offices (besides remote)?")
 						.default(0)
 						.items(&all_offices[..])
+						.max_length(10)
 						.interact()
 						.unwrap();
 
@@ -212,22 +212,10 @@ impl App {
 					}
 
 					if let Some(office) = all_offices.get(index) {
-						offices.insert(office.clone());
 						if let Some(location) = locations.iter().find(|loc| loc.name == *office) {
 							office_ids.insert(location.id.clone());
 						}
 					}
-				}
-
-				if !office_ids.is_empty() {
-					println!(
-						"Offices in:\n{}",
-						offices
-							.into_iter()
-							.map(|o| format!("- {o}"))
-							.collect::<Vec<String>>()
-							.join("\n")
-					);
 				}
 
 				office_ids
