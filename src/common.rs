@@ -28,7 +28,7 @@ pub struct Item {
 	pub name: String,
 }
 
-#[derive(Debug, Serialize, Deserialize)]
+#[derive(Clone, Default, Debug, Serialize, Deserialize)]
 pub struct Company {
 	#[serde(skip_serializing, skip_deserializing)]
 	pub slug: String,
@@ -45,13 +45,13 @@ pub struct Company {
 	pub updated: DateTime<Utc>,
 }
 
-#[derive(Debug, Serialize, Deserialize, Eq, PartialEq, Hash)]
+#[derive(Clone, Debug, Serialize, Deserialize, Eq, PartialEq, Hash)]
 pub struct Product {
 	pub name: String,
 	pub url: String,
 }
 
-#[derive(Debug, Serialize, Deserialize)]
+#[derive(Clone, Debug, Serialize, Deserialize)]
 pub struct Job {
 	pub position: String,
 	pub level: Level,
@@ -62,7 +62,7 @@ pub struct Job {
 	pub url: String,
 }
 
-#[derive(Debug, Serialize, Deserialize)]
+#[derive(Clone, Debug, Serialize, Deserialize)]
 pub enum Level {
 	#[serde(rename = "junior")]
 	Junior,
@@ -72,7 +72,7 @@ pub enum Level {
 	Any,
 }
 
-#[derive(Debug, Serialize, Deserialize)]
+#[derive(Clone, Debug, Serialize, Deserialize)]
 pub enum Type {
 	#[serde(rename = "full-time")]
 	FullTime,
@@ -84,14 +84,14 @@ pub enum Type {
 	Freelance,
 }
 
-#[derive(Debug, Serialize, Deserialize)]
+#[derive(Clone, Debug, Serialize, Deserialize)]
 pub struct Salary {
 	pub amount: (u32, u32),
 	pub range: Range,
 	pub currency: Currency,
 }
 
-#[derive(Debug, Serialize, Deserialize)]
+#[derive(Clone, Debug, Serialize, Deserialize)]
 pub enum Range {
 	#[serde(rename = "yearly")]
 	Yearly,
@@ -101,7 +101,7 @@ pub enum Range {
 	Hourly,
 }
 
-#[derive(Debug, Serialize, Deserialize)]
+#[derive(Clone, Debug, Serialize, Deserialize)]
 pub enum Currency {
 	#[serde(rename = "usd")]
 	USD,
