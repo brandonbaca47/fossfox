@@ -1,5 +1,8 @@
 # [Fossfox](https://fossfox.com/): Open Database of Available Engineering Jobs
 
+[![Github Actions](https://img.shields.io/github/actions/workflow/status/fossfox-com/fossfox/tests.yml?style=flat-square)](https://github.com/fossfox-com/fossfox/actions)
+[![Dependency Status](https://deps.rs/repo/github/fossfox-com/fossfox/status.svg?style=flat-square)](https://deps.rs/repo/github/fossfox-com/fossfox)
+
 ## 🦊 What Is Fossfox
 
 [Fossfox](https://fossfox.com/) is a **job board for software engineers**.
