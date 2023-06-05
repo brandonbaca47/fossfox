@@ -3,12 +3,17 @@ use console::Style;
 use dialoguer::{theme::ColorfulTheme, Confirm, FuzzySelect, Input, Select};
 use email_address::EmailAddress;
 use eyre::Result;
-use std::{collections::HashSet, str::FromStr, time::SystemTime};
+use std::{
+	borrow::BorrowMut,
+	collections::{HashMap, HashSet},
+	str::FromStr,
+	time::SystemTime,
+};
 use url::Url;
 
 use crate::{
 	app::App,
-	common::{Company, Item, Product},
+	common::{Company, Currency, Item, Job, Level, Product, Range, Salary, Type},
 	utils,
 };
 
@@ -95,7 +100,7 @@ impl Wizard {
 		Ok(())
 	}
 
-	pub fn menu_jobs(&self) -> Result<()> {
+	pub fn menu_jobs(&mut self) -> Result<()> {
 		if let Some(company) = self.app.company.clone() {
 			let no_jobs = company.jobs.is_empty();
 			let items =
@@ -113,14 +118,61 @@ impl Wizard {
 				.interact()?;
 
 			match action {
-				0 => println!("@todo add jobs"),
-				1 if !no_jobs => println!("@todo edit jobs"),
-				2 => println!("@todo remove jobs"),
+				0 => {
+					let new_job = self.job(None)?;
+
+					if let Some(company) = self.app.company.borrow_mut() {
+						company.jobs.push(new_job);
+						self.data_changed = true;
+					}
+				}
+				1 if !no_jobs => {
+					let (job, index) = self.get_job_by_position()?;
+					let edited_job = self.job(Some(job))?;
+
+					if let Some(company) = self.app.company.borrow_mut() {
+						company.jobs[index] = edited_job;
+						self.data_changed = true;
+					}
+				}
+				2 => {
+					let (_, index) = self.get_job_by_position()?;
+
+					if let Some(company) = self.app.company.borrow_mut() {
+						company.jobs.remove(index);
+						self.data_changed = true;
+					}
+				}
 				_ => {}
 			}
 		}
 
 		Ok(())
+	}
+
+	pub fn get_job_by_position(&mut self) -> Result<(Job, usize)> {
+		let mut m = HashMap::new();
+
+		let mut position_names = vec![];
+		if let Some(company) = &self.app.company {
+			for job in company.jobs.iter() {
+				let position_id = job.position.clone();
+				if let Some(position) = self.app.positions.get(&position_id) {
+					position_names.push(position.name.clone());
+					m.insert(position.name.clone(), job.clone());
+				}
+			}
+		}
+
+		let index = FuzzySelect::with_theme(&self.theme)
+			.with_prompt("Position")
+			.default(0)
+			.items(&position_names[..])
+			.max_length(10)
+			.interact()?;
+
+		let position_name = position_names[index].clone();
+		Ok((m[&position_name].clone(), index))
 	}
 
 	pub fn company(&self, slug: &str, maybe_url: Option<String>) -> Result<Company> {
@@ -346,5 +398,218 @@ impl Wizard {
 			jobs,
 			updated: SystemTime::now().into(),
 		})
+	}
+
+	pub fn job(&self, job: Option<Job>) -> Result<Job> {
+		let position = {
+			let mut ret = "".to_string();
+
+			let positions = self.app.positions.values().cloned().collect::<Vec<Item>>();
+			let mut all_positions =
+				positions.iter().map(|pos| pos.name.clone()).collect::<Vec<String>>();
+
+			if let Some(job) = job {
+				if let Some(position) = self.app.positions.get(&job.position) {
+					if let Some(index) = all_positions.iter().position(|x| *x == position.name) {
+						all_positions.remove(index);
+						all_positions.insert(0, position.name.clone());
+					}
+				}
+			}
+
+			let index = FuzzySelect::with_theme(&self.theme)
+				.with_prompt("Position")
+				.default(0)
+				.items(&all_positions[..])
+				.max_length(10)
+				.interact()
+				.unwrap();
+
+			if let Some(position) = all_positions.get(index) {
+				if let Some(position) = positions.iter().find(|pos| pos.name == *position) {
+					ret = position.id.clone();
+				}
+			}
+
+			ret
+		};
+
+		let level = {
+			let index = Select::with_theme(&self.theme)
+				.with_prompt("Level")
+				.items(&["Any", "Senior", "Junior"])
+				.default(0)
+				.interact()?;
+
+			match index {
+				0 => Level::Any,
+				1 => Level::Senior,
+				_ => Level::Junior,
+			}
+		};
+
+		let r#type = {
+			let index = Select::with_theme(&self.theme)
+				.with_prompt("Type")
+				.items(&["Full-Time", "Part-Time", "Contract", "Freelance"])
+				.default(0)
+				.interact()?;
+
+			match index {
+				0 => Type::FullTime,
+				1 => Type::PartTime,
+				2 => Type::Contract,
+				_ => Type::Freelance,
+			}
+		};
+
+		let salary = {
+			if Confirm::with_theme(&self.theme)
+				.with_prompt("Is salary range transparent?")
+				.interact()?
+			{
+				let currency = {
+					let action = Select::with_theme(&self.theme)
+						.with_prompt("Currency")
+						.items(&["USD", "Euro"])
+						.default(0)
+						.interact()?;
+
+					match action {
+						0 => Currency::USD,
+						_ => Currency::EUR,
+					}
+				};
+
+				let range = {
+					let action = Select::with_theme(&self.theme)
+						.with_prompt("Pay Frequency")
+						.items(&["Yearly", "Monthly", "Hourly"])
+						.default(0)
+						.interact()?;
+
+					match action {
+						0 => Range::Yearly,
+						1 => Range::Monthly,
+						_ => Range::Hourly,
+					}
+				};
+
+				let amount = {
+					let min = Input::with_theme(&self.theme)
+						.with_prompt(format!("Minimum {range} Salary"))
+						.default("0".to_string())
+						.validate_with(|input: &String| -> Result<(), &str> {
+							if input.parse::<u32>().is_ok() {
+								Ok(())
+							} else {
+								Err("invalid salary")
+							}
+						})
+						.interact()?
+						.parse::<u32>()
+						.unwrap();
+
+					let max = Input::with_theme(&self.theme)
+						.with_prompt(format!("Maximum {range} Salary"))
+						.validate_with(|input: &String| -> Result<(), &str> {
+							match input.parse::<u32>() {
+								Ok(value) if value < min => Err("cannot be less than min range"),
+								Ok(_) => Ok(()),
+								_ => Err("invalid salary"),
+							}
+						})
+						.interact()?
+						.parse::<u32>()
+						.unwrap();
+
+					(min, max)
+				};
+
+				Salary { amount, range, currency }
+			} else {
+				Salary { amount: (0, 0), range: Range::Yearly, currency: Currency::USD }
+			}
+		};
+
+		let equity = {
+			if Confirm::with_theme(&self.theme).with_prompt("Do you offer equity?").interact()? {
+				let min = Input::with_theme(&self.theme)
+					.with_prompt("Range Min-Value % (eg: 0.1)")
+					.default("0".to_string())
+					.validate_with(|input: &String| -> Result<(), &str> {
+						match input.parse::<f64>() {
+							Ok(value) if value >= 0.0 => Ok(()),
+							_ => Err("invalid equity"),
+						}
+					})
+					.interact()?
+					.parse::<f64>()
+					.unwrap();
+
+				let max = Input::with_theme(&self.theme)
+					.with_prompt("Range Max-Value % (eg: 1.0)")
+					.validate_with(|input: &String| -> Result<(), &str> {
+						match input.parse::<f64>() {
+							Ok(value) if value < min => Err("cannot be less than min range"),
+							Ok(value) if value >= 0.0 => Ok(()),
+							_ => Err("invalid equity"),
+						}
+					})
+					.interact()?
+					.parse::<f64>()
+					.unwrap();
+
+				(min, max)
+			} else {
+				(0.0, 0.0)
+			}
+		};
+
+		let tech = {
+			let mut tech_ids = HashSet::new();
+
+			let done = "Done".to_string();
+
+			let tech = self.app.tech.values().cloned().collect::<Vec<Item>>();
+			let mut all_tech = tech.iter().map(|te| te.name.clone()).collect::<Vec<String>>();
+
+			all_tech.insert(0, done);
+
+			loop {
+				let index = FuzzySelect::with_theme(&self.theme)
+					.with_prompt("What tech will the applicant work with?")
+					.default(0)
+					.items(&all_tech[..])
+					.max_length(10)
+					.interact()
+					.unwrap();
+
+				if index == 0 {
+					break;
+				}
+
+				if let Some(technology) = all_tech.get(index) {
+					if let Some(t) = tech.iter().find(|t| t.name == *technology) {
+						tech_ids.insert(t.id.clone());
+					}
+				}
+			}
+
+			tech_ids
+		};
+
+		let url = Input::with_theme(&self.theme)
+			.with_prompt("Application URL")
+			.validate_with(|input: &String| -> Result<(), &str> {
+				if Url::parse(input).is_ok() {
+					Ok(())
+				} else {
+					Err("invalid url")
+				}
+			})
+			.interact()?;
+
+		Ok(Job { position, level, r#type, salary, equity, tech, url })
 	}
 }

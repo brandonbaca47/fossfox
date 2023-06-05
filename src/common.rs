@@ -1,4 +1,5 @@
 use chrono::{DateTime, Utc};
+use derive_more::Display;
 use serde::{Deserialize, Serialize};
 use std::collections::HashSet;
 use thiserror::Error;
@@ -91,13 +92,16 @@ pub struct Salary {
 	pub currency: Currency,
 }
 
-#[derive(Clone, Debug, Serialize, Deserialize)]
+#[derive(Display, Clone, Debug, Serialize, Deserialize)]
 pub enum Range {
 	#[serde(rename = "yearly")]
+	#[display(fmt = "Yearly")]
 	Yearly,
 	#[serde(rename = "monthly")]
+	#[display(fmt = "Monthly")]
 	Monthly,
 	#[serde(rename = "hourly")]
+	#[display(fmt = "Hourly")]
 	Hourly,
 }
 
