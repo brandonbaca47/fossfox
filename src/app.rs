@@ -1,3 +1,4 @@
+use console::style;
 use glob::glob;
 use std::{collections::HashMap, env, fs};
 
@@ -77,6 +78,19 @@ impl App {
 	}
 
 	pub fn show_instructions(&self) {
-		println!("instruction on what to do next");
+		if let Some(company) = &self.company {
+			println!(
+				"\nYour data has been saved 👍\nYou can view it by doing: {}",
+				style("git diff").green().bold(),
+			);
+
+			println!("\nWhen ready, commit & push so we can merge it:");
+			println!("> {}", style("git add -A").green().bold());
+			println!("> {}", style(format!("git commit -m \"{}\"", company.slug)).green().bold());
+			println!("> {}", style("git push").green().bold());
+
+			println!("\nMore about pull requests here:");
+			println!("{}", style("https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request").blue().bold());
+		}
 	}
 }
