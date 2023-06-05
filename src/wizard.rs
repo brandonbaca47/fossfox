@@ -134,50 +134,64 @@ impl Wizard {
 			}
 		}
 
-		let name: String = Input::with_theme(&self.theme)
-			.with_prompt("Company name (eg: Example)")
-			.default(if let Some(company) = self.app.company.clone() {
-				company.name
-			} else {
-				"".to_string()
-			})
-			.interact()?;
+		let name = {
+			let mut input = Input::with_theme(&self.theme);
 
-		let mut at = "".to_string();
-		Input::with_theme(&self.theme)
-			.with_prompt("Email address for job applications")
-			.default(if let Some(company) = self.app.company.clone() {
+			input.with_prompt("Company name (eg: Example)");
+
+			if let Some(company) = self.app.company.clone() {
+				input.default(company.name);
+				input.with_prompt("Company name");
+			}
+
+			input.interact()?
+		};
+
+		let at = {
+			let mut input = Input::with_theme(&self.theme);
+
+			input.with_prompt("Email address for job applications").validate_with(
+				|input: &String| -> Result<(), &str> {
+					if EmailAddress::from_str(input).is_ok() {
+						Ok(())
+					} else {
+						Err("invalid email")
+					}
+				},
+			);
+
+			input.default(if let Some(company) = self.app.company.clone() {
 				format!("{}@{domain}", company.at)
 			} else {
 				format!("careers@{domain}")
-			})
-			.validate_with(|input: &String| -> Result<(), &str> {
-				if let Ok(email) = EmailAddress::from_str(input) {
-					at = email.local_part().to_string();
-					Ok(())
-				} else {
-					Err("invalid email")
-				}
-			})
-			.interact()?;
+			});
 
-		let building: String = Input::with_theme(&self.theme)
-			.with_prompt("What are you building in 5 words or less")
-			.default(if let Some(company) = self.app.company.clone() {
-				company.building
-			} else {
-				"".to_string()
-			})
-			.validate_with(|input: &String| -> Result<(), &str> {
-				let words =
-					input.split_whitespace().map(|s| s.to_string()).collect::<Vec<String>>();
-				if words.is_empty() || words.len() > 5 {
-					Err("invalid length")
-				} else {
-					Ok(())
-				}
-			})
-			.interact()?;
+			let email = EmailAddress::from_str(&input.interact()?).unwrap();
+			email.local_part().to_string()
+		};
+
+		let building = {
+			let mut input = Input::with_theme(&self.theme);
+
+			input.with_prompt("What are you building in 5 words or less").validate_with(
+				|input: &String| -> Result<(), &str> {
+					let words =
+						input.split_whitespace().map(|s| s.to_string()).collect::<Vec<String>>();
+
+					if words.is_empty() || words.len() > 5 {
+						Err("invalid length")
+					} else {
+						Ok(())
+					}
+				},
+			);
+
+			if let Some(company) = self.app.company.clone() {
+				input.default(company.building);
+			}
+
+			input.interact()?
+		};
 
 		let services = vec!["Github", "Gitlab"];
 		let service = Select::with_theme(&self.theme)
