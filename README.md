@@ -1,6 +1,6 @@
-# [Fossfox](https://fossfox.com/) Open Database of Available Engineering Jobs
+# [Fossfox](https://fossfox.com/): Open Database of Available Engineering Jobs
 
-## What Is Fossfox
+## 🦊 What Is Fossfox
 
 [Fossfox](https://fossfox.com/) is a **job board for software engineers**.
 
@@ -8,13 +8,13 @@ It lists available engineering positions of companies whose products are open-so
 
 [![Fossfox](static/img/fossfox.webp)](https://fossfox.com/)
 
-## Why Post On Fossfox
+## 🦸‍♀️ Why Post On Fossfox
 
 1. Posting on Fossfox is free
 1. Our audience is tech-savvy software engineers
 1. Unlimited posts + traffic to your website
 
-## How To Post
+## 👩‍💻 How To Post
 
 There are 2 ways to post new jobs on Fossfox:
 
@@ -32,7 +32,7 @@ There are 2 ways to post new jobs on Fossfox:
 
 > ℹ️ The job posts will automatically appear on [Fossfox](https://fossfox.com/) after your PR will be accepted. Please note that other websites can use this data to display your job posts.
 
-## FAQs
+## 🙋‍♂️ FAQs
 
 <details>
   <summary>How much does it cost?</summary>
@@ -51,7 +51,7 @@ There are 2 ways to post new jobs on Fossfox:
 
 <details>
   <summary>How many jobs can I post?</summary>
-  Unlimited, as long as they're all part of your engineering team.
+  We do not have a limit on number of positions listed. However, not all jobs will appear on the homepage.
 </details>
 
 <details>
@@ -64,7 +64,7 @@ There are 2 ways to post new jobs on Fossfox:
   No, sorry. This is a dev-only job board.
 </details>
 
-## Attribution
+## 👀 Attribution
 
 You can use Fossfox data as long as you give attribution. Attribution needs to have 2 components:
 
