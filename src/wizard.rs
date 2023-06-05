@@ -63,13 +63,22 @@ impl Wizard {
 				"\n👋 Cool, looks like we don't list your company yet. Let's add it real quick:"
 			);
 			self.app.company = Some(self.company(&slug, Some(url))?);
-			self.data_changed = true;
+			println!("\n💾 Great, company info saved.");
+
+			// write new company metadata so don't have to redo in case ctrl+c
+			if let Some(mut company) = self.app.company.clone() {
+				company.updated = SystemTime::now().into();
+				self.app.write_company(&company)?;
+			}
 		}
 
+		// regular editing
 		self.menu()?;
 
+		// if anything changed, save + show instructions
 		if self.data_changed {
-			if let Some(company) = self.app.company.clone() {
+			if let Some(mut company) = self.app.company.clone() {
+				company.updated = SystemTime::now().into();
 				self.app.write_company(&company)?;
 			}
 
@@ -483,7 +492,7 @@ impl Wizard {
 
 				let range = {
 					let action = Select::with_theme(&self.theme)
-						.with_prompt("Pay Frequency")
+						.with_prompt("Pay frequency")
 						.items(&["Yearly", "Monthly", "Hourly"])
 						.default(0)
 						.interact()?;
@@ -497,7 +506,7 @@ impl Wizard {
 
 				let amount = {
 					let min = Input::with_theme(&self.theme)
-						.with_prompt(format!("Minimum {range} Salary"))
+						.with_prompt(format!("Minimum {range} salary"))
 						.default("0".to_string())
 						.validate_with(|input: &String| -> Result<(), &str> {
 							if input.parse::<u32>().is_ok() {
@@ -511,7 +520,7 @@ impl Wizard {
 						.unwrap();
 
 					let max = Input::with_theme(&self.theme)
-						.with_prompt(format!("Maximum {range} Salary"))
+						.with_prompt(format!("Maximum {range} salary"))
 						.validate_with(|input: &String| -> Result<(), &str> {
 							match input.parse::<u32>() {
 								Ok(value) if value < min => Err("cannot be less than min range"),
@@ -535,7 +544,7 @@ impl Wizard {
 		let equity = {
 			if Confirm::with_theme(&self.theme).with_prompt("Do you offer equity?").interact()? {
 				let min = Input::with_theme(&self.theme)
-					.with_prompt("Range Min-Value % (eg: 0.1)")
+					.with_prompt("Range min percent % (eg: 0.1)")
 					.default("0".to_string())
 					.validate_with(|input: &String| -> Result<(), &str> {
 						match input.parse::<f64>() {
@@ -548,7 +557,7 @@ impl Wizard {
 					.unwrap();
 
 				let max = Input::with_theme(&self.theme)
-					.with_prompt("Range Max-Value % (eg: 1.0)")
+					.with_prompt("Range max percent % (eg: 1.0)")
 					.validate_with(|input: &String| -> Result<(), &str> {
 						match input.parse::<f64>() {
 							Ok(value) if value < min => Err("cannot be less than min range"),
@@ -600,7 +609,7 @@ impl Wizard {
 		};
 
 		let url = Input::with_theme(&self.theme)
-			.with_prompt("Application URL")
+			.with_prompt("What's the URL where applicants can apply?")
 			.validate_with(|input: &String| -> Result<(), &str> {
 				if Url::parse(input).is_ok() {
 					Ok(())

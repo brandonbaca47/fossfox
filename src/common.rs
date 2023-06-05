@@ -95,13 +95,13 @@ pub struct Salary {
 #[derive(Display, Clone, Debug, Serialize, Deserialize)]
 pub enum Range {
 	#[serde(rename = "yearly")]
-	#[display(fmt = "Yearly")]
+	#[display(fmt = "yearly")]
 	Yearly,
 	#[serde(rename = "monthly")]
-	#[display(fmt = "Monthly")]
+	#[display(fmt = "monthly")]
 	Monthly,
 	#[serde(rename = "hourly")]
-	#[display(fmt = "Hourly")]
+	#[display(fmt = "hourly")]
 	Hourly,
 }
 

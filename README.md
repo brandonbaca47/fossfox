@@ -18,22 +18,20 @@ It lists available engineering positions of companies whose products are open-so
 
 There are 2 ways to post new jobs on Fossfox:
 
-### Manually via the template
+### Option 1: CLI Wizard (requires [Rust](https://www.rust-lang.org/tools/install))
 
 1. Clone this repo
-1. Use [data/SAMPLE_COMPANY_TEMPLATE.json](data/SAMPLE_COMPANY_TEMPLATE.json) to create a new file
-1. Fill it out with your company details & engineering roles
-1. Rename your new file to a relevant slug (eg: "My Company" → `my-company.json`)
-1. Place your new file in the companies folder (eg: `data/companies/m/my-company.json`)
-1. [Create a pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) so we can merge it
-
-### Using a CLI wizard
-
-1. Clone this repo
-1. [Install Rust](https://www.rust-lang.org/tools/install) if you don't have it
 1. Run `cargo run` and follow the wizard
 
-The job posts will automatically appear on the homepage after your PR will be accepted.
+### Option 2: Template
+
+1. Clone this repo
+1. Copy contents of [data/SAMPLE_COMPANY_TEMPLATE.json](data/SAMPLE_COMPANY_TEMPLATE.json) into an appropriately named file (eg: `SAMPLE_COMPANY_TEMPLATE.json` → `my-company.json`)
+1. Place your new file in the companies folder (eg: `data/companies/m/my-company.json`)
+1. Fill it out with your company details & engineering roles
+1. [Create a pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) so we can merge it
+
+> ℹ️ The job posts will automatically appear on [Fossfox](https://fossfox.com/) after your PR will be accepted. Please note that other websites can use this data to display your job posts.
 
 ## FAQs
 
@@ -66,3 +64,24 @@ The job posts will automatically appear on the homepage after your PR will be ac
   <summary>Can I post non-engineering related job posts?</summary>
   No. This job board is for tech-only positions.
 </details>
+
+## Attribution
+
+You can use Fossfox data as long as you give attribution.
+
+Attribution needs to have 2 components:
+
+1. Source: "Fossfox"
+2. Link: https://fossfox.com
+
+Optional:
+
+If you find this work helpful, feel free to encourage others to add data here. For example:
+
+> If you're growing your engineering team, [submit your open roles](https://github.com/fossfox-com/fossfox) to Fossfox for free.
+
+<ins>Sample attribution</ins>
+
+Data Source: [Fossfox](https://fossfox.com)
+
+If you're growing your engineering team, [submit your open roles](https://github.com/fossfox-com/fossfox) to Fossfox for free.
