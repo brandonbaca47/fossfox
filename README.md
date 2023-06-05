@@ -1,8 +1,8 @@
-# [Fossfox](https://fossfox.com/)'s Open-Source Database of Engineering Careers
+# [Fossfox](https://fossfox.com/) Open Database of Available Engineering Jobs
 
 ## What Is Fossfox
 
-[Fossfox](https://fossfox.com/) is a **job board for software engineers** 👩‍💻👨‍💻
+[Fossfox](https://fossfox.com/) is a **job board for software engineers**.
 
 It lists available engineering positions of companies whose products are open-source. The goal is to get software engineers better jobs.
 
@@ -12,7 +12,7 @@ It lists available engineering positions of companies whose products are open-so
 
 1. Posting on Fossfox is free
 1. Our audience is tech-savvy software engineers
-1. Use our tech-specific traffic to get more relevant candidates
+1. Unlimited posts + traffic to your website
 
 ## How To Post
 
@@ -23,12 +23,11 @@ There are 2 ways to post new jobs on Fossfox:
 1. Clone this repo
 1. Run `cargo run` and follow the wizard
 
-### Option 2: Template
+### Option 2: Sample template
 
 1. Clone this repo
-1. Copy contents of [data/SAMPLE_COMPANY_TEMPLATE.json](data/SAMPLE_COMPANY_TEMPLATE.json) into an appropriately named file (eg: `SAMPLE_COMPANY_TEMPLATE.json` → `my-company.json`)
-1. Place your new file in the companies folder (eg: `data/companies/m/my-company.json`)
-1. Fill it out with your company details & engineering roles
+1. Copy contents of [data/SAMPLE_COMPANY_TEMPLATE.json](data/SAMPLE_COMPANY_TEMPLATE.json) into a new file (eg: `data/SAMPLE_COMPANY_TEMPLATE.json` → `data/companies/m/my-company.json`)
+1. Fill it out with your company details & available engineering roles
 1. [Create a pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) so we can merge it
 
 > ℹ️ The job posts will automatically appear on [Fossfox](https://fossfox.com/) after your PR will be accepted. Please note that other websites can use this data to display your job posts.
@@ -62,14 +61,12 @@ There are 2 ways to post new jobs on Fossfox:
 
 <details>
   <summary>Can I post non-engineering related job posts?</summary>
-  No. This job board is for tech-only positions.
+  No, sorry. This is a dev-only job board.
 </details>
 
 ## Attribution
 
-You can use Fossfox data as long as you give attribution.
-
-Attribution needs to have 2 components:
+You can use Fossfox data as long as you give attribution. Attribution needs to have 2 components:
 
 1. Source: "Fossfox"
 2. Link: https://fossfox.com
