@@ -11,11 +11,11 @@ It lists available engineering positions of companies whose products are open-so
 
 [![Fossfox](static/img/fossfox.webp)](https://fossfox.com/)
 
-## 🦸‍♀️ Why Post On Fossfox
+## 🧐 Why Post On Fossfox
 
-1. Posting on Fossfox is free
+1. Posting jobs is free
 1. Our audience is tech-savvy software engineers
-1. Unlimited posts + traffic to your website
+1. Unlimited posts + more traffic to your website
 
 ## 👩‍💻 How To Post
 
@@ -44,28 +44,23 @@ There are 2 ways to post new jobs on Fossfox:
 </details>
 
 <details>
-  <summary>Why is it free? What's the catch?</summary>
-  Our homepage has a limit on how many positions it shows at once. For more visibility we are offering <a href="mailto:support@fossfox.com">sponsored posts</a>.
-</details>
-
-<details>
   <summary>How long will Fossfox stay free?</summary>
   Forever.
 </details>
 
 <details>
   <summary>How many jobs can I post?</summary>
-  We do not have a limit on number of positions listed. However, not all jobs will appear on the homepage.
+  We do not have a limit on the number of positions you can list. However, not all jobs are guaranteed to automatically appear on the homepage.
 </details>
 
 <details>
   <summary>How long do the posts stay up?</summary>
-  30 days. After that you can update the timestamp to extend for another 30 days.
+  30 days. After that you can update the timestamp to extend.
 </details>
 
 <details>
   <summary>Can I post non-engineering related job posts?</summary>
-  No, sorry. This is a dev-only job board.
+  No, sorry. This is a tech-only job board.
 </details>
 
 ## 🍻 Attribution
