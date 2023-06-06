@@ -41,7 +41,7 @@ impl Wizard {
 		let mut url = "".to_string();
 
 		Input::with_theme(&self.theme)
-			.with_prompt("Company website (eg: example.com)")
+			.with_prompt("Company domain (eg: example.com)")
 			.validate_with(|input: &String| -> Result<(), &str> {
 				match utils::parse_url(input) {
 					Ok(Some((s, d, u))) if !s.is_empty() && !d.is_empty() && !u.is_empty() => {
@@ -136,7 +136,12 @@ impl Wizard {
 					}
 				}
 				1 if !no_jobs => {
-					let (job, index) = self.get_job_by_position()?;
+					// if only one job, don't ask which job to edit
+					let (job, index) = match &self.app.company {
+						Some(company) if company.jobs.len() == 1 => (company.jobs[0].clone(), 0),
+						_ => self.get_job_by_position()?,
+					};
+
 					let edited_job = self.job(Some(job))?;
 
 					if let Some(company) = self.app.company.borrow_mut() {
@@ -159,7 +164,7 @@ impl Wizard {
 		Ok(())
 	}
 
-	pub fn get_job_by_position(&mut self) -> Result<(Job, usize)> {
+	pub fn get_job_by_position(&self) -> Result<(Job, usize)> {
 		let mut m = HashMap::new();
 
 		let mut position_names = vec![];
@@ -319,6 +324,7 @@ impl Wizard {
 			let mut all_offices =
 				locations.iter().map(|loc| loc.name.clone()).collect::<Vec<String>>();
 
+			all_offices.sort();
 			all_offices.insert(0, done);
 
 			loop {
@@ -416,6 +422,8 @@ impl Wizard {
 			let positions = self.app.positions.values().cloned().collect::<Vec<Item>>();
 			let mut all_positions =
 				positions.iter().map(|pos| pos.name.clone()).collect::<Vec<String>>();
+
+			all_positions.sort();
 
 			if let Some(job) = job {
 				if let Some(position) = self.app.positions.get(&job.position) {
@@ -583,6 +591,7 @@ impl Wizard {
 			let tech = self.app.tech.values().cloned().collect::<Vec<Item>>();
 			let mut all_tech = tech.iter().map(|te| te.name.clone()).collect::<Vec<String>>();
 
+			all_tech.sort();
 			all_tech.insert(0, done);
 
 			loop {
