@@ -232,7 +232,7 @@ impl Wizard {
 				format!("careers@{domain}")
 			});
 
-			let email = EmailAddress::from_str(&input.interact()?).unwrap();
+			let email = EmailAddress::from_str(&input.interact()?)?;
 			email.local_part().to_string()
 		};
 
@@ -293,8 +293,7 @@ impl Wizard {
 				chrono::Utc::now().year().to_string()
 			})
 			.interact()?
-			.parse::<u16>()
-			.unwrap();
+			.parse::<u16>()?;
 
 		let headcount = Input::with_theme(&self.theme)
 			.with_prompt("What's the company's approximate headcount?")
@@ -312,8 +311,7 @@ impl Wizard {
 				"0".to_string()
 			})
 			.interact()?
-			.parse::<u16>()
-			.unwrap();
+			.parse::<u16>()?;
 
 		let offices = {
 			let mut office_ids = HashSet::new();
@@ -333,8 +331,7 @@ impl Wizard {
 					.default(0)
 					.items(&all_offices[..])
 					.max_length(10)
-					.interact()
-					.unwrap();
+					.interact()?;
 
 				if index == 0 {
 					break;
@@ -439,8 +436,7 @@ impl Wizard {
 				.default(0)
 				.items(&all_positions[..])
 				.max_length(10)
-				.interact()
-				.unwrap();
+				.interact()?;
 
 			if let Some(position) = all_positions.get(index) {
 				if let Some(position) = positions.iter().find(|pos| pos.name == *position) {
@@ -524,8 +520,7 @@ impl Wizard {
 							}
 						})
 						.interact()?
-						.parse::<u32>()
-						.unwrap();
+						.parse::<u32>()?;
 
 					let max = Input::with_theme(&self.theme)
 						.with_prompt(format!("Maximum {range} salary"))
@@ -537,8 +532,7 @@ impl Wizard {
 							}
 						})
 						.interact()?
-						.parse::<u32>()
-						.unwrap();
+						.parse::<u32>()?;
 
 					(min, max)
 				};
@@ -561,8 +555,7 @@ impl Wizard {
 						}
 					})
 					.interact()?
-					.parse::<f64>()
-					.unwrap();
+					.parse::<f64>()?;
 
 				let max = Input::with_theme(&self.theme)
 					.with_prompt("Range max percent % (eg: 1.0)")
@@ -574,8 +567,7 @@ impl Wizard {
 						}
 					})
 					.interact()?
-					.parse::<f64>()
-					.unwrap();
+					.parse::<f64>()?;
 
 				(min, max)
 			} else {
@@ -600,8 +592,7 @@ impl Wizard {
 					.default(0)
 					.items(&all_tech[..])
 					.max_length(10)
-					.interact()
-					.unwrap();
+					.interact()?;
 
 				if index == 0 {
 					break;

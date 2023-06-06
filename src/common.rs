@@ -2,7 +2,6 @@ use chrono::{DateTime, Utc};
 use derive_more::Display;
 use serde::{Deserialize, Serialize};
 use std::collections::HashSet;
-use thiserror::Error;
 
 #[derive(Debug, Serialize, Deserialize)]
 #[serde(rename_all = "camelCase")]
@@ -11,16 +10,6 @@ pub struct Config {
 	pub slug: String,
 	pub name: String,
 	pub fqdn: String,
-}
-
-#[derive(Error, Debug)]
-pub enum AppError {
-	#[error("Could not find existing data")]
-	CouldNotRead,
-	#[error("Could not write JSON file to {0}")]
-	CouldNotWrite(String),
-	#[error("Unexpected: {0}")]
-	Unexpected(String),
 }
 
 #[derive(Clone, Debug, Deserialize)]
