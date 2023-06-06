@@ -25,13 +25,14 @@ There are 2 ways to post new jobs on Fossfox:
 
 1. Clone this repo
 1. Run `cargo run` and follow the wizard
+1. [Create a pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) so we can merge your changes
 
 ### Option 2: Sample template
 
 1. Clone this repo
 1. Copy contents of [data/SAMPLE_COMPANY_TEMPLATE.json](data/SAMPLE_COMPANY_TEMPLATE.json) into a new file (eg: `data/SAMPLE_COMPANY_TEMPLATE.json` → `data/companies/m/my-company.json`)
 1. Fill it out with your company details & available engineering roles
-1. [Create a pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) so we can merge it
+1. [Create a pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) so we can merge your changes
 
 > ℹ️ The job posts will automatically appear on [Fossfox](https://fossfox.com/) after your PR will be accepted. Please note that other websites can use this data to display your job posts.
 
@@ -67,7 +68,7 @@ There are 2 ways to post new jobs on Fossfox:
   No, sorry. This is a dev-only job board.
 </details>
 
-## 👀 Attribution
+## 🍻 Attribution
 
 You can use Fossfox data as long as you give attribution. Attribution needs to have 2 components:
 
