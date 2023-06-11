@@ -1,0 +1,45 @@
+{
+  "name": "Lago",
+  "url": "https://www.getlago.com/",
+  "at": "hello",
+  "building": "metering and usage-based billing platform",
+  "products": [
+    {
+      "name": "Lago",
+      "url": "https://www.getlago.com/"
+    }
+  ],
+  "socials": [
+    "https://github.com/getlago",
+    "https://twitter.com/GetLago"
+  ],
+  "offices": [
+    "paris-france"
+  ],
+  "headcount": 9,
+  "founded": 2021,
+  "jobs": [
+    {
+      "position": "ruby-engineer",
+      "level": "senior",
+      "type": "full-time",
+      "salary": {
+        "amount": [
+          50000,
+          100000
+        ],
+        "range": "yearly",
+        "currency": "usd"
+      },
+      "equity": [
+        0.0,
+        0.0
+      ],
+      "tech": [
+        "ruby"
+      ],
+      "url": "https://www.ycombinator.com/companies/lago/jobs/RvvzKuM-sr-back-end-ruby-engineer"
+    }
+  ],
+  "updated": "2023-06-11T02:43:45.374586Z"
+}
