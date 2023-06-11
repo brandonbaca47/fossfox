@@ -1,0 +1,51 @@
+{
+  "name": "SigNoz",
+  "url": "https://signoz.io/",
+  "at": "fossfox",
+  "building": "open-souce alternative to DataDog",
+  "products": [
+    {
+      "name": "SigNoz",
+      "url": "https://signoz.io/"
+    }
+  ],
+  "socials": [
+    "https://twitter.com/SignozHQ",
+    "https://github.com/SigNoz"
+  ],
+  "offices": [
+    "san-francisco-california",
+    "bengaluru-india"
+  ],
+  "headcount": 9,
+  "founded": 2020,
+  "jobs": [
+    {
+      "position": "software-engineer",
+      "level": "senior",
+      "type": "full-time",
+      "salary": {
+        "amount": [
+          0,
+          0
+        ],
+        "range": "yearly",
+        "currency": "usd"
+      },
+      "equity": [
+        0.5,
+        1.0
+      ],
+      "tech": [
+        "clickhouse",
+        "apache-kafka",
+        "go",
+        "opentelemetry",
+        "docker",
+        "kubernetes"
+      ],
+      "url": "https://www.ycombinator.com/companies/signoz/jobs/uCt5BQw-sr-software-engineer-go"
+    }
+  ],
+  "updated": "2023-06-11T02:30:52.031379Z"
+}
