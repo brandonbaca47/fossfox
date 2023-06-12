@@ -1,0 +1,48 @@
+{
+  "name": "PostHog",
+  "url": "https://posthog.com/",
+  "at": "hey",
+  "building": "open-source product analytics platform",
+  "products": [
+    {
+      "name": "PostHog",
+      "url": "https://posthog.com/"
+    }
+  ],
+  "socials": [
+    "https://github.com/PostHog",
+    "https://twitter.com/PostHog"
+  ],
+  "offices": [
+    "san-francisco-california"
+  ],
+  "headcount": 0,
+  "founded": 2019,
+  "jobs": [
+    {
+      "position": "mobile-engineer",
+      "level": "any",
+      "type": "full-time",
+      "salary": {
+        "amount": [
+          76930,
+          339840
+        ],
+        "range": "yearly",
+        "currency": "usd"
+      },
+      "equity": [
+        0.0,
+        0.0
+      ],
+      "tech": [
+        "react-native",
+        "swift",
+        "flutter",
+        "java"
+      ],
+      "url": "https://posthog.com/careers/mobile-engineer"
+    }
+  ],
+  "updated": "2023-06-12T21:59:12.314847Z"
+}
