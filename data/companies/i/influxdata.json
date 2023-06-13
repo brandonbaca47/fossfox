@@ -1,0 +1,51 @@
+{
+  "name": "InfluxData",
+  "url": "https://influxdata.com/",
+  "at": "apply",
+  "building": "time-series data platform",
+  "products": [
+    {
+      "name": "InfluxDB",
+      "url": "https://www.influxdata.com/"
+    }
+  ],
+  "socials": [
+    "https://twitter.com/InfluxDB",
+    "https://github.com/influxdata"
+  ],
+  "offices": [
+    "san-francisco-california"
+  ],
+  "headcount": 200,
+  "founded": 2012,
+  "jobs": [
+    {
+      "position": "devops-engineer",
+      "level": "any",
+      "type": "full-time",
+      "salary": {
+        "amount": [
+          0,
+          0
+        ],
+        "range": "yearly",
+        "currency": "usd"
+      },
+      "equity": [
+        0.0,
+        0.0
+      ],
+      "tech": [
+        "terraform",
+        "aws",
+        "azure",
+        "kubernetes",
+        "go",
+        "gcp",
+        "python"
+      ],
+      "url": "https://ats.comparably.com/api/v1/gh/influxdb/jobs/5096848?gh_jid=5096848"
+    }
+  ],
+  "updated": "2023-06-13T22:18:58.613318Z"
+}
