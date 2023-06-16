@@ -1,0 +1,77 @@
+{
+  "name": "Metabase",
+  "url": "https://www.metabase.com/",
+  "at": "fossfox",
+  "building": "business intelligence visualization tools",
+  "products": [
+    {
+      "name": "Metabase",
+      "url": "https://www.metabase.com/"
+    }
+  ],
+  "socials": [
+    "https://github.com/metabase",
+    "https://twitter.com/metabase"
+  ],
+  "offices": [
+    "san-francisco-california"
+  ],
+  "headcount": 50,
+  "founded": 2014,
+  "jobs": [
+    {
+      "position": "devops-engineer",
+      "level": "senior",
+      "type": "full-time",
+      "salary": {
+        "amount": [
+          0,
+          0
+        ],
+        "range": "yearly",
+        "currency": "usd"
+      },
+      "equity": [
+        0.0,
+        0.0
+      ],
+      "tech": [
+        "aws",
+        "amazon-rds",
+        "grafana",
+        "prometheus",
+        "python",
+        "datadog",
+        "amazon-eks",
+        "go",
+        "kubernetes"
+      ],
+      "url": "https://jobs.lever.co/metabase/1b702919-4d0b-4085-baec-8947f9b7e4ee"
+    },
+    {
+      "position": "backend-engineer",
+      "level": "any",
+      "type": "full-time",
+      "salary": {
+        "amount": [
+          0,
+          0
+        ],
+        "range": "yearly",
+        "currency": "usd"
+      },
+      "equity": [
+        0.0,
+        0.0
+      ],
+      "tech": [
+        "java",
+        "typescript",
+        "clojure",
+        "javascript"
+      ],
+      "url": "https://jobs.lever.co/metabase/85f454d8-e795-4978-8a2b-4b8bfa7d7c37"
+    }
+  ],
+  "updated": "2023-06-16T18:13:09.026175Z"
+}
