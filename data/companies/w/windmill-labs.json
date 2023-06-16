@@ -1,0 +1,50 @@
+{
+  "name": "Windmill Labs",
+  "url": "https://www.windmill.dev/",
+  "at": "contact",
+  "building": "automation and internal apps platform",
+  "products": [
+    {
+      "name": "Windmill",
+      "url": "https://www.windmill.dev/"
+    }
+  ],
+  "socials": [
+    "https://twitter.com/windmilldev",
+    "https://github.com/windmill-labs"
+  ],
+  "offices": [
+    "paris-france"
+  ],
+  "headcount": 3,
+  "founded": 2022,
+  "jobs": [
+    {
+      "position": "rust-engineer",
+      "level": "any",
+      "type": "full-time",
+      "salary": {
+        "amount": [
+          60000,
+          120000
+        ],
+        "range": "yearly",
+        "currency": "usd"
+      },
+      "equity": [
+        0.4,
+        1.0
+      ],
+      "tech": [
+        "go",
+        "deno",
+        "python",
+        "rust",
+        "typescript",
+        "postgresql"
+      ],
+      "url": "https://www.ycombinator.com/companies/windmill/jobs/WlSHAed-founding-rust-typescript-software-engineer"
+    }
+  ],
+  "updated": "2023-06-16T18:26:14.111458Z"
+}
