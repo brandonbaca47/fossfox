@@ -1,0 +1,46 @@
+{
+  "name": "Matomo",
+  "url": "https://matomo.org/",
+  "at": "hello",
+  "building": "privacy-focused website analytics platform",
+  "products": [
+    {
+      "name": "Matomo",
+      "url": "https://matomo.org/"
+    }
+  ],
+  "socials": [
+    "https://twitter.com/matomo_org",
+    "https://github.com/matomo-org"
+  ],
+  "offices": [
+    "wellington-new-zealand"
+  ],
+  "headcount": 17,
+  "founded": 2007,
+  "jobs": [
+    {
+      "position": "full-stack-engineer",
+      "level": "any",
+      "type": "full-time",
+      "salary": {
+        "amount": [
+          0,
+          0
+        ],
+        "range": "yearly",
+        "currency": "usd"
+      },
+      "equity": [
+        0.0,
+        0.0
+      ],
+      "tech": [
+        "javascript",
+        "php"
+      ],
+      "url": "https://matomo.org/jobs/full-stack-php-js-engineer-team-lead/"
+    }
+  ],
+  "updated": "2023-06-19T20:02:33.581830Z"
+}
