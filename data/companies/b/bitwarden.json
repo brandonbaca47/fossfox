@@ -1,0 +1,55 @@
+{
+  "name": "Bitwarden",
+  "url": "https://bitwarden.com/",
+  "at": "support",
+  "building": "secure password manager and vault",
+  "products": [
+    {
+      "name": "Bitwarden",
+      "url": "https://bitwarden.com/"
+    }
+  ],
+  "socials": [
+    "https://github.com/bitwarden",
+    "https://twitter.com/Bitwarden"
+  ],
+  "offices": [
+    "santa-barbara-california"
+  ],
+  "headcount": 250,
+  "founded": 2015,
+  "jobs": [
+    {
+      "position": "software-engineer",
+      "level": "any",
+      "type": "full-time",
+      "salary": {
+        "amount": [
+          0,
+          0
+        ],
+        "range": "yearly",
+        "currency": "usd"
+      },
+      "equity": [
+        0.0,
+        0.0
+      ],
+      "tech": [
+        "c-sharp",
+        "ansible",
+        "terraform",
+        "kubernetes",
+        "github-actions",
+        "ruby",
+        "java",
+        "python",
+        "chef",
+        "go",
+        "puppet"
+      ],
+      "url": "https://bitwarden.com/careers/5650880003/"
+    }
+  ],
+  "updated": "2023-06-19T20:14:57.502273Z"
+}
