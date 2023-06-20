@@ -1,0 +1,73 @@
+{
+  "name": "Flashbots",
+  "url": "https://www.flashbots.net/",
+  "at": "jobs",
+  "building": "Ethereum privacy and fairness tools",
+  "products": [
+    {
+      "name": "Flashbots Builder",
+      "url": "https://github.com/flashbots/builder"
+    }
+  ],
+  "socials": [
+    "https://github.com/flashbots"
+  ],
+  "offices": [],
+  "headcount": 3,
+  "founded": 2020,
+  "jobs": [
+    {
+      "position": "backend-engineer",
+      "level": "senior",
+      "type": "full-time",
+      "salary": {
+        "amount": [
+          0,
+          0
+        ],
+        "range": "yearly",
+        "currency": "usd"
+      },
+      "equity": [
+        0.0,
+        0.0
+      ],
+      "tech": [
+        "rust",
+        "go",
+        "ethereum",
+        "python",
+        "typescript",
+        "solidity"
+      ],
+      "url": "https://jobs.ashbyhq.com/flashbots.net/1325c31b-bb5e-464f-aa28-e81384f3200d"
+    },
+    {
+      "position": "devsecops-engineer",
+      "level": "senior",
+      "type": "full-time",
+      "salary": {
+        "amount": [
+          0,
+          0
+        ],
+        "range": "yearly",
+        "currency": "usd"
+      },
+      "equity": [
+        0.0,
+        0.0
+      ],
+      "tech": [
+        "gcp",
+        "docker",
+        "azure",
+        "kubernetes",
+        "terraform",
+        "aws"
+      ],
+      "url": "https://jobs.ashbyhq.com/flashbots.net/57063afa-92f6-47b8-9f45-a384f9c5c726"
+    }
+  ],
+  "updated": "2023-06-20T18:10:09.838537Z"
+}
