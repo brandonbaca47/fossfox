@@ -1,0 +1,50 @@
+{
+  "name": "Shuttle",
+  "url": "https://www.shuttle.rs/",
+  "at": "hello",
+  "building": "backend infrastructure platform",
+  "products": [
+    {
+      "name": "Shuttle",
+      "url": "https://www.shuttle.rs/"
+    }
+  ],
+  "socials": [
+    "https://github.com/shuttle-hq",
+    "https://twitter.com/shuttle_dev"
+  ],
+  "offices": [
+    "london-united-kingdom"
+  ],
+  "headcount": 5,
+  "founded": 2019,
+  "jobs": [
+    {
+      "position": "backend-engineer",
+      "level": "any",
+      "type": "full-time",
+      "salary": {
+        "amount": [
+          80000,
+          120000
+        ],
+        "range": "yearly",
+        "currency": "usd"
+      },
+      "equity": [
+        0.5,
+        1.5
+      ],
+      "tech": [
+        "aws",
+        "aws-lambda",
+        "amazon-api-gateway",
+        "kubernetes",
+        "amazon-ecs",
+        "rust"
+      ],
+      "url": "https://www.ycombinator.com/companies/shuttle/jobs/Mlifhmb-backend-engineer-rust"
+    }
+  ],
+  "updated": "2023-06-21T02:38:20.481833Z"
+}
