@@ -18,30 +18,6 @@
   ],
   "headcount": 15,
   "founded": 2021,
-  "jobs": [
-    {
-      "position": "full-stack-engineer",
-      "level": "senior",
-      "type": "full-time",
-      "salary": {
-        "amount": [
-          120000,
-          170000
-        ],
-        "range": "yearly",
-        "currency": "usd"
-      },
-      "equity": [
-        0.5,
-        2
-      ],
-      "tech": [
-        "elixir",
-        "phoenix",
-        "rust"
-      ],
-      "url": "https://www.ycombinator.com/companies/firezone/jobs/C59VbiY-senior-fullstack-engineer"
-    }
-  ],
-  "updated": "2023-05-23T23:55:55.782Z"
+  "jobs": [],
+  "updated": "2023-06-22T02:22:43.429580Z"
 }

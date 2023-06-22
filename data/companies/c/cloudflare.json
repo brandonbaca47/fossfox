@@ -14,57 +14,24 @@
     "https://twitter.com/Cloudflare"
   ],
   "offices": [
-    "san-francisco-california",
-    "san-jose-california",
-    "austin-texas",
     "champaign-illinois",
-    "boston-massachusetts",
-    "seattle-washington",
+    "austin-texas",
     "washington-district-of-columbia",
-    "london-united-kingdom",
-    "paris-france",
-    "lisbon-portugal",
+    "singapore",
     "munich-germany",
-    "tokyo-japan",
+    "paris-france",
+    "seattle-washington",
     "sydney-australia",
+    "san-jose-california",
+    "san-francisco-california",
+    "lisbon-portugal",
+    "tokyo-japan",
+    "boston-massachusetts",
     "brussels-belgium",
-    "singapore"
+    "london-united-kingdom"
   ],
   "headcount": 3000,
   "founded": 2009,
-  "jobs": [
-    {
-      "position": "software-engineer",
-      "level": "any",
-      "type": "full-time",
-      "salary": {
-        "amount": [
-          0,
-          0
-        ],
-        "range": "yearly",
-        "currency": "usd"
-      },
-      "equity": [
-        0,
-        0
-      ],
-      "tech": [
-        "rust",
-        "go",
-        "kubernetes",
-        "postgresql",
-        "typescript",
-        "react",
-        "elasticsearch",
-        "clickhouse",
-        "google-bigquery",
-        "grafana",
-        "prometheus",
-        "kibana"
-      ],
-      "url": "https://boards.greenhouse.io/cloudflare/jobs/4973069"
-    }
-  ],
-  "updated": "2023-05-18T22:29:59.452Z"
+  "jobs": [],
+  "updated": "2023-06-22T02:18:51.425981Z"
 }

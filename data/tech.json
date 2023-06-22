@@ -268,6 +268,10 @@
     "name": "Chef"
   },
   {
+    "id": "circleci",
+    "name": "CircleCI"
+  },
+  {
     "id": "clickhouse",
     "name": "ClickHouse"
   },
@@ -512,6 +516,10 @@
     "name": "Haxe"
   },
   {
+    "id": "helm",
+    "name": "Helm"
+  },
+  {
     "id": "heroku",
     "name": "Heroku"
   },
@@ -538,6 +546,10 @@
   {
     "id": "jax",
     "name": "JAX"
+  },
+  {
+    "id": "jenkins",
+    "name": "Jenkins"
   },
   {
     "id": "jquery",
@@ -842,6 +854,10 @@
   {
     "id": "tezos",
     "name": "Tezos"
+  },
+  {
+    "id": "travis-ci",
+    "name": "Travis CI"
   },
   {
     "id": "typescript",

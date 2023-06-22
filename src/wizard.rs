@@ -272,8 +272,10 @@ impl Wizard {
 
 		println!("\n👔 Some useful info for applicants (all optional):");
 
-		let twitter_username: String =
-			Input::with_theme(&self.theme).with_prompt("Twitter username").interact()?;
+		let twitter_username: String = Input::with_theme(&self.theme)
+			.with_prompt("Twitter username")
+			.allow_empty(true)
+			.interact()?;
 
 		let founded = Input::with_theme(&self.theme)
 			.with_prompt("What year was it founded?")
@@ -544,7 +546,10 @@ impl Wizard {
 		};
 
 		let equity = {
-			if Confirm::with_theme(&self.theme).with_prompt("Do you offer equity?").interact()? {
+			if Confirm::with_theme(&self.theme)
+				.with_prompt("Is equity range transparent?")
+				.interact()?
+			{
 				let min = Input::with_theme(&self.theme)
 					.with_prompt("Range min percent % (eg: 0.1)")
 					.default("0".to_string())

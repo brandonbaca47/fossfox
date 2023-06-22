@@ -19,39 +19,6 @@
   ],
   "headcount": 150,
   "founded": 2019,
-  "jobs": [
-    {
-      "position": "staff-engineer",
-      "level": "any",
-      "type": "full-time",
-      "salary": {
-        "amount": [
-          45000,
-          85000
-        ],
-        "range": "yearly",
-        "currency": "usd"
-      },
-      "equity": [
-        0.01,
-        0.02
-      ],
-      "tech": [
-        "python",
-        "java",
-        "mysql",
-        "postgresql",
-        "mongodb",
-        "aws",
-        "azure",
-        "react",
-        "angular",
-        "terraform",
-        "ansible",
-        "docker"
-      ],
-      "url": "https://wellfound.com/company/appsmith/jobs/610609-staff-engineer-principal-engineer-backend"
-    }
-  ],
-  "updated": "2023-05-15T01:44:08.477Z"
+  "jobs": [],
+  "updated": "2023-06-22T02:16:36.768294Z"
 }

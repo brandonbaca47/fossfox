@@ -175,6 +175,11 @@
     "solo": false
   },
   {
+    "id": "founding-engineer",
+    "name": "Founding Engineer",
+    "solo": true
+  },
+  {
     "id": "frontend-engineer",
     "name": "Frontend Engineer",
     "solo": false

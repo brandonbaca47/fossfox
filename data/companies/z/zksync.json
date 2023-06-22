@@ -18,29 +18,6 @@
   ],
   "headcount": 15,
   "founded": 2018,
-  "jobs": [
-    {
-      "position": "smart-contract-engineer",
-      "level": "senior",
-      "type": "full-time",
-      "salary": {
-        "amount": [
-          0,
-          0
-        ],
-        "range": "yearly",
-        "currency": "usd"
-      },
-      "equity": [
-        0,
-        0
-      ],
-      "tech": [
-        "solidity",
-        "ethereum"
-      ],
-      "url": "https://jobs.eu.lever.co/matterlabs/acc28014-62e3-4df3-908e-1eaa416454f2"
-    }
-  ],
-  "updated": "2023-05-16T13:34:38.573Z"
+  "jobs": [],
+  "updated": "2023-06-22T02:17:23.298919Z"
 }
