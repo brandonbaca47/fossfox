@@ -14,35 +14,35 @@
     "https://twitter.com/netflix"
   ],
   "offices": [
-    "washington-district-of-columbia",
-    "bogota-colombia",
-    "seoul-south-korea",
-    "istanbul-turkey",
-    "jakarta-indonesia",
-    "los-angeles-california",
-    "rome-italy",
-    "los-gatos-california",
-    "hsinchu-taiwan",
-    "manila-philippines",
-    "madrid-spain",
-    "singapore",
-    "bangkok-thailand",
-    "mexico-city-mexico",
-    "buenos-aires-argentina",
-    "copenhagen-denmark",
-    "salt-lake-city-utah",
-    "berlin-germany",
-    "paris-france",
-    "sydney-australia",
-    "london-united-kingdom",
-    "stockholm-sweden",
-    "warsaw-poland",
     "mumbai-india",
+    "istanbul-turkey",
+    "los-gatos-california",
+    "madrid-spain",
     "new-york-city",
+    "sydney-australia",
+    "jakarta-indonesia",
+    "seoul-south-korea",
+    "stockholm-sweden",
+    "singapore",
     "toronto-canada",
-    "helsinki-finland",
     "amsterdam-netherlands",
-    "tokyo-japan"
+    "helsinki-finland",
+    "london-united-kingdom",
+    "mexico-city-mexico",
+    "berlin-germany",
+    "salt-lake-city-utah",
+    "rome-italy",
+    "copenhagen-denmark",
+    "manila-philippines",
+    "warsaw-poland",
+    "los-angeles-california",
+    "hsinchu-taiwan",
+    "tokyo-japan",
+    "paris-france",
+    "washington-district-of-columbia",
+    "bangkok-thailand",
+    "bogota-colombia",
+    "buenos-aires-argentina"
   ],
   "headcount": 10000,
   "founded": 1997,
@@ -68,7 +68,32 @@
         "node-js"
       ],
       "url": "https://jobs.netflix.com/jobs/279060739"
+    },
+    {
+      "position": "software-engineer",
+      "level": "senior",
+      "type": "full-time",
+      "salary": {
+        "amount": [
+          300000,
+          900000
+        ],
+        "range": "yearly",
+        "currency": "usd"
+      },
+      "equity": [
+        0.0,
+        0.0
+      ],
+      "tech": [
+        "typescript",
+        "react",
+        "graphql",
+        "apollo-graphql",
+        "javascript"
+      ],
+      "url": "https://jobs.netflix.com/jobs/277820691"
     }
   ],
-  "updated": "2023-06-24T19:30:35.420607Z"
+  "updated": "2023-06-24T19:34:29.614335Z"
 }
