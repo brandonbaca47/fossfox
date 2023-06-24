@@ -1,0 +1,74 @@
+{
+  "name": "Netflix",
+  "url": "https://netflix.com/",
+  "at": "careers",
+  "building": "streaming entertainment content and services",
+  "products": [
+    {
+      "name": "Netflix",
+      "url": "https://www.netflix.com/"
+    }
+  ],
+  "socials": [
+    "https://github.com/netflix",
+    "https://twitter.com/netflix"
+  ],
+  "offices": [
+    "washington-district-of-columbia",
+    "bogota-colombia",
+    "seoul-south-korea",
+    "istanbul-turkey",
+    "jakarta-indonesia",
+    "los-angeles-california",
+    "rome-italy",
+    "los-gatos-california",
+    "hsinchu-taiwan",
+    "manila-philippines",
+    "madrid-spain",
+    "singapore",
+    "bangkok-thailand",
+    "mexico-city-mexico",
+    "buenos-aires-argentina",
+    "copenhagen-denmark",
+    "salt-lake-city-utah",
+    "berlin-germany",
+    "paris-france",
+    "sydney-australia",
+    "london-united-kingdom",
+    "stockholm-sweden",
+    "warsaw-poland",
+    "mumbai-india",
+    "new-york-city",
+    "toronto-canada",
+    "helsinki-finland",
+    "amsterdam-netherlands",
+    "tokyo-japan"
+  ],
+  "headcount": 10000,
+  "founded": 1997,
+  "jobs": [
+    {
+      "position": "javascript-engineer",
+      "level": "senior",
+      "type": "full-time",
+      "salary": {
+        "amount": [
+          300000,
+          900000
+        ],
+        "range": "yearly",
+        "currency": "usd"
+      },
+      "equity": [
+        0.0,
+        0.0
+      ],
+      "tech": [
+        "javascript",
+        "node-js"
+      ],
+      "url": "https://jobs.netflix.com/jobs/279060739"
+    }
+  ],
+  "updated": "2023-06-24T19:30:35.420607Z"
+}
