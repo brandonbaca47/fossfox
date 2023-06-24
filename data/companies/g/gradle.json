@@ -1,0 +1,48 @@
+{
+  "name": "Gradle",
+  "url": "https://gradle.com/",
+  "at": "info",
+  "building": "adaptable and fast automation tool",
+  "products": [
+    {
+      "name": "Gradle",
+      "url": "https://gradle.com/"
+    }
+  ],
+  "socials": [
+    "https://github.com/gradle",
+    "https://twitter.com/gradle"
+  ],
+  "offices": [
+    "berlin-germany",
+    "san-francisco-california"
+  ],
+  "headcount": 50,
+  "founded": 2014,
+  "jobs": [
+    {
+      "position": "backend-engineer",
+      "level": "senior",
+      "type": "full-time",
+      "salary": {
+        "amount": [
+          150000,
+          210000
+        ],
+        "range": "yearly",
+        "currency": "usd"
+      },
+      "equity": [
+        0.0,
+        0.0
+      ],
+      "tech": [
+        "aws",
+        "docker",
+        "kubernetes"
+      ],
+      "url": "https://boards.greenhouse.io/gradle/jobs/4363719"
+    }
+  ],
+  "updated": "2023-06-24T19:20:47.344903Z"
+}
