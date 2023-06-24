@@ -21,9 +21,35 @@ pub fn parse_url(input: &str) -> Result<Option<(String, String, String)>> {
 			let tmp = domain.split('.').collect::<Vec<_>>();
 			let slug = slugify!(tmp[0]);
 
-			return Ok(Some((slug, domain, parsed_url.to_string())));
+			let url = format!("{}://{}", parsed_url.scheme(), domain);
+
+			return Ok(Some((slug, domain, url)));
 		}
 	}
 
 	Ok(None)
+}
+
+#[cfg(test)]
+mod tests {
+	use super::*;
+	use std::collections::HashMap;
+
+	#[test]
+	fn test_parse_url() {
+		let data = HashMap::from([
+			("http://example.com", ("example", "example.com", "http://example.com")),
+			("http://EXAMPLE.COM", ("example", "example.com", "http://example.com")),
+			("https://example.com", ("example", "example.com", "https://example.com")),
+			("https://example.com/abc", ("example", "example.com", "https://example.com")),
+			("https://sub.example.com/abc", ("example", "example.com", "https://example.com")),
+		]);
+
+		for (input, output) in &data {
+			assert_eq!(
+				parse_url(&input).unwrap(),
+				Some((output.0.to_string(), output.1.to_string(), output.2.to_string()))
+			);
+		}
+	}
 }
