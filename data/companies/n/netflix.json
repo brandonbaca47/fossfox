@@ -14,35 +14,35 @@
     "https://twitter.com/netflix"
   ],
   "offices": [
-    "mumbai-india",
-    "istanbul-turkey",
-    "los-gatos-california",
-    "madrid-spain",
-    "new-york-city",
-    "sydney-australia",
     "jakarta-indonesia",
-    "seoul-south-korea",
-    "stockholm-sweden",
     "singapore",
-    "toronto-canada",
-    "amsterdam-netherlands",
-    "helsinki-finland",
-    "london-united-kingdom",
-    "mexico-city-mexico",
-    "berlin-germany",
     "salt-lake-city-utah",
     "rome-italy",
-    "copenhagen-denmark",
+    "amsterdam-netherlands",
+    "los-gatos-california",
+    "sydney-australia",
+    "stockholm-sweden",
     "manila-philippines",
-    "warsaw-poland",
     "los-angeles-california",
-    "hsinchu-taiwan",
-    "tokyo-japan",
-    "paris-france",
+    "buenos-aires-argentina",
     "washington-district-of-columbia",
     "bangkok-thailand",
+    "new-york-city",
+    "istanbul-turkey",
+    "mexico-city-mexico",
+    "helsinki-finland",
+    "tokyo-japan",
+    "london-united-kingdom",
+    "mumbai-india",
+    "seoul-south-korea",
+    "toronto-canada",
+    "warsaw-poland",
     "bogota-colombia",
-    "buenos-aires-argentina"
+    "hsinchu-taiwan",
+    "copenhagen-denmark",
+    "paris-france",
+    "madrid-spain",
+    "berlin-germany"
   ],
   "headcount": 10000,
   "founded": 1997,
@@ -86,14 +86,39 @@
         0.0
       ],
       "tech": [
-        "typescript",
+        "apollo-graphql",
+        "javascript",
         "react",
         "graphql",
-        "apollo-graphql",
-        "javascript"
+        "typescript"
       ],
       "url": "https://jobs.netflix.com/jobs/277820691"
+    },
+    {
+      "position": "full-stack-engineer",
+      "level": "senior",
+      "type": "full-time",
+      "salary": {
+        "amount": [
+          100000,
+          399000
+        ],
+        "range": "yearly",
+        "currency": "usd"
+      },
+      "equity": [
+        0.0,
+        0.0
+      ],
+      "tech": [
+        "typescript",
+        "java",
+        "apache-hive",
+        "apache-spark",
+        "javascript"
+      ],
+      "url": "https://jobs.netflix.com/jobs/271353348"
     }
   ],
-  "updated": "2023-06-24T19:34:29.614335Z"
+  "updated": "2023-06-24T19:36:51.963042Z"
 }
