@@ -3,7 +3,10 @@ use eyre::Result;
 use glob::glob;
 use std::{collections::HashMap, env, fs};
 
-use crate::common::{Company, Item};
+use crate::{
+	common::{Company, Item},
+	utils,
+};
 
 pub struct App {
 	pub locations: HashMap<String, Item>,
@@ -51,7 +54,10 @@ impl App {
 					let file_contents: String = fs::read_to_string(path.clone())?.parse()?;
 					let mut company: Company = serde_json::from_str(&file_contents)?;
 					company.slug = path.file_stem().unwrap().to_str().unwrap().to_string();
-					companies.insert(company.slug.clone(), company);
+
+					if let Some((_, domain, _)) = utils::parse_url(&company.url.clone())? {
+						companies.insert(domain, company);
+					}
 				}
 				Err(e) => return Err(e.into()),
 			}

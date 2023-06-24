@@ -21,7 +21,7 @@ pub fn parse_url(input: &str) -> Result<Option<(String, String, String)>> {
 			let tmp = domain.split('.').collect::<Vec<_>>();
 			let slug = slugify!(tmp[0]);
 
-			let url = format!("{}://{}", parsed_url.scheme(), domain);
+			let url = format!("{}://{}/", parsed_url.scheme(), domain);
 
 			return Ok(Some((slug, domain, url)));
 		}
@@ -38,11 +38,11 @@ mod tests {
 	#[test]
 	fn test_parse_url() {
 		let data = HashMap::from([
-			("http://example.com", ("example", "example.com", "http://example.com")),
-			("http://EXAMPLE.COM", ("example", "example.com", "http://example.com")),
-			("https://example.com", ("example", "example.com", "https://example.com")),
-			("https://example.com/abc", ("example", "example.com", "https://example.com")),
-			("https://sub.example.com/abc", ("example", "example.com", "https://example.com")),
+			("http://example.com", ("example", "example.com", "http://example.com/")),
+			("http://EXAMPLE.COM", ("example", "example.com", "http://example.com/")),
+			("https://example.com", ("example", "example.com", "https://example.com/")),
+			("https://example.com/abc", ("example", "example.com", "https://example.com/")),
+			("https://sub.example.com/abc", ("example", "example.com", "https://example.com/")),
 		]);
 
 		for (input, output) in &data {

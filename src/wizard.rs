@@ -56,7 +56,7 @@ impl Wizard {
 			})
 			.interact()?;
 
-		if let Some(company) = self.app.companies.get(&slug) {
+		if let Some(company) = self.app.companies.get(&domain) {
 			self.app.company = Some(company.clone());
 		} else {
 			println!(
