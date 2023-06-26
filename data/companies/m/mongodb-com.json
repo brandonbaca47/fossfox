@@ -1,0 +1,89 @@
+{
+  "name": "MongoDB",
+  "url": "https://mongodb.com/",
+  "at": "info",
+  "building": "NoSQL database and platform",
+  "products": [
+    {
+      "name": "MongoDB",
+      "url": "https://www.mongodb.com/"
+    }
+  ],
+  "socials": [
+    "https://github.com/mongodb",
+    "https://twitter.com/MongoDB"
+  ],
+  "offices": [
+    "hong-kong",
+    "berlin-germany",
+    "dubai-united-arab-emirates",
+    "singapore",
+    "frankfurt-am-main-germany",
+    "gurgaon-india",
+    "melbourne-australia",
+    "palo-alto-california",
+    "barcelona-spain",
+    "sao-paulo-brazil",
+    "austin-texas",
+    "stockholm-sweden",
+    "plano-texas",
+    "beijing-china",
+    "atlanta-georgia",
+    "toronto-canada",
+    "chicago-illinois",
+    "hamburg-germany",
+    "madrid-spain",
+    "dublin-ireland",
+    "new-york-city",
+    "munich-germany",
+    "washington-district-of-columbia",
+    "boston-massachusetts",
+    "paris-france",
+    "rome-italy",
+    "san-francisco-california",
+    "copenhagen-denmark",
+    "seattle-washington",
+    "stuttgart-germany",
+    "tel-aviv-israel",
+    "bengaluru-india",
+    "shanghai-china",
+    "london-united-kingdom",
+    "milan-italy",
+    "shenzhen-china",
+    "sydney-australia",
+    "philadelphia-pennsylvania",
+    "seoul-south-korea",
+    "zurich-switzerland"
+  ],
+  "headcount": 4500,
+  "founded": 2007,
+  "jobs": [
+    {
+      "position": "director-of-engineering",
+      "level": "any",
+      "type": "full-time",
+      "salary": {
+        "amount": [
+          0,
+          0
+        ],
+        "range": "yearly",
+        "currency": "usd"
+      },
+      "equity": [
+        0.0,
+        0.0
+      ],
+      "tech": [
+        "react",
+        "go",
+        "mongodb",
+        "javascript",
+        "typescript",
+        "graphql"
+      ],
+      "url": "https://www.mongodb.com/careers/jobs/5102273"
+    }
+  ],
+  "updated": "2023-06-26T21:54:47.745111Z"
+}
