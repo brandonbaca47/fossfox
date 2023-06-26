@@ -1,0 +1,56 @@
+{
+  "name": "Yugabyte",
+  "url": "https://yugabyte.com/",
+  "at": "info",
+  "building": "cloud native distributed SQL database",
+  "products": [
+    {
+      "name": "YugabyteDB",
+      "url": "https://www.yugabyte.com/"
+    }
+  ],
+  "socials": [
+    "https://twitter.com/Yugabyte",
+    "https://github.com/yugabyte"
+  ],
+  "offices": [
+    "woking-united-kingdom",
+    "singapore",
+    "sunnyvale-california",
+    "bengaluru-india",
+    "tokyo-japan",
+    "pune-india"
+  ],
+  "headcount": 300,
+  "founded": 2016,
+  "jobs": [
+    {
+      "position": "software-engineer",
+      "level": "any",
+      "type": "full-time",
+      "salary": {
+        "amount": [
+          120000,
+          250000
+        ],
+        "range": "yearly",
+        "currency": "usd"
+      },
+      "equity": [
+        0.0,
+        0.0
+      ],
+      "tech": [
+        "c",
+        "java",
+        "rocksdb",
+        "go",
+        "rust",
+        "kubernetes",
+        "cpp"
+      ],
+      "url": "https://boards.greenhouse.io/yugabyte/jobs/4015130006"
+    }
+  ],
+  "updated": "2023-06-26T21:04:51.713014Z"
+}
