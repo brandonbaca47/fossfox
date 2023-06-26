@@ -1,0 +1,60 @@
+{
+  "name": "CrateDB",
+  "url": "https://crate.io/",
+  "at": "office",
+  "building": "SQL database for real-time analytics",
+  "products": [
+    {
+      "name": "CrateDB",
+      "url": "https://crate.io/"
+    }
+  ],
+  "socials": [
+    "https://github.com/crate",
+    "https://twitter.com/crateio"
+  ],
+  "offices": [
+    "berlin-germany",
+    "vienna-austria",
+    "redwood-city-california",
+    "herisau-switzerland",
+    "dornbirn-austria"
+  ],
+  "headcount": 57,
+  "founded": 2013,
+  "jobs": [
+    {
+      "position": "full-stack-engineer",
+      "level": "any",
+      "type": "full-time",
+      "salary": {
+        "amount": [
+          0,
+          0
+        ],
+        "range": "yearly",
+        "currency": "usd"
+      },
+      "equity": [
+        0.0,
+        0.0
+      ],
+      "tech": [
+        "php",
+        "postgresql",
+        "rust",
+        "docker",
+        "javascript",
+        "python",
+        "java",
+        "go",
+        "kubernetes",
+        "grafana",
+        "apache-airflow",
+        "react"
+      ],
+      "url": "https://jobs.crate.io/o/full-stack-engineer-mfx"
+    }
+  ],
+  "updated": "2023-06-26T20:46:57.604981Z"
+}
