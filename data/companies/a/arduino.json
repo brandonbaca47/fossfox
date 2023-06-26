@@ -1,0 +1,48 @@
+{
+  "name": "Arduino",
+  "url": "https://arduino.cc/",
+  "at": "fossfox",
+  "building": "open-source electronics platform",
+  "products": [
+    {
+      "name": "Arduino PRO",
+      "url": "https://www.arduino.cc/pro/hardware"
+    }
+  ],
+  "socials": [
+    "https://twitter.com/arduino",
+    "https://github.com/arduino"
+  ],
+  "offices": [
+    "turin-italy",
+    "malmo-sweden"
+  ],
+  "headcount": 200,
+  "founded": 2005,
+  "jobs": [
+    {
+      "position": "backend-engineer",
+      "level": "senior",
+      "type": "full-time",
+      "salary": {
+        "amount": [
+          0,
+          0
+        ],
+        "range": "yearly",
+        "currency": "usd"
+      },
+      "equity": [
+        0.0,
+        0.0
+      ],
+      "tech": [
+        "aws",
+        "go",
+        "cpp"
+      ],
+      "url": "https://careers.arduino.cc/jobs-details-c51d4c0e5f23"
+    }
+  ],
+  "updated": "2023-06-26T20:32:40.779667Z"
+}
