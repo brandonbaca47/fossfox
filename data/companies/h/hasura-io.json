@@ -1,0 +1,50 @@
+{
+  "name": "Hasura",
+  "url": "https://hasura.io/",
+  "at": "fossfox",
+  "building": "GraphQL API infrastructure",
+  "products": [
+    {
+      "name": "Hasura",
+      "url": "https://hasura.io/"
+    }
+  ],
+  "socials": [
+    "https://twitter.com/HasuraHQ",
+    "https://github.com/hasura"
+  ],
+  "offices": [
+    "bengaluru-india",
+    "san-francisco-california"
+  ],
+  "headcount": 100,
+  "founded": 2017,
+  "jobs": [
+    {
+      "position": "haskell-engineer",
+      "level": "senior",
+      "type": "full-time",
+      "salary": {
+        "amount": [
+          120000,
+          160000
+        ],
+        "range": "yearly",
+        "currency": "usd"
+      },
+      "equity": [
+        0.0,
+        0.0
+      ],
+      "tech": [
+        "postgresql",
+        "mysql",
+        "haskell",
+        "microsoft-sql-server",
+        "graphql"
+      ],
+      "url": "https://hasura.io/careers/?jobId=vso4JFIiAd8G"
+    }
+  ],
+  "updated": "2023-06-27T15:11:08.318621Z"
+}
