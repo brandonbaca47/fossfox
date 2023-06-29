@@ -1,0 +1,62 @@
+{
+  "name": "JetBrains",
+  "url": "https://jetbrains.com/",
+  "at": "jobs",
+  "building": "software development tools and IDEs",
+  "products": [
+    {
+      "name": "IntelliJ IDEA",
+      "url": "https://www.jetbrains.com/idea/"
+    },
+    {
+      "name": "WebStorm",
+      "url": "https://www.jetbrains.com/webstorm/"
+    },
+    {
+      "name": "PhpStorm",
+      "url": "https://www.jetbrains.com/phpstorm/"
+    }
+  ],
+  "socials": [
+    "https://twitter.com/jetbrains",
+    "https://github.com/JetBrains"
+  ],
+  "offices": [
+    "paphos-cyprus",
+    "prague-czech-republic",
+    "yerevan-armenia",
+    "amsterdam-netherlands",
+    "boston-massachusetts",
+    "belgrade-serbia",
+    "munich-germany",
+    "berlin-germany"
+  ],
+  "headcount": 1900,
+  "founded": 2000,
+  "jobs": [
+    {
+      "position": "cpp-engineer",
+      "level": "senior",
+      "type": "full-time",
+      "salary": {
+        "amount": [
+          0,
+          0
+        ],
+        "range": "yearly",
+        "currency": "usd"
+      },
+      "equity": [
+        0.0,
+        0.0
+      ],
+      "tech": [
+        "c-sharp",
+        "cpp",
+        "docker"
+      ],
+      "url": "https://www.jetbrains.com/careers/jobs/senior-c-developer-cross-platform-profiler-core-162/"
+    }
+  ],
+  "updated": "2023-06-29T21:17:58.515733Z"
+}
