@@ -5,17 +5,17 @@
   "building": "smart contracts platform for Bitcoin",
   "products": [
     {
-      "name": "Hiro Wallet",
-      "url": "https://wallet.hiro.so/"
-    },
-    {
       "name": "Clarinet",
       "url": "https://www.hiro.so/clarinet"
+    },
+    {
+      "name": "Hiro Wallet",
+      "url": "https://wallet.hiro.so/"
     }
   ],
   "socials": [
-    "https://github.com/hirosystems",
-    "https://twitter.com/hirosystems"
+    "https://twitter.com/hirosystems",
+    "https://github.com/hirosystems"
   ],
   "offices": [
     "new-york-city"
@@ -40,11 +40,40 @@
         0.0
       ],
       "tech": [
-        "bitcoin",
-        "rust"
+        "rust",
+        "bitcoin"
       ],
       "url": "https://jobs.lever.co/hiro/cd263bc5-3b5d-4e82-a38a-c60903611a12"
+    },
+    {
+      "position": "software-engineer",
+      "level": "any",
+      "type": "full-time",
+      "salary": {
+        "amount": [
+          125000,
+          165000
+        ],
+        "range": "yearly",
+        "currency": "usd"
+      },
+      "equity": [
+        0.0,
+        0.0
+      ],
+      "tech": [
+        "bitcoin",
+        "go",
+        "gcp",
+        "aws",
+        "rust",
+        "node-js",
+        "express",
+        "postgresql",
+        "redis"
+      ],
+      "url": "https://jobs.lever.co/hiro/fd82651d-0d68-41ad-8d42-7dafe5333822"
     }
   ],
-  "updated": "2023-07-01T21:55:51.944108Z"
+  "updated": "2023-07-01T21:57:50.814101Z"
 }
