@@ -1,0 +1,50 @@
+{
+  "name": "Hiro",
+  "url": "https://hiro.so/",
+  "at": "fossfox",
+  "building": "smart contracts platform for Bitcoin",
+  "products": [
+    {
+      "name": "Hiro Wallet",
+      "url": "https://wallet.hiro.so/"
+    },
+    {
+      "name": "Clarinet",
+      "url": "https://www.hiro.so/clarinet"
+    }
+  ],
+  "socials": [
+    "https://github.com/hirosystems",
+    "https://twitter.com/hirosystems"
+  ],
+  "offices": [
+    "new-york-city"
+  ],
+  "headcount": 25,
+  "founded": 2013,
+  "jobs": [
+    {
+      "position": "smart-contract-engineer",
+      "level": "any",
+      "type": "full-time",
+      "salary": {
+        "amount": [
+          105000,
+          165000
+        ],
+        "range": "yearly",
+        "currency": "usd"
+      },
+      "equity": [
+        0.0,
+        0.0
+      ],
+      "tech": [
+        "bitcoin",
+        "rust"
+      ],
+      "url": "https://jobs.lever.co/hiro/cd263bc5-3b5d-4e82-a38a-c60903611a12"
+    }
+  ],
+  "updated": "2023-07-01T21:55:51.944108Z"
+}
