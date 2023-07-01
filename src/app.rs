@@ -1,16 +1,17 @@
 use console::style;
 use eyre::Result;
 use glob::glob;
+use serde::Deserialize;
 use std::{collections::HashMap, env, fs};
 
 use crate::{
-	common::{Company, Item},
+	common::{Company, HasId, Item, Position},
 	utils,
 };
 
 pub struct App {
 	pub locations: HashMap<String, Item>,
-	pub positions: HashMap<String, Item>,
+	pub positions: HashMap<String, Position>,
 	pub tech: HashMap<String, Item>,
 	pub companies: HashMap<String, Company>,
 	pub company: Option<Company>,
@@ -26,23 +27,26 @@ impl App {
 			company: None,
 		};
 
-		app.locations = app.read_items("locations")?;
-		app.positions = app.read_items("positions")?;
-		app.tech = app.read_items("tech")?;
+		app.locations = app.read_items::<Item>("locations")?;
+		app.positions = app.read_items::<Position>("positions")?;
+		app.tech = app.read_items::<Item>("tech")?;
 		app.companies = app.read_companies()?;
 
 		Ok(app)
 	}
 
-	fn read_items(&self, filename: &str) -> Result<HashMap<String, Item>> {
+	fn read_items<T>(&self, filename: &str) -> Result<HashMap<String, T>>
+	where
+		T: for<'a> Deserialize<'a> + HasId,
+	{
 		let mut file_path = env::current_dir()?;
 		file_path.push("data");
 		file_path.push(format!("{filename}.json"));
 
 		let file_contents: String = fs::read_to_string(file_path)?.parse()?;
-		let data: Vec<Item> = serde_json::from_str(&file_contents)?;
+		let data: Vec<T> = serde_json::from_str(&file_contents)?;
 
-		Ok(data.into_iter().map(|i| (i.id.clone(), i)).collect::<HashMap<String, Item>>())
+		Ok(data.into_iter().map(|i| (i.get_id(), i)).collect::<HashMap<String, T>>())
 	}
 
 	fn read_companies(&self) -> Result<HashMap<String, Company>> {

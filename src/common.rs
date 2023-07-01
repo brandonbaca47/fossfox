@@ -12,10 +12,33 @@ pub struct Config {
 	pub fqdn: String,
 }
 
+pub trait HasId {
+	fn get_id(&self) -> String;
+}
+
 #[derive(Clone, Debug, Deserialize)]
 pub struct Item {
 	pub id: String,
 	pub name: String,
+}
+
+impl HasId for Item {
+	fn get_id(&self) -> String {
+		self.id.clone()
+	}
+}
+
+#[derive(Clone, Debug, Deserialize)]
+pub struct Position {
+	pub id: String,
+	pub name: String,
+	pub solo: bool,
+}
+
+impl HasId for Position {
+	fn get_id(&self) -> String {
+		self.id.clone()
+	}
 }
 
 #[derive(Clone, Default, Debug, Serialize, Deserialize)]

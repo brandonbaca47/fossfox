@@ -13,7 +13,7 @@ use url::Url;
 
 use crate::{
 	app::App,
-	common::{Company, Currency, Item, Job, Level, Product, Range, Salary, Type},
+	common::{Company, Currency, Item, Job, Level, Position, Product, Range, Salary, Type},
 	utils,
 };
 
@@ -415,10 +415,11 @@ impl Wizard {
 	}
 
 	pub fn job(&self, job: Option<Job>) -> Result<Job> {
-		let position = {
-			let mut ret = "".to_string();
+		let (position, is_solo) = {
+			let mut id = "".to_string();
+			let mut is_solo = false;
 
-			let positions = self.app.positions.values().cloned().collect::<Vec<Item>>();
+			let positions = self.app.positions.values().cloned().collect::<Vec<Position>>();
 			let mut all_positions =
 				positions.iter().map(|pos| pos.name.clone()).collect::<Vec<String>>();
 
@@ -442,24 +443,29 @@ impl Wizard {
 
 			if let Some(position) = all_positions.get(index) {
 				if let Some(position) = positions.iter().find(|pos| pos.name == *position) {
-					ret = position.id.clone();
+					id = position.id.clone();
+					is_solo = position.solo;
 				}
 			}
 
-			ret
+			(id, is_solo)
 		};
 
 		let level = {
-			let index = Select::with_theme(&self.theme)
-				.with_prompt("Level")
-				.items(&["Any", "Senior", "Junior"])
-				.default(0)
-				.interact()?;
+			if is_solo {
+				Level::Any
+			} else {
+				let index = Select::with_theme(&self.theme)
+					.with_prompt("Level")
+					.items(&["Any", "Senior", "Junior"])
+					.default(0)
+					.interact()?;
 
-			match index {
-				0 => Level::Any,
-				1 => Level::Senior,
-				_ => Level::Junior,
+				match index {
+					0 => Level::Any,
+					1 => Level::Senior,
+					_ => Level::Junior,
+				}
 			}
 		};
 
