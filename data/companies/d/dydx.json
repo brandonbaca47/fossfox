@@ -1,0 +1,55 @@
+{
+  "name": "dYdX",
+  "url": "https://dydx.exchange/",
+  "at": "contact",
+  "building": "decentralized trading platform",
+  "products": [
+    {
+      "name": "dYdX",
+      "url": "https://dydx.exchange/"
+    }
+  ],
+  "socials": [
+    "https://twitter.com/dYdX",
+    "https://github.com/dydxprotocol"
+  ],
+  "offices": [
+    "new-york-city"
+  ],
+  "headcount": 10,
+  "founded": 2017,
+  "jobs": [
+    {
+      "position": "staff-engineer",
+      "level": "any",
+      "type": "full-time",
+      "salary": {
+        "amount": [
+          210000,
+          320000
+        ],
+        "range": "yearly",
+        "currency": "usd"
+      },
+      "equity": [
+        0.0,
+        0.0
+      ],
+      "tech": [
+        "apache-kafka",
+        "typescript",
+        "docker",
+        "express",
+        "terraform",
+        "aws",
+        "postgresql",
+        "node-js",
+        "javascript",
+        "go",
+        "redis"
+      ],
+      "url": "https://boards.greenhouse.io/dydx/jobs/6296909002"
+    }
+  ],
+  "updated": "2023-07-02T21:29:46.537169Z"
+}
