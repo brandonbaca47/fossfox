@@ -18,36 +18,29 @@
   "founded": 2011,
   "jobs": [
     {
-      "position": "backend-engineer",
-      "level": "senior",
+      "position": "site-reliability-engineer",
+      "level": "any",
       "type": "full-time",
       "salary": {
         "amount": [
-          92400,
-          198000
+          0,
+          0
         ],
         "range": "yearly",
         "currency": "usd"
       },
       "equity": [
-        0,
-        0
+        0.0,
+        0.0
       ],
       "tech": [
-        "ruby",
-        "ruby-on-rails",
-        "prometheus",
-        "gcp",
-        "aws",
-        "ansible",
         "terraform",
-        "postgresql",
-        "kubernetes",
-        "apache-kafka",
-        "apache-zookeeper"
+        "ansible",
+        "chef",
+        "gcp"
       ],
-      "url": "https://boards.greenhouse.io/gitlab/jobs/6496660002"
+      "url": "https://boards.greenhouse.io/gitlab/jobs/6795504002"
     }
   ],
-  "updated": "2023-05-29T16:43:26.165Z"
+  "updated": "2023-07-02T19:40:17.101538Z"
 }
