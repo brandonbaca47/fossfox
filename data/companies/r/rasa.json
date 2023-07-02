@@ -20,7 +20,7 @@
   "founded": 2014,
   "jobs": [
     {
-      "position": "full-stack-engineer",
+      "position": "machine-learning-engineer",
       "level": "senior",
       "type": "full-time",
       "salary": {
@@ -32,23 +32,20 @@
         "currency": "usd"
       },
       "equity": [
-        0,
-        0
+        0.0,
+        0.0
       ],
       "tech": [
-        "typescript",
-        "node-js",
-        "react",
-        "apollo-graphql",
+        "github-actions",
+        "rabbitmq",
+        "kubernetes",
         "python",
         "redis",
-        "rabbitmq",
         "postgresql",
-        "github-actions",
-        "kubernetes"
+        "tensorflow"
       ],
-      "url": "https://boards.greenhouse.io/rasa/jobs/6371347002"
+      "url": "https://rasa.com/careers/?ashby_jid=5e5e4b3c-e002-4826-a522-e7908fa72ba1#jobs"
     }
   ],
-  "updated": "2023-05-23T01:02:13.827Z"
+  "updated": "2023-07-02T19:37:42.324256Z"
 }
