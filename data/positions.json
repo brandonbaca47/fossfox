@@ -340,6 +340,11 @@
     "solo": false
   },
   {
+    "id": "security-engineer",
+    "name": "Security Engineer",
+    "solo": false
+  },
+  {
     "id": "security-research-engineer",
     "name": "Security Research Engineer",
     "solo": false
