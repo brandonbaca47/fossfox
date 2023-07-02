@@ -1,0 +1,44 @@
+{
+  "name": "OP Labs",
+  "url": "https://oplabs.co/",
+  "at": "info",
+  "building": "Optimism protocol to scale Ethereum",
+  "products": [
+    {
+      "name": "Optimism",
+      "url": "https://www.optimism.io/"
+    }
+  ],
+  "socials": [
+    "https://github.com/ethereum-optimism",
+    "https://twitter.com/OPLabsPBC"
+  ],
+  "offices": [],
+  "headcount": 10,
+  "founded": 2019,
+  "jobs": [
+    {
+      "position": "blockchain-security-engineer",
+      "level": "senior",
+      "type": "full-time",
+      "salary": {
+        "amount": [
+          0,
+          0
+        ],
+        "range": "yearly",
+        "currency": "usd"
+      },
+      "equity": [
+        0.0,
+        0.0
+      ],
+      "tech": [
+        "ethereum",
+        "solidity"
+      ],
+      "url": "https://boards.greenhouse.io/oplabs/jobs/4889669004"
+    }
+  ],
+  "updated": "2023-07-02T21:19:22.112618Z"
+}
