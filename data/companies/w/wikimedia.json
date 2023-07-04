@@ -1,0 +1,58 @@
+{
+  "name": "Wikimedia",
+  "url": "https://wikimedia.org/",
+  "at": "recruiting",
+  "building": "free knowledge-sharing platform",
+  "products": [
+    {
+      "name": "Wikipedia",
+      "url": "https://www.wikipedia.org/"
+    }
+  ],
+  "socials": [
+    "https://twitter.com/wikimediatech",
+    "https://github.com/wikimedia"
+  ],
+  "offices": [
+    "san-francisco-california"
+  ],
+  "headcount": 250,
+  "founded": 2001,
+  "jobs": [
+    {
+      "position": "site-reliability-engineer",
+      "level": "senior",
+      "type": "full-time",
+      "salary": {
+        "amount": [
+          101161,
+          157200
+        ],
+        "range": "yearly",
+        "currency": "usd"
+      },
+      "equity": [
+        0.0,
+        0.0
+      ],
+      "tech": [
+        "amazon-ecs",
+        "apache-kafka",
+        "helm",
+        "docker",
+        "azure",
+        "gcp",
+        "aws",
+        "python",
+        "prometheus",
+        "grafana",
+        "kubernetes",
+        "go",
+        "terraform",
+        "ansible"
+      ],
+      "url": "https://boards.greenhouse.io/wikimedia/jobs/4821755"
+    }
+  ],
+  "updated": "2023-07-04T21:54:17.975695Z"
+}
