@@ -6,7 +6,7 @@ pub fn parse_url(input: &str) -> Result<Option<(String, String, String)>> {
 	let url = if !input.contains("://") { format!("https://{input}") } else { input.to_string() };
 
 	let parsed_url = Url::parse(&url)?;
-	if vec!["http", "https"].contains(&parsed_url.scheme()) {
+	if ["http", "https"].contains(&parsed_url.scheme()) {
 		if let Some(mut domain) = parsed_url.domain().map(|s| s.to_owned()) {
 			if domain.starts_with("www.") {
 				domain = domain[4..].to_string();
