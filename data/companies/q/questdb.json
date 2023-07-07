@@ -20,8 +20,8 @@
   "founded": 2019,
   "jobs": [
     {
-      "position": "backend-engineer",
-      "level": "senior",
+      "position": "core-engineer",
+      "level": "any",
       "type": "full-time",
       "salary": {
         "amount": [
@@ -32,22 +32,16 @@
         "currency": "usd"
       },
       "equity": [
-        0,
-        0
+        0.0,
+        0.0
       ],
       "tech": [
-        "python",
-        "go",
-        "fastapi",
-        "docker",
-        "kubernetes",
-        "aws",
-        "postgresql",
-        "react",
-        "next-js"
+        "c",
+        "java",
+        "cpp"
       ],
-      "url": "https://questdb.io/careers/senior-backend-engineer/"
+      "url": "https://questdb.io/careers/core-database-engineer/"
     }
   ],
-  "updated": "2023-05-15T15:49:38.231Z"
+  "updated": "2023-07-07T15:56:32.792034Z"
 }
