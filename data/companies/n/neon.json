@@ -20,7 +20,7 @@
   "founded": 2022,
   "jobs": [
     {
-      "position": "rust-engineer",
+      "position": "backend-engineer",
       "level": "any",
       "type": "full-time",
       "salary": {
@@ -32,16 +32,21 @@
         "currency": "usd"
       },
       "equity": [
-        0,
-        0
+        0.0,
+        0.0
       ],
       "tech": [
-        "rust",
-        "c",
-        "cpp"
+        "docker",
+        "go",
+        "azure",
+        "aws",
+        "kubernetes",
+        "python",
+        "postgresql",
+        "typescript"
       ],
-      "url": "https://boards.greenhouse.io/neondatabase/jobs/4817637004"
+      "url": "https://boards.greenhouse.io/neondatabase/jobs/4881139004"
     }
   ],
-  "updated": "2023-05-18T22:16:12.070Z"
+  "updated": "2023-07-07T15:53:52.487583Z"
 }
