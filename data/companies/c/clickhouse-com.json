@@ -14,41 +14,37 @@
     "https://twitter.com/ClickHouseDB"
   ],
   "offices": [
-    "palo-alto-california",
-    "amsterdam-netherlands"
+    "amsterdam-netherlands",
+    "palo-alto-california"
   ],
   "headcount": 0,
   "founded": 2012,
   "jobs": [
     {
-      "position": "cloud-software-engineer",
+      "position": "core-engineer",
       "level": "senior",
       "type": "full-time",
       "salary": {
         "amount": [
-          0,
-          0
+          114750,
+          230000
         ],
         "range": "yearly",
         "currency": "usd"
       },
       "equity": [
-        0,
-        0
+        0.0,
+        0.0
       ],
       "tech": [
-        "go",
-        "c",
         "cpp",
-        "java",
-        "kubernetes",
-        "aws",
-        "gcp",
-        "azure",
-        "amazon-ec2"
+        "clickhouse",
+        "c",
+        "go",
+        "kubernetes"
       ],
-      "url": "https://boards.greenhouse.io/clickhouse/jobs/4798282004"
+      "url": "https://boards.greenhouse.io/clickhouse/jobs/4847188004"
     }
   ],
-  "updated": "2023-05-29T16:09:40.839Z"
+  "updated": "2023-07-07T15:50:44.907033Z"
 }
