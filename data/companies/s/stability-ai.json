@@ -1,0 +1,59 @@
+{
+  "name": "Stability AI",
+  "url": "https://stability.ai/",
+  "at": "careers",
+  "building": "AI models and products",
+  "products": [
+    {
+      "name": "Stable Diffusion",
+      "url": "https://github.com/Stability-AI/stablediffusion"
+    },
+    {
+      "name": "Clipdrop",
+      "url": "https://clipdrop.co/"
+    },
+    {
+      "name": "DreamStudio",
+      "url": "https://dreamstudio.ai/"
+    }
+  ],
+  "socials": [
+    "https://twitter.com/StabilityAI",
+    "https://github.com/Stability-AI"
+  ],
+  "offices": [
+    "paris-france",
+    "san-francisco-california",
+    "tokyo-japan"
+  ],
+  "headcount": 100,
+  "founded": 2019,
+  "jobs": [
+    {
+      "position": "staff-engineer",
+      "level": "any",
+      "type": "full-time",
+      "salary": {
+        "amount": [
+          0,
+          0
+        ],
+        "range": "yearly",
+        "currency": "usd"
+      },
+      "equity": [
+        0.0,
+        0.0
+      ],
+      "tech": [
+        "go",
+        "grafana",
+        "python",
+        "aws",
+        "gcp"
+      ],
+      "url": "https://stability.ai/careers?gh_jid=4113908101"
+    }
+  ],
+  "updated": "2023-07-07T17:20:07.303132Z"
+}
