@@ -1,0 +1,46 @@
+{
+  "name": "Supabase",
+  "url": "https://supabase.com/",
+  "at": "fossfox",
+  "building": "open source Firebase alternative",
+  "products": [
+    {
+      "name": "Supabase",
+      "url": "https://supabase.com/"
+    }
+  ],
+  "socials": [
+    "https://twitter.com/supabase",
+    "https://github.com/supabase"
+  ],
+  "offices": [],
+  "headcount": 35,
+  "founded": 2020,
+  "jobs": [
+    {
+      "position": "rust-engineer",
+      "level": "any",
+      "type": "full-time",
+      "salary": {
+        "amount": [
+          0,
+          0
+        ],
+        "range": "yearly",
+        "currency": "usd"
+      },
+      "equity": [
+        0.0,
+        0.0
+      ],
+      "tech": [
+        "supabase",
+        "postgresql",
+        "graphql",
+        "rust"
+      ],
+      "url": "https://boards.greenhouse.io/supabase/jobs/4917893004"
+    }
+  ],
+  "updated": "2023-07-07T17:34:37.793461Z"
+}
