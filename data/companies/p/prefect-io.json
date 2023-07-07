@@ -1,0 +1,50 @@
+{
+  "name": "Prefect",
+  "url": "https://prefect.io/",
+  "at": "fossfox",
+  "building": "data workflow automation platform",
+  "products": [
+    {
+      "name": "Prefect",
+      "url": "https://www.prefect.io/"
+    }
+  ],
+  "socials": [
+    "https://github.com/PrefectHQ",
+    "https://twitter.com/PrefectIO"
+  ],
+  "offices": [],
+  "headcount": 50,
+  "founded": 2018,
+  "jobs": [
+    {
+      "position": "full-stack-engineer",
+      "level": "senior",
+      "type": "full-time",
+      "salary": {
+        "amount": [
+          168000,
+          243000
+        ],
+        "range": "yearly",
+        "currency": "usd"
+      },
+      "equity": [
+        0.0,
+        0.0
+      ],
+      "tech": [
+        "typescript",
+        "javascript",
+        "python",
+        "vue-js",
+        "aws",
+        "kubernetes",
+        "gcp",
+        "azure"
+      ],
+      "url": "https://boards.greenhouse.io/prefect/jobs/4873105004"
+    }
+  ],
+  "updated": "2023-07-07T18:09:50.369719Z"
+}
