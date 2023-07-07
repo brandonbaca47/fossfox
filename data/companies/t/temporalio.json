@@ -1,0 +1,55 @@
+{
+  "name": "Temporal",
+  "url": "https://temporal.io/",
+  "at": "careers",
+  "building": "workflow and event-driven application platform",
+  "products": [
+    {
+      "name": "Temporal",
+      "url": "https://temporal.io/"
+    }
+  ],
+  "socials": [
+    "https://github.com/temporalio",
+    "https://twitter.com/temporalio"
+  ],
+  "offices": [
+    "denver-colorado",
+    "new-york-city",
+    "london-united-kingdom"
+  ],
+  "headcount": 100,
+  "founded": 2019,
+  "jobs": [
+    {
+      "position": "software-engineer",
+      "level": "senior",
+      "type": "full-time",
+      "salary": {
+        "amount": [
+          175000,
+          225000
+        ],
+        "range": "yearly",
+        "currency": "usd"
+      },
+      "equity": [
+        0.0,
+        0.0
+      ],
+      "tech": [
+        "mysql",
+        "gcp",
+        "apache-cassandra",
+        "aws",
+        "azure",
+        "java",
+        "go",
+        "apache-kafka",
+        "elasticsearch"
+      ],
+      "url": "https://jobs.lever.co/temporal/3700d106-ea0a-43b5-ae8e-589f3996f7ec"
+    }
+  ],
+  "updated": "2023-07-07T16:41:27.683380Z"
+}
