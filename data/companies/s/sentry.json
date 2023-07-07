@@ -10,20 +10,20 @@
     }
   ],
   "socials": [
-    "https://github.com/getsentry",
-    "https://twitter.com/getsentry"
+    "https://twitter.com/getsentry",
+    "https://github.com/getsentry"
   ],
   "offices": [
-    "san-francisco-california",
+    "toronto-canada",
     "seattle-washington",
     "vienna-austria",
-    "toronto-canada"
+    "san-francisco-california"
   ],
   "headcount": 250,
   "founded": 2008,
   "jobs": [
     {
-      "position": "full-stack-engineer",
+      "position": "backend-engineer",
       "level": "senior",
       "type": "full-time",
       "salary": {
@@ -35,18 +35,17 @@
         "currency": "usd"
       },
       "equity": [
-        0,
-        0
+        0.0,
+        0.0
       ],
       "tech": [
         "python",
-        "javascript",
-        "django",
-        "react",
-        "postgresql"
+        "graphql",
+        "postgresql",
+        "django"
       ],
       "url": "https://sentry.io/careers/4884870/"
     }
   ],
-  "updated": "2023-05-15T15:21:51.351Z"
+  "updated": "2023-07-07T15:59:02.503405Z"
 }
