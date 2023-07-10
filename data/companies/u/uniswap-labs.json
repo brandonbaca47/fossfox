@@ -10,8 +10,8 @@
     }
   ],
   "socials": [
-    "https://github.com/Uniswap",
-    "https://twitter.com/Uniswap"
+    "https://twitter.com/Uniswap",
+    "https://github.com/Uniswap"
   ],
   "offices": [
     "new-york-city"
@@ -32,16 +32,16 @@
         "currency": "usd"
       },
       "equity": [
-        0,
-        0
+        0.0,
+        0.0
       ],
       "tech": [
-        "typescript",
+        "azure",
         "rust",
         "go",
+        "typescript",
         "cpp",
         "aws",
-        "azure",
         "gcp"
       ],
       "url": "https://boards.greenhouse.io/uniswaplabs/jobs/4231350005"
@@ -59,8 +59,8 @@
         "currency": "usd"
       },
       "equity": [
-        0,
-        0
+        0.0,
+        0.0
       ],
       "tech": [
         "ethereum",
@@ -81,20 +81,20 @@
         "currency": "usd"
       },
       "equity": [
-        0,
-        0
+        0.0,
+        0.0
       ],
       "tech": [
-        "ethereum",
-        "go",
-        "rust",
+        "amazon-dynamodb",
         "aws",
         "docker",
+        "rust",
+        "go",
         "amazon-ecs",
-        "amazon-dynamodb"
+        "ethereum"
       ],
       "url": "https://boards.greenhouse.io/uniswaplabs/jobs/4169990005"
     }
   ],
-  "updated": "2023-05-20T15:52:10.834Z"
+  "updated": "2023-07-10T19:52:22.194735Z"
 }

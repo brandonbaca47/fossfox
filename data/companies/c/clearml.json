@@ -10,8 +10,8 @@
     }
   ],
   "socials": [
-    "https://github.com/allegroai",
-    "https://twitter.com/clearmlapp"
+    "https://twitter.com/clearmlapp",
+    "https://github.com/allegroai"
   ],
   "offices": [
     "montreal-canada",
@@ -33,16 +33,16 @@
         "currency": "usd"
       },
       "equity": [
-        0,
-        0
+        0.0,
+        0.0
       ],
       "tech": [
-        "kubernetes",
+        "docker",
         "python",
-        "aws",
-        "gcp",
         "azure",
-        "docker"
+        "aws",
+        "kubernetes",
+        "gcp"
       ],
       "url": "https://clear.ml/careers/"
     },
@@ -59,8 +59,8 @@
         "currency": "usd"
       },
       "equity": [
-        0,
-        0
+        0.0,
+        0.0
       ],
       "tech": [
         "angular"
@@ -68,5 +68,5 @@
       "url": "https://clear.ml/careers/"
     }
   ],
-  "updated": "2023-05-19T22:02:21.821Z"
+  "updated": "2023-07-10T19:52:22.187388Z"
 }

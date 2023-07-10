@@ -18,10 +18,10 @@
     "https://twitter.com/paritytech"
   ],
   "offices": [
+    "lisbon-portugal",
     "berlin-germany",
     "london-united-kingdom",
-    "cambridge-united-kingdom",
-    "lisbon-portugal"
+    "cambridge-united-kingdom"
   ],
   "headcount": 150,
   "founded": 2018,
@@ -39,17 +39,17 @@
         "currency": "usd"
       },
       "equity": [
-        0,
-        0
+        0.0,
+        0.0
       ],
       "tech": [
-        "rust",
-        "c",
+        "go",
         "cpp",
-        "go"
+        "rust",
+        "c"
       ],
       "url": "https://boards.greenhouse.io/parity/jobs/5213777003"
     }
   ],
-  "updated": "2023-05-23T00:51:27.612Z"
+  "updated": "2023-07-10T19:52:22.207196Z"
 }

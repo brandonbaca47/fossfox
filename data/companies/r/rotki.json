@@ -10,8 +10,8 @@
     }
   ],
   "socials": [
-    "https://github.com/rotki",
-    "https://twitter.com/rotkiapp"
+    "https://twitter.com/rotkiapp",
+    "https://github.com/rotki"
   ],
   "offices": [],
   "headcount": 15,
@@ -30,15 +30,15 @@
         "currency": "usd"
       },
       "equity": [
-        0,
-        0
+        0.0,
+        0.0
       ],
       "tech": [
-        "python",
-        "ethereum"
+        "ethereum",
+        "python"
       ],
       "url": "https://rotki.com/jobs/backend"
     }
   ],
-  "updated": "2023-05-16T13:42:28.982Z"
+  "updated": "2023-07-10T19:52:22.194053Z"
 }

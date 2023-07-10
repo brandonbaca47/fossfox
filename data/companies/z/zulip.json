@@ -32,8 +32,8 @@
         "currency": "usd"
       },
       "equity": [
-        0,
-        0
+        0.0,
+        0.0
       ],
       "tech": [
         "flutter",
@@ -42,5 +42,5 @@
       "url": "https://zulip.com/jobs/#flutter"
     }
   ],
-  "updated": "2023-05-31T21:33:42.994Z"
+  "updated": "2023-07-10T19:52:22.196076Z"
 }

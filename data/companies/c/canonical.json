@@ -10,8 +10,8 @@
     }
   ],
   "socials": [
-    "https://github.com/canonical",
-    "https://twitter.com/Canonical"
+    "https://twitter.com/Canonical",
+    "https://github.com/canonical"
   ],
   "offices": [
     "boston-massachusetts",
@@ -33,21 +33,21 @@
         "currency": "usd"
       },
       "equity": [
-        0,
-        0
+        0.0,
+        0.0
       ],
       "tech": [
+        "c",
+        "go",
+        "yocto-project",
+        "rust",
         "debian",
         "ubuntu",
-        "yocto-project",
-        "go",
         "python",
-        "c",
-        "cpp",
-        "rust"
+        "cpp"
       ],
       "url": "https://canonical.com/careers/3362765"
     }
   ],
-  "updated": "2023-05-23T00:30:16.182Z"
+  "updated": "2023-07-10T19:52:22.202718Z"
 }

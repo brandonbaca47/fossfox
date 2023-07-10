@@ -10,8 +10,8 @@
     }
   ],
   "socials": [
-    "https://github.com/TryGhost",
-    "https://twitter.com/Ghost"
+    "https://twitter.com/Ghost",
+    "https://github.com/TryGhost"
   ],
   "offices": [
     "singapore"
@@ -32,17 +32,17 @@
         "currency": "usd"
       },
       "equity": [
-        0,
-        0
+        0.0,
+        0.0
       ],
       "tech": [
-        "mysql",
+        "node-js",
         "nginx",
         "docker",
-        "node-js"
+        "mysql"
       ],
       "url": "https://careers.ghost.org/infrastructure-engineer/en"
     }
   ],
-  "updated": "2023-05-24T22:42:11.546Z"
+  "updated": "2023-07-10T19:52:22.203551Z"
 }

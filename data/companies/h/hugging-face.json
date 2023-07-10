@@ -33,17 +33,17 @@
         "currency": "usd"
       },
       "equity": [
-        0,
-        0
+        0.0,
+        0.0
       ],
       "tech": [
         "typescript",
         "javascript",
-        "react",
-        "svelte"
+        "svelte",
+        "react"
       ],
       "url": "https://apply.workable.com/huggingface/j/09B44FE57C/"
     }
   ],
-  "updated": "2023-05-15T15:36:16.307Z"
+  "updated": "2023-07-10T19:52:22.199848Z"
 }

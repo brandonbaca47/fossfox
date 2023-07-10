@@ -10,8 +10,8 @@
     }
   ],
   "socials": [
-    "https://github.com/dbt-labs",
-    "https://twitter.com/getdbt"
+    "https://twitter.com/getdbt",
+    "https://github.com/dbt-labs"
   ],
   "offices": [
     "philadelphia-pennsylvania"
@@ -32,19 +32,19 @@
         "currency": "usd"
       },
       "equity": [
-        0,
-        0
+        0.0,
+        0.0
       ],
       "tech": [
-        "python",
         "django",
-        "go",
         "postgresql",
         "kubernetes",
-        "aws"
+        "go",
+        "aws",
+        "python"
       ],
       "url": "https://boards.greenhouse.io/dbtlabsinc/jobs/4137037005"
     }
   ],
-  "updated": "2023-05-15T15:03:57.218Z"
+  "updated": "2023-07-10T19:52:22.199011Z"
 }

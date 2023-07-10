@@ -10,8 +10,8 @@
     }
   ],
   "socials": [
-    "https://github.com/oven-sh",
-    "https://twitter.com/oven_sh"
+    "https://twitter.com/oven_sh",
+    "https://github.com/oven-sh"
   ],
   "offices": [
     "san-francisco-california"
@@ -32,18 +32,18 @@
         "currency": "usd"
       },
       "equity": [
-        0,
-        0
+        0.0,
+        0.0
       ],
       "tech": [
-        "zig",
-        "c",
+        "typescript",
         "cpp",
+        "zig",
         "javascript",
-        "typescript"
+        "c"
       ],
       "url": "https://oven.rippling-ats.com/job/535740/runtime-engineer-zig-or-c-c"
     }
   ],
-  "updated": "2023-05-15T01:57:00.018Z"
+  "updated": "2023-07-10T19:52:22.192380Z"
 }

@@ -30,19 +30,19 @@
         "currency": "usd"
       },
       "equity": [
-        0,
-        0
+        0.0,
+        0.0
       ],
       "tech": [
         "postgresql",
         "go",
-        "kubernetes",
         "rust",
         "aws",
-        "patroni"
+        "patroni",
+        "kubernetes"
       ],
       "url": "https://www.timescale.com/careers/6652057002"
     }
   ],
-  "updated": "2023-05-16T13:50:52.713Z"
+  "updated": "2023-07-10T19:52:22.206250Z"
 }

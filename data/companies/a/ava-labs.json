@@ -10,8 +10,8 @@
     }
   ],
   "socials": [
-    "https://github.com/ava-labs",
-    "https://twitter.com/avalabsofficial"
+    "https://twitter.com/avalabsofficial",
+    "https://github.com/ava-labs"
   ],
   "offices": [
     "new-york-city"
@@ -32,19 +32,19 @@
         "currency": "usd"
       },
       "equity": [
-        0,
-        0
+        0.0,
+        0.0
       ],
       "tech": [
+        "ansible",
         "cpp",
-        "go",
         "solidity",
-        "aws",
         "azure",
-        "ansible"
+        "aws",
+        "go"
       ],
       "url": "https://boards.greenhouse.io/avalabs/jobs/4771997004"
     }
   ],
-  "updated": "2023-05-23T00:40:50.079Z"
+  "updated": "2023-07-10T19:52:22.197255Z"
 }

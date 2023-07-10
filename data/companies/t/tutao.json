@@ -32,8 +32,8 @@
         "currency": "usd"
       },
       "equity": [
-        0,
-        0
+        0.0,
+        0.0
       ],
       "tech": [
         "javascript",
@@ -43,5 +43,5 @@
       "url": "https://tutanota.com/job/0_software_engineer"
     }
   ],
-  "updated": "2023-05-18T01:14:13.474Z"
+  "updated": "2023-07-10T19:52:22.190528Z"
 }

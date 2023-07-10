@@ -18,7 +18,7 @@ use crate::{
 };
 
 pub struct Wizard {
-	app: App,
+	pub app: App,
 	theme: ColorfulTheme,
 	data_changed: bool,
 }

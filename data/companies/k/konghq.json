@@ -10,8 +10,8 @@
     }
   ],
   "socials": [
-    "https://github.com/Kong",
-    "https://twitter.com/thekonginc"
+    "https://twitter.com/thekonginc",
+    "https://github.com/Kong"
   ],
   "offices": [
     "san-francisco-california"
@@ -32,23 +32,23 @@
         "currency": "usd"
       },
       "equity": [
-        0,
-        0
+        0.0,
+        0.0
       ],
       "tech": [
-        "go",
-        "nginx",
-        "haproxy",
-        "envoy",
         "kubernetes",
-        "openresty",
-        "kong",
         "luajit",
         "datadog",
-        "opentelemetry"
+        "haproxy",
+        "kong",
+        "opentelemetry",
+        "envoy",
+        "go",
+        "openresty",
+        "nginx"
       ],
       "url": "https://jobs.lever.co/kong/d835a697-eda8-488f-8238-65466d1ca777"
     }
   ],
-  "updated": "2023-05-29T16:31:32.619Z"
+  "updated": "2023-07-10T19:52:22.184307Z"
 }
