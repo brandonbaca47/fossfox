@@ -245,6 +245,11 @@
     "solo": false
   },
   {
+    "id": "lead-solutions-engineer",
+    "name": "Lead Solutions Engineer",
+    "solo": true
+  },
+  {
     "id": "llvm-compiler-engineer",
     "name": "LLVM Compiler Engineer",
     "solo": false
@@ -367,6 +372,11 @@
   {
     "id": "software-engineering-lead",
     "name": "Software Engineering Lead",
+    "solo": false
+  },
+  {
+    "id": "solutions-engineer",
+    "name": "Solutions Engineer",
     "solo": false
   },
   {

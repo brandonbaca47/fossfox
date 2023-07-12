@@ -1,0 +1,58 @@
+{
+  "name": "Foxglove",
+  "url": "https://foxglove.dev/",
+  "at": "fossfox",
+  "building": "robotics observability platform",
+  "products": [
+    {
+      "name": "Foxglove Data Platform",
+      "url": "https://foxglove.dev/data-platform"
+    },
+    {
+      "name": "MCAP",
+      "url": "https://foxglove.dev/mcap"
+    },
+    {
+      "name": "Foxglove Studio",
+      "url": "https://foxglove.dev/studio"
+    }
+  ],
+  "socials": [
+    "https://github.com/foxglove",
+    "https://twitter.com/foxglovedev"
+  ],
+  "offices": [
+    "san-francisco-california"
+  ],
+  "headcount": 15,
+  "founded": 2021,
+  "jobs": [
+    {
+      "position": "lead-solutions-engineer",
+      "level": "any",
+      "type": "full-time",
+      "salary": {
+        "amount": [
+          175000,
+          215000
+        ],
+        "range": "yearly",
+        "currency": "usd"
+      },
+      "equity": [
+        0.0,
+        0.0
+      ],
+      "tech": [
+        "kubernetes",
+        "python",
+        "terraform",
+        "go",
+        "cpp",
+        "typescript"
+      ],
+      "url": "https://foxglove.dev/careers/4905680004"
+    }
+  ],
+  "updated": "2023-07-12T16:55:41.298937Z"
+}
