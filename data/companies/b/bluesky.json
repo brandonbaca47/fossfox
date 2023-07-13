@@ -1,0 +1,49 @@
+{
+  "name": "Bluesky",
+  "url": "https://blueskyweb.xyz/",
+  "at": "hello",
+  "building": "social network",
+  "products": [
+    {
+      "name": "Bluesky",
+      "url": "https://bsky.app/"
+    }
+  ],
+  "socials": [
+    "https://twitter.com/bluesky",
+    "https://github.com/bluesky-social"
+  ],
+  "offices": [
+    "seattle-washington"
+  ],
+  "headcount": 0,
+  "founded": 2022,
+  "jobs": [
+    {
+      "position": "typescript-engineer",
+      "level": "any",
+      "type": "full-time",
+      "salary": {
+        "amount": [
+          0,
+          0
+        ],
+        "range": "yearly",
+        "currency": "usd"
+      },
+      "equity": [
+        0.0,
+        0.0
+      ],
+      "tech": [
+        "typescript",
+        "postgresql",
+        "react",
+        "go",
+        "javascript"
+      ],
+      "url": "https://blueskyweb.xyz/join/ts-developer"
+    }
+  ],
+  "updated": "2023-07-13T13:37:55.626882Z"
+}
