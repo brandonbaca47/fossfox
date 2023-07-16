@@ -1,0 +1,58 @@
+{
+  "name": "Sysdig",
+  "url": "https://sysdig.com/",
+  "at": "fossfox",
+  "building": "security tools for containers",
+  "products": [
+    {
+      "name": "Sysdig",
+      "url": "https://sysdig.com/"
+    }
+  ],
+  "socials": [
+    "https://github.com/draios",
+    "https://twitter.com/sysdig"
+  ],
+  "offices": [
+    "belgrade-serbia",
+    "frankfurt-am-main-germany",
+    "ramat-gan-israel",
+    "heredia-costa-rica",
+    "london-united-kingdom",
+    "milan-italy",
+    "zaragoza-spain"
+  ],
+  "headcount": 0,
+  "founded": 2013,
+  "jobs": [
+    {
+      "position": "infrastructure-engineer",
+      "level": "any",
+      "type": "full-time",
+      "salary": {
+        "amount": [
+          0,
+          0
+        ],
+        "range": "yearly",
+        "currency": "usd"
+      },
+      "equity": [
+        0.0,
+        0.0
+      ],
+      "tech": [
+        "go",
+        "helm",
+        "typescript",
+        "github-actions",
+        "jenkins",
+        "python",
+        "docker",
+        "kubernetes"
+      ],
+      "url": "https://sysdig.com/careers/job/infrastructure-engineer-costa-rica-remote-5028016/"
+    }
+  ],
+  "updated": "2023-07-16T17:08:48.581018Z"
+}
