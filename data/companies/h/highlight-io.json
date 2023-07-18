@@ -1,0 +1,44 @@
+{
+  "name": "Highlight",
+  "url": "https://highlight.io/",
+  "at": "jay",
+  "building": "monitoring platform",
+  "products": [
+    {
+      "name": "Highlight",
+      "url": "https://www.highlight.io/"
+    }
+  ],
+  "socials": [
+    "https://twitter.com/highlightio",
+    "https://github.com/highlight"
+  ],
+  "offices": [],
+  "headcount": 0,
+  "founded": 2020,
+  "jobs": [
+    {
+      "position": "full-stack-engineer",
+      "level": "any",
+      "type": "full-time",
+      "salary": {
+        "amount": [
+          0,
+          0
+        ],
+        "range": "yearly",
+        "currency": "usd"
+      },
+      "equity": [
+        0.0,
+        0.0
+      ],
+      "tech": [
+        "typescript",
+        "go"
+      ],
+      "url": "https://runhighlight.notion.site/Highlight-is-Hiring-fd8003503eec4618a8e55e8f4ef3e718"
+    }
+  ],
+  "updated": "2023-07-18T20:51:52.904174Z"
+}
