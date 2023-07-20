@@ -1,0 +1,48 @@
+{
+  "name": "Speckle",
+  "url": "https://speckle.systems/",
+  "at": "hello",
+  "building": "digital infrastructure for 3D designs",
+  "products": [
+    {
+      "name": "Speckle",
+      "url": "https://speckle.systems/"
+    }
+  ],
+  "socials": [
+    "https://twitter.com/SpeckleSystems",
+    "https://github.com/specklesystems"
+  ],
+  "offices": [
+    "london-united-kingdom"
+  ],
+  "headcount": 21,
+  "founded": 2020,
+  "jobs": [
+    {
+      "position": "software-engineering-lead",
+      "level": "senior",
+      "type": "full-time",
+      "salary": {
+        "amount": [
+          0,
+          0
+        ],
+        "range": "yearly",
+        "currency": "usd"
+      },
+      "equity": [
+        0.0,
+        0.0
+      ],
+      "tech": [
+        "cpp",
+        "javascript",
+        "c-sharp",
+        "python"
+      ],
+      "url": "https://speckle.jobs.personio.com/job/1098568?display=en"
+    }
+  ],
+  "updated": "2023-07-20T14:08:08.585989Z"
+}
