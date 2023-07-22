@@ -492,13 +492,14 @@ impl Wizard {
 				let currency = {
 					let action = Select::with_theme(&self.theme)
 						.with_prompt("Currency")
-						.items(&["USD", "Euro"])
+						.items(&["USD: United States Dollar", "EUR: Euro", "GBP: Pound sterling"])
 						.default(0)
 						.interact()?;
 
 					match action {
 						0 => Currency::USD,
-						_ => Currency::EUR,
+						1 => Currency::EUR,
+						_ => Currency::GBP,
 					}
 				};
 

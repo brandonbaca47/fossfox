@@ -123,4 +123,6 @@ pub enum Currency {
 	USD,
 	#[serde(rename = "eur")]
 	EUR,
+	#[serde(rename = "gbp")]
+	GBP,
 }
