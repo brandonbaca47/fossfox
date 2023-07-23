@@ -23,6 +23,7 @@
       "position": "flutter-engineer",
       "level": "senior",
       "type": "full-time",
+      "oss": true,
       "salary": {
         "amount": [
           0,
@@ -42,5 +43,5 @@
       "url": "https://zulip.com/jobs/#flutter"
     }
   ],
-  "updated": "2023-07-10T19:52:22.196076Z"
+  "updated": "2023-07-10T19:52:22.196077Z"
 }

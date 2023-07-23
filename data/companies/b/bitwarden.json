@@ -23,6 +23,7 @@
       "position": "software-engineer",
       "level": "any",
       "type": "full-time",
+      "oss": true,
       "salary": {
         "amount": [
           0,
@@ -51,5 +52,5 @@
       "url": "https://bitwarden.com/careers/5650880003/"
     }
   ],
-  "updated": "2023-06-19T20:14:57.502273Z"
+  "updated": "2023-06-19T20:14:57.502274Z"
 }

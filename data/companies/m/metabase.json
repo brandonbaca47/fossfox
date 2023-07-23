@@ -23,6 +23,7 @@
       "position": "devops-engineer",
       "level": "senior",
       "type": "full-time",
+      "oss": false,
       "salary": {
         "amount": [
           0,
@@ -52,6 +53,7 @@
       "position": "backend-engineer",
       "level": "any",
       "type": "full-time",
+      "oss": false,
       "salary": {
         "amount": [
           0,

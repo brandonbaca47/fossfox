@@ -21,6 +21,7 @@
       "position": "android-engineer",
       "level": "any",
       "type": "full-time",
+      "oss": true,
       "salary": {
         "amount": [
           160000,
@@ -39,5 +40,5 @@
       "url": "https://jobs.lever.co/signal/9a3ac9b5-1b59-4bdf-a0a9-fd008fd55d40"
     }
   ],
-  "updated": "2023-07-07T17:53:04.887076Z"
+  "updated": "2023-07-07T17:53:04.887077Z"
 }

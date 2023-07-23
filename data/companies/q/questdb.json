@@ -23,6 +23,7 @@
       "position": "core-engineer",
       "level": "any",
       "type": "full-time",
+      "oss": true,
       "salary": {
         "amount": [
           0,
@@ -43,5 +44,5 @@
       "url": "https://questdb.io/careers/core-database-engineer/"
     }
   ],
-  "updated": "2023-07-07T15:56:32.792034Z"
+  "updated": "2023-07-07T15:56:32.792035Z"
 }

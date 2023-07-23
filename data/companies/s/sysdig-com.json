@@ -24,35 +24,6 @@
   ],
   "headcount": 0,
   "founded": 2013,
-  "jobs": [
-    {
-      "position": "infrastructure-engineer",
-      "level": "any",
-      "type": "full-time",
-      "salary": {
-        "amount": [
-          0,
-          0
-        ],
-        "range": "yearly",
-        "currency": "usd"
-      },
-      "equity": [
-        0.0,
-        0.0
-      ],
-      "tech": [
-        "go",
-        "helm",
-        "typescript",
-        "github-actions",
-        "jenkins",
-        "python",
-        "docker",
-        "kubernetes"
-      ],
-      "url": "https://sysdig.com/careers/job/infrastructure-engineer-costa-rica-remote-5028016/"
-    }
-  ],
-  "updated": "2023-07-16T17:08:48.581018Z"
+  "jobs": [],
+  "updated": "2023-07-16T17:08:48.581019Z"
 }

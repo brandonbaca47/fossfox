@@ -23,6 +23,7 @@
       "position": "rust-engineer",
       "level": "any",
       "type": "full-time",
+      "oss": true,
       "salary": {
         "amount": [
           60000,
@@ -46,5 +47,5 @@
       "url": "https://www.ycombinator.com/companies/windmill/jobs/WlSHAed-founding-rust-typescript-software-engineer"
     }
   ],
-  "updated": "2023-06-16T18:26:14.111458Z"
+  "updated": "2023-06-16T18:26:14.111459Z"
 }

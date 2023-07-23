@@ -23,6 +23,7 @@
       "position": "software-engineer",
       "level": "senior",
       "type": "full-time",
+      "oss": true,
       "salary": {
         "amount": [
           0,
@@ -44,5 +45,5 @@
       "url": "https://comma.ai/jobs#open-positions"
     }
   ],
-  "updated": "2023-06-27T14:40:02.728071Z"
+  "updated": "2023-06-27T14:40:02.728072Z"
 }

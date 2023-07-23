@@ -24,6 +24,7 @@
       "position": "core-engineer",
       "level": "senior",
       "type": "full-time",
+      "oss": true,
       "salary": {
         "amount": [
           114750,
@@ -46,5 +47,5 @@
       "url": "https://boards.greenhouse.io/clickhouse/jobs/4847188004"
     }
   ],
-  "updated": "2023-07-07T15:50:44.907033Z"
+  "updated": "2023-07-07T15:50:44.907034Z"
 }

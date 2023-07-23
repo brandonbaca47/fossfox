@@ -23,6 +23,7 @@
       "position": "backend-engineer",
       "level": "senior",
       "type": "full-time",
+      "oss": false,
       "salary": {
         "amount": [
           180000,
@@ -50,6 +51,7 @@
       "position": "smart-contract-engineer",
       "level": "senior",
       "type": "full-time",
+      "oss": true,
       "salary": {
         "amount": [
           210000,
@@ -72,6 +74,7 @@
       "position": "software-engineer",
       "level": "senior",
       "type": "full-time",
+      "oss": false,
       "salary": {
         "amount": [
           210000,
@@ -96,5 +99,5 @@
       "url": "https://boards.greenhouse.io/uniswaplabs/jobs/4169990005"
     }
   ],
-  "updated": "2023-07-10T19:52:22.194735Z"
+  "updated": "2023-07-10T19:52:22.194736Z"
 }

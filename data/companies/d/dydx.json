@@ -23,6 +23,7 @@
       "position": "staff-engineer",
       "level": "any",
       "type": "full-time",
+      "oss": true,
       "salary": {
         "amount": [
           210000,
@@ -51,5 +52,5 @@
       "url": "https://boards.greenhouse.io/dydx/jobs/6296909002"
     }
   ],
-  "updated": "2023-07-02T21:29:46.537169Z"
+  "updated": "2023-07-02T21:29:46.537179Z"
 }

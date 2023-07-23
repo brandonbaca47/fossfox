@@ -21,6 +21,7 @@
       "position": "full-stack-engineer",
       "level": "senior",
       "type": "full-time",
+      "oss": true,
       "salary": {
         "amount": [
           168000,
@@ -46,5 +47,5 @@
       "url": "https://boards.greenhouse.io/prefect/jobs/4873105004"
     }
   ],
-  "updated": "2023-07-07T18:09:50.369719Z"
+  "updated": "2023-07-07T18:09:50.369729Z"
 }

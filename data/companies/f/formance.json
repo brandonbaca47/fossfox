@@ -31,6 +31,7 @@
       "position": "compiler-engineer",
       "level": "any",
       "type": "full-time",
+      "oss": true,
       "salary": {
         "amount": [
           0,
@@ -49,5 +50,5 @@
       "url": "https://formance.notion.site/Compiler-Engineer-GO-98b2ca94984b4710867225d865b8b50b"
     }
   ],
-  "updated": "2023-07-20T14:17:35.624114Z"
+  "updated": "2023-07-20T14:17:35.624115Z"
 }

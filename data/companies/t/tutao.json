@@ -23,6 +23,7 @@
       "position": "software-engineer",
       "level": "any",
       "type": "full-time",
+      "oss": true,
       "salary": {
         "amount": [
           0,
@@ -43,5 +44,5 @@
       "url": "https://tutanota.com/job/0_software_engineer"
     }
   ],
-  "updated": "2023-07-10T19:52:22.190528Z"
+  "updated": "2023-07-10T19:52:22.190529Z"
 }

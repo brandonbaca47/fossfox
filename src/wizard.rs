@@ -484,6 +484,10 @@ impl Wizard {
 			}
 		};
 
+		let oss = Confirm::with_theme(&self.theme)
+			.with_prompt("Is part or all of the job contributing to open-source?")
+			.interact()?;
+
 		let salary = {
 			if Confirm::with_theme(&self.theme)
 				.with_prompt("Is salary range transparent?")
@@ -631,6 +635,6 @@ impl Wizard {
 			})
 			.interact()?;
 
-		Ok(Job { position, level, r#type, salary, equity, tech, url })
+		Ok(Job { position, level, r#type, oss, salary, equity, tech, url })
 	}
 }

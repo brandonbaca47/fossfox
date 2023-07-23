@@ -21,31 +21,6 @@
   ],
   "headcount": 250,
   "founded": 2008,
-  "jobs": [
-    {
-      "position": "backend-engineer",
-      "level": "senior",
-      "type": "full-time",
-      "salary": {
-        "amount": [
-          80000,
-          220000
-        ],
-        "range": "yearly",
-        "currency": "usd"
-      },
-      "equity": [
-        0.0,
-        0.0
-      ],
-      "tech": [
-        "python",
-        "graphql",
-        "postgresql",
-        "django"
-      ],
-      "url": "https://sentry.io/careers/4884870/"
-    }
-  ],
-  "updated": "2023-07-07T15:59:02.503405Z"
+  "jobs": [],
+  "updated": "2023-07-07T15:59:02.503406Z"
 }

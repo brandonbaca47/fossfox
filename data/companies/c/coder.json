@@ -23,6 +23,7 @@
       "position": "software-engineer",
       "level": "senior",
       "type": "full-time",
+      "oss": false,
       "salary": {
         "amount": [
           140000,

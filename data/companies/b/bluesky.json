@@ -23,6 +23,7 @@
       "position": "typescript-engineer",
       "level": "any",
       "type": "full-time",
+      "oss": true,
       "salary": {
         "amount": [
           0,
@@ -45,5 +46,5 @@
       "url": "https://blueskyweb.xyz/join/ts-developer"
     }
   ],
-  "updated": "2023-07-13T13:37:55.626882Z"
+  "updated": "2023-07-13T13:37:55.626883Z"
 }

@@ -25,31 +25,6 @@
   ],
   "headcount": 150,
   "founded": 2018,
-  "jobs": [
-    {
-      "position": "software-engineer",
-      "level": "any",
-      "type": "full-time",
-      "salary": {
-        "amount": [
-          0,
-          0
-        ],
-        "range": "yearly",
-        "currency": "usd"
-      },
-      "equity": [
-        0.0,
-        0.0
-      ],
-      "tech": [
-        "go",
-        "cpp",
-        "rust",
-        "c"
-      ],
-      "url": "https://boards.greenhouse.io/parity/jobs/5213777003"
-    }
-  ],
-  "updated": "2023-07-10T19:52:22.207196Z"
+  "jobs": [],
+  "updated": "2023-07-10T19:52:22.207197Z"
 }

@@ -21,6 +21,7 @@
       "position": "blockchain-security-engineer",
       "level": "senior",
       "type": "full-time",
+      "oss": true,
       "salary": {
         "amount": [
           0,
@@ -40,5 +41,5 @@
       "url": "https://boards.greenhouse.io/oplabs/jobs/4889669004"
     }
   ],
-  "updated": "2023-07-02T21:19:22.112618Z"
+  "updated": "2023-07-02T21:19:22.112619Z"
 }

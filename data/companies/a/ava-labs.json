@@ -23,6 +23,7 @@
       "position": "software-engineer",
       "level": "senior",
       "type": "full-time",
+      "oss": true,
       "salary": {
         "amount": [
           151200,
@@ -46,5 +47,5 @@
       "url": "https://boards.greenhouse.io/avalabs/jobs/4771997004"
     }
   ],
-  "updated": "2023-07-10T19:52:22.197255Z"
+  "updated": "2023-07-10T19:52:22.197256Z"
 }

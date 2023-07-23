@@ -24,6 +24,7 @@
       "position": "backend-engineer",
       "level": "senior",
       "type": "full-time",
+      "oss": false,
       "salary": {
         "amount": [
           150000,

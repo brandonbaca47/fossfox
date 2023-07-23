@@ -19,31 +19,6 @@
   ],
   "headcount": 150,
   "founded": 2016,
-  "jobs": [
-    {
-      "position": "frontend-engineer",
-      "level": "senior",
-      "type": "full-time",
-      "salary": {
-        "amount": [
-          0,
-          0
-        ],
-        "range": "yearly",
-        "currency": "usd"
-      },
-      "equity": [
-        0.0,
-        0.0
-      ],
-      "tech": [
-        "typescript",
-        "javascript",
-        "svelte",
-        "react"
-      ],
-      "url": "https://apply.workable.com/huggingface/j/09B44FE57C/"
-    }
-  ],
-  "updated": "2023-07-10T19:52:22.199848Z"
+  "jobs": [],
+  "updated": "2023-07-10T19:52:22.199849Z"
 }

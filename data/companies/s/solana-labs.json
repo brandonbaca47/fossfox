@@ -24,6 +24,7 @@
       "position": "full-stack-engineer",
       "level": "senior",
       "type": "full-time",
+      "oss": true,
       "salary": {
         "amount": [
           130000,
@@ -51,5 +52,5 @@
       "url": "https://boards.greenhouse.io/solana/jobs/4858813004"
     }
   ],
-  "updated": "2023-07-02T21:41:36.069969Z"
+  "updated": "2023-07-02T21:41:36.069979Z"
 }

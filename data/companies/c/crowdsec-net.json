@@ -23,6 +23,7 @@
       "position": "data-engineer",
       "level": "senior",
       "type": "full-time",
+      "oss": true,
       "salary": {
         "amount": [
           0,
@@ -51,5 +52,5 @@
       "url": "https://crowdsec.recruitee.com/o/senior-data-engineer-ml-ops"
     }
   ],
-  "updated": "2023-07-12T15:25:26.590Z"
+  "updated": "2023-07-12T15:25:26.591Z"
 }

@@ -23,6 +23,7 @@
       "position": "machine-learning-engineer",
       "level": "senior",
       "type": "full-time",
+      "oss": true,
       "salary": {
         "amount": [
           0,
@@ -47,5 +48,5 @@
       "url": "https://rasa.com/careers/?ashby_jid=5e5e4b3c-e002-4826-a522-e7908fa72ba1#jobs"
     }
   ],
-  "updated": "2023-07-02T19:37:42.324256Z"
+  "updated": "2023-07-02T19:37:42.324257Z"
 }

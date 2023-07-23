@@ -23,6 +23,7 @@
       "position": "site-reliability-engineer",
       "level": "senior",
       "type": "full-time",
+      "oss": false,
       "salary": {
         "amount": [
           101161,

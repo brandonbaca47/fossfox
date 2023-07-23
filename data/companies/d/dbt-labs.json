@@ -18,33 +18,6 @@
   ],
   "headcount": 150,
   "founded": 2016,
-  "jobs": [
-    {
-      "position": "software-engineer",
-      "level": "senior",
-      "type": "full-time",
-      "salary": {
-        "amount": [
-          182000,
-          234000
-        ],
-        "range": "yearly",
-        "currency": "usd"
-      },
-      "equity": [
-        0.0,
-        0.0
-      ],
-      "tech": [
-        "django",
-        "postgresql",
-        "kubernetes",
-        "go",
-        "aws",
-        "python"
-      ],
-      "url": "https://boards.greenhouse.io/dbtlabsinc/jobs/4137037005"
-    }
-  ],
-  "updated": "2023-07-10T19:52:22.199011Z"
+  "jobs": [],
+  "updated": "2023-07-10T19:52:22.199012Z"
 }

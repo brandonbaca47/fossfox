@@ -23,6 +23,7 @@
       "position": "runtime-engineer",
       "level": "any",
       "type": "full-time",
+      "oss": true,
       "salary": {
         "amount": [
           0,
@@ -45,5 +46,5 @@
       "url": "https://oven.rippling-ats.com/job/535740/runtime-engineer-zig-or-c-c"
     }
   ],
-  "updated": "2023-07-10T19:52:22.192380Z"
+  "updated": "2023-07-10T19:52:22.192381Z"
 }

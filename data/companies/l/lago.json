@@ -23,6 +23,7 @@
       "position": "ruby-engineer",
       "level": "senior",
       "type": "full-time",
+      "oss": true,
       "salary": {
         "amount": [
           50000,
@@ -41,5 +42,5 @@
       "url": "https://www.ycombinator.com/companies/lago/jobs/RvvzKuM-sr-back-end-ruby-engineer"
     }
   ],
-  "updated": "2023-06-11T02:43:45.374586Z"
+  "updated": "2023-06-11T02:43:45.374587Z"
 }

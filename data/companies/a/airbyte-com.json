@@ -25,6 +25,7 @@
       "position": "software-engineer",
       "level": "any",
       "type": "full-time",
+      "oss": false,
       "salary": {
         "amount": [
           211000,

@@ -27,6 +27,7 @@
       "position": "smart-contract-engineer",
       "level": "any",
       "type": "full-time",
+      "oss": true,
       "salary": {
         "amount": [
           105000,
@@ -49,6 +50,7 @@
       "position": "software-engineer",
       "level": "any",
       "type": "full-time",
+      "oss": true,
       "salary": {
         "amount": [
           125000,
@@ -75,5 +77,5 @@
       "url": "https://jobs.lever.co/hiro/fd82651d-0d68-41ad-8d42-7dafe5333822"
     }
   ],
-  "updated": "2023-07-01T21:57:50.814101Z"
+  "updated": "2023-07-01T21:57:50.814102Z"
 }

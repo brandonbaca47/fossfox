@@ -21,6 +21,7 @@
       "position": "rust-engineer",
       "level": "any",
       "type": "full-time",
+      "oss": true,
       "salary": {
         "amount": [
           0,
@@ -42,5 +43,5 @@
       "url": "https://boards.greenhouse.io/supabase/jobs/4917893004"
     }
   ],
-  "updated": "2023-07-07T17:34:37.793461Z"
+  "updated": "2023-07-07T17:34:37.793462Z"
 }

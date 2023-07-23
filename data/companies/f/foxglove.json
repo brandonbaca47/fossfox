@@ -31,6 +31,7 @@
       "position": "lead-solutions-engineer",
       "level": "any",
       "type": "full-time",
+      "oss": false,
       "salary": {
         "amount": [
           175000,

@@ -24,6 +24,7 @@
       "position": "haskell-engineer",
       "level": "senior",
       "type": "full-time",
+      "oss": false,
       "salary": {
         "amount": [
           120000,

@@ -21,6 +21,7 @@
       "position": "full-stack-engineer",
       "level": "any",
       "type": "full-time",
+      "oss": true,
       "salary": {
         "amount": [
           0,
@@ -40,5 +41,5 @@
       "url": "https://runhighlight.notion.site/Highlight-is-Hiring-fd8003503eec4618a8e55e8f4ef3e718"
     }
   ],
-  "updated": "2023-07-18T20:51:52.904174Z"
+  "updated": "2023-07-18T20:51:52.904175Z"
 }

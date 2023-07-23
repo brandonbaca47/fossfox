@@ -69,6 +69,7 @@ pub struct Job {
 	pub position: String,
 	pub level: Level,
 	pub r#type: Type,
+	pub oss: bool,
 	pub salary: Salary,
 	pub equity: (f64, f64),
 	pub tech: HashSet<String>,

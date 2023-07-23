@@ -23,6 +23,7 @@
       "position": "firmware-engineer",
       "level": "any",
       "type": "full-time",
+      "oss": true,
       "salary": {
         "amount": [
           0,
@@ -42,5 +43,5 @@
       "url": "https://www.cocuma.cz/job/firmware-developer/4428/"
     }
   ],
-  "updated": "2023-06-21T21:35:55.178Z"
+  "updated": "2023-06-21T21:35:55.179Z"
 }

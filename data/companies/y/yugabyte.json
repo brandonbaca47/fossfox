@@ -28,6 +28,7 @@
       "position": "software-engineer",
       "level": "any",
       "type": "full-time",
+      "oss": true,
       "salary": {
         "amount": [
           120000,
@@ -52,5 +53,5 @@
       "url": "https://boards.greenhouse.io/yugabyte/jobs/4015130006"
     }
   ],
-  "updated": "2023-06-26T21:04:51.713014Z"
+  "updated": "2023-06-26T21:04:51.713015Z"
 }

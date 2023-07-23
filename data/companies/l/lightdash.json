@@ -23,6 +23,7 @@
       "position": "full-stack-engineer",
       "level": "senior",
       "type": "full-time",
+      "oss": false,
       "salary": {
         "amount": [
           65000,
