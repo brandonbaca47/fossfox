@@ -18,6 +18,31 @@
   ],
   "headcount": 0,
   "founded": 2019,
-  "jobs": [],
-  "updated": "2023-06-12T21:59:12.314848Z"
+  "jobs": [
+    {
+      "position": "full-stack-engineer",
+      "level": "any",
+      "type": "full-time",
+      "oss": true,
+      "salary": {
+        "amount": [
+          76930,
+          339840
+        ],
+        "range": "yearly",
+        "currency": "usd"
+      },
+      "equity": [
+        0.0,
+        0.0
+      ],
+      "tech": [
+        "typescript",
+        "python",
+        "javascript"
+      ],
+      "url": "https://posthog.com/careers/full-stack-engineer-growth"
+    }
+  ],
+  "updated": "2023-07-23T18:09:30.580059Z"
 }

@@ -14,17 +14,43 @@
     }
   ],
   "socials": [
-    "https://github.com/paritytech",
-    "https://twitter.com/paritytech"
+    "https://twitter.com/paritytech",
+    "https://github.com/paritytech"
   ],
   "offices": [
-    "lisbon-portugal",
-    "berlin-germany",
     "london-united-kingdom",
-    "cambridge-united-kingdom"
+    "cambridge-united-kingdom",
+    "berlin-germany",
+    "lisbon-portugal"
   ],
   "headcount": 150,
   "founded": 2018,
-  "jobs": [],
-  "updated": "2023-07-10T19:52:22.207197Z"
+  "jobs": [
+    {
+      "position": "principal-engineer",
+      "level": "any",
+      "type": "full-time",
+      "oss": true,
+      "salary": {
+        "amount": [
+          0,
+          0
+        ],
+        "range": "yearly",
+        "currency": "usd"
+      },
+      "equity": [
+        0.0,
+        0.0
+      ],
+      "tech": [
+        "c",
+        "rust",
+        "cpp",
+        "go"
+      ],
+      "url": "https://boards.greenhouse.io/parity/jobs/5571459003"
+    }
+  ],
+  "updated": "2023-07-23T18:06:33.105909Z"
 }

@@ -19,6 +19,32 @@
   ],
   "headcount": 150,
   "founded": 2016,
-  "jobs": [],
-  "updated": "2023-07-10T19:52:22.199849Z"
+  "jobs": [
+    {
+      "position": "machine-learning-engineer",
+      "level": "any",
+      "type": "full-time",
+      "oss": true,
+      "salary": {
+        "amount": [
+          0,
+          0
+        ],
+        "range": "yearly",
+        "currency": "usd"
+      },
+      "equity": [
+        0.0,
+        0.0
+      ],
+      "tech": [
+        "rust",
+        "pytorch",
+        "keras",
+        "python"
+      ],
+      "url": "https://apply.workable.com/huggingface/j/890897DBC6/"
+    }
+  ],
+  "updated": "2023-07-23T18:04:26.220169Z"
 }

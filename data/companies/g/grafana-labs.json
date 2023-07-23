@@ -18,6 +18,35 @@
   ],
   "headcount": 200,
   "founded": 2014,
-  "jobs": [],
-  "updated": "2023-06-21T22:37:03.862Z"
+  "jobs": [
+    {
+      "position": "backend-engineer",
+      "level": "senior",
+      "type": "full-time",
+      "oss": true,
+      "salary": {
+        "amount": [
+          0,
+          0
+        ],
+        "range": "yearly",
+        "currency": "usd"
+      },
+      "equity": [
+        0.0,
+        0.0
+      ],
+      "tech": [
+        "mysql",
+        "grafana",
+        "kubernetes",
+        "postgresql",
+        "sqlite",
+        "go",
+        "docker"
+      ],
+      "url": "https://boards.greenhouse.io/grafanalabs/jobs/4918938004"
+    }
+  ],
+  "updated": "2023-07-23T18:02:30.522111Z"
 }
