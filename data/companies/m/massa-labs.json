@@ -1,0 +1,48 @@
+{
+  "name": "Massa Labs",
+  "url": "https://massa.net/",
+  "at": "fossfox",
+  "building": "decentralized blockchain",
+  "products": [
+    {
+      "name": "Massa",
+      "url": "https://massa.net/"
+    }
+  ],
+  "socials": [
+    "https://github.com/massalabs",
+    "https://twitter.com/massalabs"
+  ],
+  "offices": [
+    "paris-france"
+  ],
+  "headcount": 10,
+  "founded": 2020,
+  "jobs": [
+    {
+      "position": "blockchain-infrastructure-engineer",
+      "level": "senior",
+      "type": "full-time",
+      "oss": true,
+      "salary": {
+        "amount": [
+          0,
+          0
+        ],
+        "range": "yearly",
+        "currency": "usd"
+      },
+      "equity": [
+        0.0,
+        0.0
+      ],
+      "tech": [
+        "ethereum",
+        "rust",
+        "bitcoin"
+      ],
+      "url": "https://massa.net/careers/lead_blockchain_developer/"
+    }
+  ],
+  "updated": "2023-08-03T14:32:04.263404323Z"
+}
