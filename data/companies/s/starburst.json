@@ -1,0 +1,50 @@
+{
+  "name": "Starburst",
+  "url": "https://starburst.io/",
+  "at": "hello",
+  "building": "modern data lake platform",
+  "products": [
+    {
+      "name": "Trino",
+      "url": "https://github.com/starburstdata/trino"
+    },
+    {
+      "name": "Starburst",
+      "url": "https://www.starburst.io/"
+    }
+  ],
+  "socials": [
+    "https://github.com/starburstdata",
+    "https://twitter.com/starburstdata"
+  ],
+  "offices": [
+    "boston-massachusetts"
+  ],
+  "headcount": 350,
+  "founded": 2017,
+  "jobs": [
+    {
+      "position": "software-engineer",
+      "level": "senior",
+      "type": "full-time",
+      "oss": true,
+      "salary": {
+        "amount": [
+          0,
+          0
+        ],
+        "range": "yearly",
+        "currency": "usd"
+      },
+      "equity": [
+        0.0,
+        0.0
+      ],
+      "tech": [
+        "java"
+      ],
+      "url": "https://www.starburst.io/careers/open-roles/?job=2d33b37b-ac4c-4a69-b0b6-b2508e389502"
+    }
+  ],
+  "updated": "2023-08-04T21:03:40.974141912Z"
+}
