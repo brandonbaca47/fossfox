@@ -1,0 +1,51 @@
+{
+  "name": "Scarf",
+  "url": "https://scarf.sh/",
+  "at": "jobs",
+  "building": "user and customer intelligence platform",
+  "products": [
+    {
+      "name": "Scarf Gateway",
+      "url": "https://about.scarf.sh/scarf-gateway"
+    }
+  ],
+  "socials": [
+    "https://twitter.com/scarf_oss",
+    "https://github.com/scarf-sh"
+  ],
+  "offices": [
+    "oakland-california"
+  ],
+  "headcount": 0,
+  "founded": 2019,
+  "jobs": [
+    {
+      "position": "devops-engineer",
+      "level": "senior",
+      "type": "full-time",
+      "oss": false,
+      "salary": {
+        "amount": [
+          60000,
+          160000
+        ],
+        "range": "yearly",
+        "currency": "usd"
+      },
+      "equity": [
+        0.0,
+        0.0
+      ],
+      "tech": [
+        "docker",
+        "kubernetes",
+        "bash",
+        "terraform",
+        "aws",
+        "amazon-rds"
+      ],
+      "url": "https://about.scarf.sh/careers/lead-devops-engineer"
+    }
+  ],
+  "updated": "2023-08-10T18:04:53.901251Z"
+}
