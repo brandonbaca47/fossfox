@@ -1,0 +1,47 @@
+{
+  "name": "Offchain Labs",
+  "url": "https://offchainlabs.com/",
+  "at": "info",
+  "building": "Ethereum scaling solutions",
+  "products": [
+    {
+      "name": "Arbitrum",
+      "url": "https://arbitrum.io/"
+    }
+  ],
+  "socials": [
+    "https://github.com/OffchainLabs",
+    "https://twitter.com/OffchainLabs"
+  ],
+  "offices": [
+    "new-york-city"
+  ],
+  "headcount": 30,
+  "founded": 2018,
+  "jobs": [
+    {
+      "position": "rust-engineer",
+      "level": "any",
+      "type": "full-time",
+      "oss": true,
+      "salary": {
+        "amount": [
+          0,
+          0
+        ],
+        "range": "yearly",
+        "currency": "usd"
+      },
+      "equity": [
+        0.0,
+        0.0
+      ],
+      "tech": [
+        "rust",
+        "ethereum"
+      ],
+      "url": "https://jobs.lever.co/offchainlabs/16a12d43-6002-4eb1-ba14-350851ff4ffa"
+    }
+  ],
+  "updated": "2023-08-22T16:28:42.718881Z"
+}
