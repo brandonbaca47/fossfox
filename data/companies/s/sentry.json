@@ -48,8 +48,85 @@
         "rabbitmq",
         "memcached"
       ],
-      "url": "https://sentry.io/careers/5046170/"
+      "url": "https://grnh.se/4c54866a1us"
+    }, 
+    {  
+      "position": "software-engineer",
+      "level": "senior",
+      "type": "full-time",
+      "oss": false,
+      "salary": {
+        "amount": [
+          110000,
+          240000
+        ],
+        "range": "yearly",
+        "currency": "usd"
+      },
+      "equity": [
+        0.0,
+        0.0
+      ],
+      "tech": [
+        "python",
+        "django",
+        "javascript",
+        "typescript",
+        "react"
+      ], 
+      "url": "https://grnh.se/56870f3f1us"
+    }, 
+    {  
+      "position": "software-engineer",
+      "level": "senior",
+      "type": "full-time",
+      "oss": false,
+      "salary": {
+        "amount": [
+          80000,
+          220000
+        ],
+        "range": "yearly",
+        "currency": "usd"
+      },
+      "equity": [
+        0.0,
+        0.0
+      ],
+      "tech": [
+        "python",
+        "django",
+        "javascript",
+        "typescript",
+        "react"
+      ], 
+      "url": "https://grnh.se/3012826f1us"
+    }, 
+    {  
+      "position": "software-engineer",
+      "level": "any",
+      "type": "full-time",
+      "oss": false,
+      "salary": {
+        "amount": [
+          60000,
+          180000
+        ],
+        "range": "yearly",
+        "currency": "usd"
+      },
+      "equity": [
+        0.0,
+        0.0
+      ],
+      "tech": [
+        "react",
+        "typescript",
+        "graphql",
+        "python",
+        "django"
+      ], 
+      "url": "https://grnh.se/65533eb71us"
     }
   ],
-  "updated": "2023-07-23T18:11:18.771873Z"
 }
