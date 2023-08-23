@@ -51,7 +51,7 @@
       "url": "https://grnh.se/4c54866a1us"
     }, 
     {  
-      "position": "software-engineer",
+      "position": "backend-engineer",
       "level": "senior",
       "type": "full-time",
       "oss": false,
@@ -77,7 +77,7 @@
       "url": "https://grnh.se/56870f3f1us"
     }, 
     {  
-      "position": "software-engineer",
+      "position": "full-stack-engineer",
       "level": "senior",
       "type": "full-time",
       "oss": false,
@@ -103,7 +103,7 @@
       "url": "https://grnh.se/3012826f1us"
     }, 
     {  
-      "position": "software-engineer",
+      "position": "applications-engineer",
       "level": "any",
       "type": "full-time",
       "oss": false,
@@ -129,4 +129,5 @@
       "url": "https://grnh.se/65533eb71us"
     }
   ],
+  Last Updated: 2023-08-23
 }
