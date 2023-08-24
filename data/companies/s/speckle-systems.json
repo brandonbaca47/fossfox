@@ -10,40 +10,14 @@
     }
   ],
   "socials": [
-    "https://twitter.com/SpeckleSystems",
-    "https://github.com/specklesystems"
+    "https://github.com/specklesystems",
+    "https://twitter.com/SpeckleSystems"
   ],
   "offices": [
     "london-united-kingdom"
   ],
   "headcount": 21,
   "founded": 2020,
-  "jobs": [
-    {
-      "position": "software-engineering-lead",
-      "level": "senior",
-      "type": "full-time",
-      "oss": false,
-      "salary": {
-        "amount": [
-          0,
-          0
-        ],
-        "range": "yearly",
-        "currency": "usd"
-      },
-      "equity": [
-        0.0,
-        0.0
-      ],
-      "tech": [
-        "cpp",
-        "javascript",
-        "c-sharp",
-        "python"
-      ],
-      "url": "https://speckle.jobs.personio.com/job/1098568?display=en"
-    }
-  ],
-  "updated": "2023-07-20T14:08:08.585989Z"
+  "jobs": [],
+  "updated": "2023-08-24T22:17:14.763475Z"
 }
