@@ -18,30 +18,6 @@
   ],
   "headcount": 15,
   "founded": 2012,
-  "jobs": [
-    {
-      "position": "flutter-engineer",
-      "level": "senior",
-      "type": "full-time",
-      "oss": true,
-      "salary": {
-        "amount": [
-          0,
-          0
-        ],
-        "range": "yearly",
-        "currency": "usd"
-      },
-      "equity": [
-        0.0,
-        0.0
-      ],
-      "tech": [
-        "flutter",
-        "dart"
-      ],
-      "url": "https://zulip.com/jobs/#flutter"
-    }
-  ],
-  "updated": "2023-07-10T19:52:22.196077Z"
+  "jobs": [],
+  "updated": "2023-08-24T22:07:21.224545Z"
 }
