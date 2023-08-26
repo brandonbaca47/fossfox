@@ -18,7 +18,7 @@ dialoguer = { version = "0.10.4", features = ["fuzzy-select"] }
 email_address = "0.2.4"
 eyre = "0.6.8"
 glob = "0.3.1"
-serde = { version = "1.0.186", features = ["serde_derive"] }
+serde = { version = "1.0.188", features = ["serde_derive"] }
 serde_json = "1.0.105"
 slugify = "0.1.0"
 url = "2.4.0"
