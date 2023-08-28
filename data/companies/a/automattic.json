@@ -8,7 +8,6 @@
       "name": "WordPress.com",
       "url": "https://wordpress.com/"
     },
-
     {
       "name": "Tumblr",
       "url": "https://tumblr.com/"
@@ -16,14 +15,6 @@
     {
       "name": "Pocket Casts",
       "url": "https://pocketcasts.com/"
-    },
-    {
-      "name": "WooCommerce",
-      "url": "https://woocommerce.com/"
-    },
-    {
-      "name": "Simplenote",
-      "url": "https://simplenote.com/"
     }
   ],
   "socials": [
@@ -61,5 +52,5 @@
       "url": "https://automattic.com/work-with-us/job/systems-engineering/"
     }
   ],
-  "updated": "2023-08-28T16:27:57.657212Z"
+  "updated": "2023-08-28T16:27:57.657213Z"
 }
