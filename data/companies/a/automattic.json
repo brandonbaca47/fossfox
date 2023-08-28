@@ -1,0 +1,65 @@
+{
+  "name": "Automattic",
+  "url": "https://automattic.com/",
+  "at": "jobs",
+  "building": "democratizing publishing since 2005",
+  "products": [
+    {
+      "name": "WordPress.com",
+      "url": "https://wordpress.com/"
+    },
+
+    {
+      "name": "Tumblr",
+      "url": "https://tumblr.com/"
+    },
+    {
+      "name": "Pocket Casts",
+      "url": "https://pocketcasts.com/"
+    },
+    {
+      "name": "WooCommerce",
+      "url": "https://woocommerce.com/"
+    },
+    {
+      "name": "Simplenote",
+      "url": "https://simplenote.com/"
+    }
+  ],
+  "socials": [
+    "https://github.com/automattic",
+    "https://twitter.com/automattic"
+  ],
+  "offices": [],
+  "headcount": 1953,
+  "founded": 2005,
+  "jobs": [
+    {
+      "position": "system-administrator",
+      "level": "senior",
+      "type": "full-time",
+      "oss": true,
+      "salary": {
+        "amount": [0, 0],
+        "range": "yearly",
+        "currency": "usd"
+      },
+      "equity": [0.0, 0.0],
+      "tech": [
+        "php",
+        "mariadb",
+        "apache-hadoop",
+        "kubernetes",
+        "nginx",
+        "bash",
+        "node-js",
+        "elasticsearch",
+        "prometheus",
+        "mongodb",
+        "docker"
+      ],
+      "url": "https://automattic.com/work-with-us/job/systems-engineering/"
+    }
+  ],
+  "updated": "2023-08-28T16:27:57.657212Z"
+}
