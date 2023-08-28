@@ -10,8 +10,8 @@
     }
   ],
   "socials": [
-    "https://twitter.com/getdbt",
-    "https://github.com/dbt-labs"
+    "https://github.com/dbt-labs",
+    "https://twitter.com/getdbt"
   ],
   "offices": [
     "philadelphia-pennsylvania"
@@ -20,14 +20,14 @@
   "founded": 2016,
   "jobs": [
     {
-      "position": "software-engineer",
+      "position": "infrastructure-engineer",
       "level": "senior",
       "type": "full-time",
       "oss": false,
       "salary": {
         "amount": [
-          154000,
-          200000
+          175000,
+          220000
         ],
         "range": "yearly",
         "currency": "usd"
@@ -37,12 +37,16 @@
         0.0
       ],
       "tech": [
-        "react",
-        "django",
-        "typescript"
+        "azure",
+        "terraform",
+        "helm",
+        "gcp",
+        "aws",
+        "kubernetes",
+        "python"
       ],
-      "url": "https://boards.greenhouse.io/dbtlabsinc/jobs/4291153005"
+      "url": "https://boards.greenhouse.io/dbtlabsinc/jobs/4284516005"
     }
   ],
-  "updated": "2023-07-23T18:00:04.984426Z"
+  "updated": "2023-08-28T14:16:02.612624Z"
 }
