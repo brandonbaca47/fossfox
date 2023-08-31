@@ -9,12 +9,12 @@
       "url": "https://github.com/Stability-AI/stablediffusion"
     },
     {
-      "name": "Clipdrop",
-      "url": "https://clipdrop.co/"
-    },
-    {
       "name": "DreamStudio",
       "url": "https://dreamstudio.ai/"
+    },
+    {
+      "name": "Clipdrop",
+      "url": "https://clipdrop.co/"
     }
   ],
   "socials": [
@@ -23,38 +23,11 @@
   ],
   "offices": [
     "paris-france",
-    "san-francisco-california",
-    "tokyo-japan"
+    "tokyo-japan",
+    "san-francisco-california"
   ],
   "headcount": 100,
   "founded": 2019,
-  "jobs": [
-    {
-      "position": "staff-engineer",
-      "level": "any",
-      "type": "full-time",
-      "oss": false,
-      "salary": {
-        "amount": [
-          0,
-          0
-        ],
-        "range": "yearly",
-        "currency": "usd"
-      },
-      "equity": [
-        0.0,
-        0.0
-      ],
-      "tech": [
-        "go",
-        "grafana",
-        "python",
-        "aws",
-        "gcp"
-      ],
-      "url": "https://stability.ai/careers?gh_jid=4113908101"
-    }
-  ],
-  "updated": "2023-07-07T17:20:07.303132Z"
+  "jobs": [],
+  "updated": "2023-08-31T00:15:04.766619Z"
 }
