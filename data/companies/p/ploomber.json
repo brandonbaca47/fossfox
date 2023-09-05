@@ -1,0 +1,53 @@
+{
+  "name": "Ploomber",
+  "url": "https://ploomber.io/",
+  "at": "contact",
+  "building": "data platform for scientists",
+  "products": [
+    {
+      "name": "Ploomber",
+      "url": "https://ploomber.io/"
+    }
+  ],
+  "socials": [
+    "https://github.com/ploomber",
+    "https://twitter.com/ploomber"
+  ],
+  "offices": [
+    "new-york-city"
+  ],
+  "headcount": 6,
+  "founded": 2022,
+  "jobs": [
+    {
+      "position": "full-stack-engineer",
+      "level": "senior",
+      "type": "full-time",
+      "oss": true,
+      "salary": {
+        "amount": [
+          130000,
+          170000
+        ],
+        "range": "yearly",
+        "currency": "usd"
+      },
+      "equity": [
+        0.5,
+        0.5
+      ],
+      "tech": [
+        "java",
+        "javascript",
+        "docker",
+        "cpp",
+        "aws",
+        "vue-js",
+        "python",
+        "react"
+      ],
+      "url": "https://www.workatastartup.com/jobs/52522"
+    }
+  ],
+  "updated": "2023-09-05T23:52:25.934912Z"
+}
