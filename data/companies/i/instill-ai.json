@@ -1,0 +1,48 @@
+{
+  "name": "Instill AI",
+  "url": "https://instill.tech/",
+  "at": "hello",
+  "building": "unstructured data ETL",
+  "products": [
+    {
+      "name": "VDP",
+      "url": "https://github.com/instill-ai/vdp"
+    }
+  ],
+  "socials": [
+    "https://twitter.com/instill_tech",
+    "https://github.com/instill-ai"
+  ],
+  "offices": [],
+  "headcount": 5,
+  "founded": 2020,
+  "jobs": [
+    {
+      "position": "backend-engineer",
+      "level": "senior",
+      "type": "full-time",
+      "oss": true,
+      "salary": {
+        "amount": [
+          55000,
+          75000
+        ],
+        "range": "yearly",
+        "currency": "gbp"
+      },
+      "equity": [
+        0.02,
+        0.05
+      ],
+      "tech": [
+        "gcp",
+        "docker",
+        "go",
+        "aws",
+        "kubernetes"
+      ],
+      "url": "https://www.instill.tech/career/32yr292-sr-backend-engineer"
+    }
+  ],
+  "updated": "2023-09-05T23:43:52.746144Z"
+}
