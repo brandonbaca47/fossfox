@@ -15,61 +15,6 @@
   "offices": [],
   "headcount": 3,
   "founded": 2020,
-  "jobs": [
-    {
-      "position": "backend-engineer",
-      "level": "senior",
-      "type": "full-time",
-      "oss": false,
-      "salary": {
-        "amount": [
-          0,
-          0
-        ],
-        "range": "yearly",
-        "currency": "usd"
-      },
-      "equity": [
-        0.0,
-        0.0
-      ],
-      "tech": [
-        "go",
-        "rust",
-        "python",
-        "typescript",
-        "ethereum",
-        "solidity"
-      ],
-      "url": "https://jobs.ashbyhq.com/flashbots.net/4205564f-8654-4e69-9dd3-56fd9a3706ab"
-    },
-    {
-      "position": "devsecops-engineer",
-      "level": "senior",
-      "type": "full-time",
-      "oss": false,
-      "salary": {
-        "amount": [
-          0,
-          0
-        ],
-        "range": "yearly",
-        "currency": "usd"
-      },
-      "equity": [
-        0.0,
-        0.0
-      ],
-      "tech": [
-        "aws",
-        "azure",
-        "docker",
-        "kubernetes",
-        "terraform",
-        "gcp"
-      ],
-      "url": "https://jobs.ashbyhq.com/flashbots.net/57063afa-92f6-47b8-9f45-a384f9c5c726"
-    }
-  ],
-  "updated": "2023-07-02T19:45:19.089772Z"
+  "jobs": [],
+  "updated": "2023-09-06T13:25:12.008067Z"
 }
