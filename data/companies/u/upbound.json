@@ -1,0 +1,47 @@
+{
+  "name": "Upbound",
+  "url": "https://upbound.io/",
+  "at": "fossfox",
+  "building": "infrastructure management tools",
+  "products": [
+    {
+      "name": "Crossplane",
+      "url": "https://www.crossplane.io/"
+    }
+  ],
+  "socials": [
+    "https://twitter.com/upbound_io",
+    "https://github.com/crossplane"
+  ],
+  "offices": [
+    "seattle-washington"
+  ],
+  "headcount": 25,
+  "founded": 2017,
+  "jobs": [
+    {
+      "position": "software-engineer",
+      "level": "senior",
+      "type": "full-time",
+      "oss": true,
+      "salary": {
+        "amount": [
+          0,
+          0
+        ],
+        "range": "yearly",
+        "currency": "usd"
+      },
+      "equity": [
+        0.0,
+        0.0
+      ],
+      "tech": [
+        "go",
+        "kubernetes"
+      ],
+      "url": "https://boards.greenhouse.io/upbound/jobs/4662941004"
+    }
+  ],
+  "updated": "2023-09-06T23:45:09.286520Z"
+}
