@@ -11,7 +11,7 @@ keywords = ["jobs", "open-source", "fossfox"]
 
 [dependencies]
 chrono = { version = "0.4.30", default-features = false, features = ["clock", "std", "serde"] }
-clap = { version = "4.4.2", features = ["derive"] }
+clap = { version = "4.4.3", features = ["derive"] }
 console = "0.15.7"
 derive_more = "0.99.17"
 dialoguer = { version = "0.10.4", features = ["fuzzy-select"] }
@@ -19,6 +19,6 @@ email_address = "0.2.4"
 eyre = "0.6.8"
 glob = "0.3.1"
 serde = { version = "1.0.188", features = ["serde_derive"] }
-serde_json = "1.0.105"
+serde_json = "1.0.106"
 slugify = "0.1.0"
 url = "2.4.1"
