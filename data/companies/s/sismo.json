@@ -10,38 +10,14 @@
     }
   ],
   "socials": [
-    "https://github.com/sismo-core",
-    "https://twitter.com/sismo_eth"
+    "https://twitter.com/sismo_eth",
+    "https://github.com/sismo-core"
   ],
   "offices": [
     "paris-france"
   ],
   "headcount": 5,
   "founded": 2021,
-  "jobs": [
-    {
-      "position": "smart-contract-engineer",
-      "level": "any",
-      "type": "full-time",
-      "oss": true,
-      "salary": {
-        "amount": [
-          0,
-          0
-        ],
-        "range": "yearly",
-        "currency": "usd"
-      },
-      "equity": [
-        0.0,
-        0.0
-      ],
-      "tech": [
-        "solidity",
-        "ethereum"
-      ],
-      "url": "https://apply.workable.com/sismo-1/j/50CF5015E9/"
-    }
-  ],
-  "updated": "2023-08-02T18:19:20.963968697Z"
+  "jobs": [],
+  "updated": "2023-09-19T03:25:51.290990Z"
 }
