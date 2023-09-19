@@ -10,8 +10,8 @@
     }
   ],
   "socials": [
-    "https://twitter.com/HasuraHQ",
-    "https://github.com/hasura"
+    "https://github.com/hasura",
+    "https://twitter.com/HasuraHQ"
   ],
   "offices": [
     "bengaluru-india",
@@ -19,33 +19,6 @@
   ],
   "headcount": 100,
   "founded": 2017,
-  "jobs": [
-    {
-      "position": "haskell-engineer",
-      "level": "senior",
-      "type": "full-time",
-      "oss": false,
-      "salary": {
-        "amount": [
-          120000,
-          160000
-        ],
-        "range": "yearly",
-        "currency": "usd"
-      },
-      "equity": [
-        0.0,
-        0.0
-      ],
-      "tech": [
-        "postgresql",
-        "mysql",
-        "haskell",
-        "microsoft-sql-server",
-        "graphql"
-      ],
-      "url": "https://hasura.io/careers/?jobId=vso4JFIiAd8G"
-    }
-  ],
-  "updated": "2023-06-27T15:11:08.318621Z"
+  "jobs": [],
+  "updated": "2023-09-19T22:22:43.714154Z"
 }
