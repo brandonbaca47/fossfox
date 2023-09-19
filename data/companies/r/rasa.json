@@ -10,43 +10,14 @@
     }
   ],
   "socials": [
-    "https://github.com/RasaHQ",
-    "https://twitter.com/Rasa_HQ"
+    "https://twitter.com/Rasa_HQ",
+    "https://github.com/RasaHQ"
   ],
   "offices": [
     "berlin-germany"
   ],
   "headcount": 75,
   "founded": 2014,
-  "jobs": [
-    {
-      "position": "machine-learning-engineer",
-      "level": "senior",
-      "type": "full-time",
-      "oss": true,
-      "salary": {
-        "amount": [
-          0,
-          0
-        ],
-        "range": "yearly",
-        "currency": "usd"
-      },
-      "equity": [
-        0.0,
-        0.0
-      ],
-      "tech": [
-        "github-actions",
-        "rabbitmq",
-        "kubernetes",
-        "python",
-        "redis",
-        "postgresql",
-        "tensorflow"
-      ],
-      "url": "https://rasa.com/careers/?ashby_jid=5e5e4b3c-e002-4826-a522-e7908fa72ba1#jobs"
-    }
-  ],
-  "updated": "2023-07-02T19:37:42.324257Z"
+  "jobs": [],
+  "updated": "2023-09-19T22:10:57.870949Z"
 }
