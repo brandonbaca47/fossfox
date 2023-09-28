@@ -1,0 +1,51 @@
+{
+  "name": "Heroic Labs",
+  "url": "https://heroiclabs.com/",
+  "at": "hello",
+  "building": "social infrastructure for games",
+  "products": [
+    {
+      "name": "Nakama",
+      "url": "https://heroiclabs.com/nakama/"
+    }
+  ],
+  "socials": [
+    "https://twitter.com/heroicdev",
+    "https://github.com/heroiclabs"
+  ],
+  "offices": [
+    "san-francisco-california"
+  ],
+  "headcount": 20,
+  "founded": 2013,
+  "jobs": [
+    {
+      "position": "software-engineer",
+      "level": "any",
+      "type": "full-time",
+      "oss": true,
+      "salary": {
+        "amount": [
+          0,
+          0
+        ],
+        "range": "yearly",
+        "currency": "usd"
+      },
+      "equity": [
+        0.0,
+        0.0
+      ],
+      "tech": [
+        "c-sharp",
+        "go",
+        "typescript",
+        "cpp",
+        "c",
+        "javascript"
+      ],
+      "url": "https://www.workatastartup.com/jobs/48383"
+    }
+  ],
+  "updated": "2023-09-28T15:29:54.979425Z"
+}
