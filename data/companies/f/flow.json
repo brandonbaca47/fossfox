@@ -1,0 +1,58 @@
+{
+  "name": "Flow",
+  "url": "https://flow.com/",
+  "at": "fossfox",
+  "building": "layer 1 blockchain",
+  "products": [
+    {
+      "name": "Cadence",
+      "url": "https://github.com/onflow/cadence"
+    },
+    {
+      "name": "Flow",
+      "url": "https://flow.com/"
+    }
+  ],
+  "socials": [
+    "https://twitter.com/flow_blockchain",
+    "https://github.com/onflow"
+  ],
+  "offices": [],
+  "headcount": 20,
+  "founded": 2019,
+  "jobs": [
+    {
+      "position": "compiler-engineer",
+      "level": "senior",
+      "type": "full-time",
+      "oss": true,
+      "salary": {
+        "amount": [
+          0,
+          0
+        ],
+        "range": "yearly",
+        "currency": "usd"
+      },
+      "equity": [
+        0.0,
+        0.0
+      ],
+      "tech": [
+        "go",
+        "clojure",
+        "c",
+        "haskell",
+        "python",
+        "cpp",
+        "swift",
+        "rust",
+        "common-lisp",
+        "solidity",
+        "ocaml"
+      ],
+      "url": "https://flow.com/join/position?id=d1f1d64c-5f73-45d0-ad53-29fbcf9aefaa"
+    }
+  ],
+  "updated": "2023-09-28T15:42:08.336289Z"
+}
