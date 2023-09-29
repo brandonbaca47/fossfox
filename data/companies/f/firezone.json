@@ -10,14 +10,37 @@
     }
   ],
   "socials": [
-    "https://github.com/firezone",
-    "https://twitter.com/firezonehq"
+    "https://twitter.com/firezonehq",
+    "https://github.com/firezone"
   ],
   "offices": [
     "mountain-view-california"
   ],
   "headcount": 15,
   "founded": 2021,
-  "jobs": [],
-  "updated": "2023-06-22T02:22:43.429580Z"
+  "jobs": [
+    {
+      "position": "rust-engineer",
+      "level": "senior",
+      "type": "full-time",
+      "oss": true,
+      "salary": {
+        "amount": [
+          120000,
+          170000
+        ],
+        "range": "yearly",
+        "currency": "usd"
+      },
+      "equity": [
+        0.5,
+        2.0
+      ],
+      "tech": [
+        "rust"
+      ],
+      "url": "https://www.ycombinator.com/companies/firezone/jobs/entppUR-senior-rust-engineer-systems"
+    }
+  ],
+  "updated": "2023-09-29T20:07:25.863770Z"
 }
