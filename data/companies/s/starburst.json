@@ -22,35 +22,6 @@
   ],
   "headcount": 350,
   "founded": 2017,
-  "jobs": [
-    {
-      "position": "software-engineer",
-      "level": "senior",
-      "type": "full-time",
-      "oss": false,
-      "salary": {
-        "amount": [
-          170000,
-          200000
-        ],
-        "range": "yearly",
-        "currency": "usd"
-      },
-      "equity": [
-        0.0,
-        0.0
-      ],
-      "tech": [
-        "terraform",
-        "gcp",
-        "pulumi",
-        "java",
-        "typescript",
-        "aws",
-        "azure"
-      ],
-      "url": "https://www.starburst.io/careers/open-roles/?job=2e62cea0-cb0c-4c15-84cb-957290416453"
-    }
-  ],
-  "updated": "2023-09-19T02:34:50.568686Z"
+  "jobs": [],
+  "updated": "2023-09-29T13:08:27.656350Z"
 }
