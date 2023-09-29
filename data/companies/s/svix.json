@@ -1,0 +1,44 @@
+{
+  "name": "Svix",
+  "url": "https://svix.com/",
+  "at": "fossfox",
+  "building": "webhooks as a service",
+  "products": [
+    {
+      "name": "Svix",
+      "url": "https://www.svix.com/"
+    }
+  ],
+  "socials": [
+    "https://twitter.com/SvixHQ",
+    "https://github.com/svix"
+  ],
+  "offices": [],
+  "headcount": 0,
+  "founded": 2021,
+  "jobs": [
+    {
+      "position": "rust-engineer",
+      "level": "any",
+      "type": "full-time",
+      "oss": true,
+      "salary": {
+        "amount": [
+          130000,
+          160000
+        ],
+        "range": "yearly",
+        "currency": "usd"
+      },
+      "equity": [
+        0.0,
+        0.0
+      ],
+      "tech": [
+        "rust"
+      ],
+      "url": "https://jobs.ashbyhq.com/svix/84e99bc9-5cd6-4af0-af84-17d63a7494b5"
+    }
+  ],
+  "updated": "2023-09-29T19:55:45.011400Z"
+}
