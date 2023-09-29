@@ -10,41 +10,14 @@
     }
   ],
   "socials": [
-    "https://github.com/deepset-ai",
-    "https://twitter.com/deepset_ai"
+    "https://twitter.com/deepset_ai",
+    "https://github.com/deepset-ai"
   ],
   "offices": [
     "berlin-germany"
   ],
   "headcount": 25,
   "founded": 2018,
-  "jobs": [
-    {
-      "position": "devsecops-engineer",
-      "level": "senior",
-      "type": "full-time",
-      "oss": false,
-      "salary": {
-        "amount": [
-          0,
-          0
-        ],
-        "range": "yearly",
-        "currency": "usd"
-      },
-      "equity": [
-        0.0,
-        0.0
-      ],
-      "tech": [
-        "kubernetes",
-        "azure",
-        "aws",
-        "terraform",
-        "python"
-      ],
-      "url": "https://deepset.jobs.personio.de/job/1182225?display=en"
-    }
-  ],
-  "updated": "2023-07-21T15:56:24.893758Z"
+  "jobs": [],
+  "updated": "2023-09-29T21:54:57.799977Z"
 }
