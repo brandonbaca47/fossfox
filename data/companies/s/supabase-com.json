@@ -18,7 +18,7 @@
   "founded": 2020,
   "jobs": [
     {
-      "position": "rust-engineer",
+      "position": "frontend-engineer",
       "level": "any",
       "type": "full-time",
       "oss": true,
@@ -35,13 +35,12 @@
         0.0
       ],
       "tech": [
-        "supabase",
-        "postgresql",
-        "graphql",
-        "rust"
+        "react",
+        "next-js",
+        "supabase"
       ],
-      "url": "https://boards.greenhouse.io/supabase/jobs/4917893004"
+      "url": "https://boards.greenhouse.io/supabase/jobs/4965064004"
     }
   ],
-  "updated": "2023-07-07T17:34:37.793462Z"
+  "updated": "2023-09-29T19:50:07.857184Z"
 }
