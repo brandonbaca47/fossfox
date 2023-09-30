@@ -1,3 +1,6 @@
+> **Note**
+> 🚧 New submissions are paused, as this repo is getting an overhaul.
+
 # [Fossfox](https://fossfox.com/): Open Database of Available Engineering Jobs
 
 [![Github Actions](https://img.shields.io/github/actions/workflow/status/fossfox-com/fossfox/tests.yml?style=flat-square)](https://github.com/fossfox-com/fossfox/actions)
