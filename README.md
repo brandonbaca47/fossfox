@@ -65,6 +65,7 @@ Full-stack work involves working on both the frontend and backend of application
 | [Baserow](https://fossfox.com/baserow) | [Sr Full-Stack Dev](https://fossfox.com/senior-full-stack-engineer-at-baserow) | Python, Postgres, Nginx, […](https://fossfox.com/senior-full-stack-engineer-at-baserow) | €4k-7k/mo | [↗](https://fossfox.com/senior-full-stack-engineer-at-baserow) |
 | [Kong](https://fossfox.com/konghq) | [Sr Software Dev](https://fossfox.com/senior-software-engineer-at-konghq) | K8s, LuaJIT, Datadog, […](https://fossfox.com/senior-software-engineer-at-konghq) | $112k-145k/yr | [↗](https://fossfox.com/senior-software-engineer-at-konghq) |
 | [Uniswap Labs](https://fossfox.com/uniswap-labs) | [Sr Software Dev](https://fossfox.com/senior-software-engineer-at-uniswap-labs) | DynamoDB, AWS, Docker, […](https://fossfox.com/senior-software-engineer-at-uniswap-labs) | $210k-240k/yr | [↗](https://fossfox.com/senior-software-engineer-at-uniswap-labs) |
+| [Canonical](https://fossfox.com/canonical) | [Software Engineer](https://fossfox.com/software-engineer-at-canonical) | Python, Go | - | [↗](https://fossfox.com/software-engineer-at-canonical) |
 | [Heroic Labs](https://fossfox.com/heroiclabs) | [Software Engineer](https://fossfox.com/software-engineer-at-heroiclabs) | C#, Go, TypeScript, […](https://fossfox.com/software-engineer-at-heroiclabs) | - | [↗](https://fossfox.com/software-engineer-at-heroiclabs) |
 | [Medplum](https://fossfox.com/medplum) | [Full-Stack Dev](https://fossfox.com/full-stack-engineer-at-medplum) | AWS, GCP, Azure, […](https://fossfox.com/full-stack-engineer-at-medplum) | - | [↗](https://fossfox.com/full-stack-engineer-at-medplum) |
 | [Upbound](https://fossfox.com/upbound) | [Sr Software Dev](https://fossfox.com/senior-software-engineer-at-upbound) | Go, K8s | - | [↗](https://fossfox.com/senior-software-engineer-at-upbound) |
@@ -192,7 +193,6 @@ Embedded work involves designing and programming software to run on specialized 
 | :--- | :--- | :--- | :--- | --- |
 | [Flow](https://fossfox.com/flow) | [Sr Compiler Dev](https://fossfox.com/senior-compiler-engineer-at-flow) | Go, Clojure, C, […](https://fossfox.com/senior-compiler-engineer-at-flow) | - | [↗](https://fossfox.com/senior-compiler-engineer-at-flow) |
 | [Formance](https://fossfox.com/formance) | [Compiler Engineer](https://fossfox.com/compiler-engineer-at-formance) | Go | - | [↗](https://fossfox.com/compiler-engineer-at-formance) |
-| [Canonical](https://fossfox.com/canonical) | [Embedded Dev](https://fossfox.com/embedded-software-engineer-at-canonical) | C, Go, Yocto, […](https://fossfox.com/embedded-software-engineer-at-canonical) | - | [↗](https://fossfox.com/embedded-software-engineer-at-canonical) |
 
 [🔼 back to top](#-categories)
 
