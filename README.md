@@ -42,7 +42,6 @@ A leadership role involves directing and inspiring a team to achieve project goa
 | :--- | :--- | :--- | :--- | --- |
 | [Pulumi](https://fossfox.com/pulumi-com) | [Principal Engineer](https://fossfox.com/principal-engineer-at-pulumi-com) | AWS, GCP, K8s, […](https://fossfox.com/principal-engineer-at-pulumi-com) | $181k-228k/yr | [↗](https://fossfox.com/principal-engineer-at-pulumi-com) |
 | [dYdX](https://fossfox.com/dydx) | [Staff Engineer](https://fossfox.com/staff-engineer-at-dydx) | Kafka, TypeScript, Docker, […](https://fossfox.com/staff-engineer-at-dydx) | $210k-320k/yr | [↗](https://fossfox.com/staff-engineer-at-dydx) |
-| [Carto](https://fossfox.com/carto) | [Director of Engineering](https://fossfox.com/director-of-engineering-at-carto) | GCP, AWS, Azure, […](https://fossfox.com/director-of-engineering-at-carto) | - | [↗](https://fossfox.com/director-of-engineering-at-carto) |
 
 [🔼 back to top](#-categories)
 
