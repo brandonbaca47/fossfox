@@ -192,7 +192,6 @@ Embedded work involves designing and programming software to run on specialized 
 
 | Company | Hiring | Tech | 💵 | |
 | :--- | :--- | :--- | :--- | --- |
-| [Flow](https://fossfox.com/flow) | [Sr Compiler Dev](https://fossfox.com/senior-compiler-engineer-at-flow) | Go, Clojure, C, […](https://fossfox.com/senior-compiler-engineer-at-flow) | - | [↗](https://fossfox.com/senior-compiler-engineer-at-flow) |
 | [Formance](https://fossfox.com/formance) | [Compiler Engineer](https://fossfox.com/compiler-engineer-at-formance) | Go | - | [↗](https://fossfox.com/compiler-engineer-at-formance) |
 
 [🔼 back to top](#-categories)
