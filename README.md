@@ -106,7 +106,6 @@ Frontend work involves designing and implementing the user interface of a web ap
 | Company | Hiring | Tech | 💵 | |
 | :--- | :--- | :--- | :--- | --- |
 | [Svix](https://fossfox.com/svix) | [Frontend Engineer](https://fossfox.com/frontend-engineer-at-svix) | TypeScript, React | $120k-150k/yr | [↗](https://fossfox.com/frontend-engineer-at-svix) |
-| [Neon](https://fossfox.com/neon) | [Frontend Engineer](https://fossfox.com/frontend-engineer-at-neon) | React, TypeScript, JS | - | [↗](https://fossfox.com/frontend-engineer-at-neon) |
 | [Gradle](https://fossfox.com/gradle) | [Sr Frontend Dev](https://fossfox.com/senior-frontend-engineer-at-gradle) | React, JS | - | [↗](https://fossfox.com/senior-frontend-engineer-at-gradle) |
 | [Gitlab](https://fossfox.com/gitlab) | [Sr Frontend Dev](https://fossfox.com/senior-frontend-engineer-at-gitlab) | Vue.js, JS, GraphQL, […](https://fossfox.com/senior-frontend-engineer-at-gitlab) | - | [↗](https://fossfox.com/senior-frontend-engineer-at-gitlab) |
 | [Trezor](https://fossfox.com/trezor) | [Sr React Engineer](https://fossfox.com/senior-react-engineer-at-trezor) | React, TypeScript, Electron | - | [↗](https://fossfox.com/senior-react-engineer-at-trezor) |
