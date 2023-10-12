@@ -145,7 +145,6 @@ Mobile work involves creating and optimizing applications specifically for mobil
 | Company | Hiring | Tech | 💵 | |
 | :--- | :--- | :--- | :--- | --- |
 | [Signal](https://fossfox.com/signal) | [Android Engineer](https://fossfox.com/android-engineer-at-signal) | Java | $160k-260k/yr | [↗](https://fossfox.com/android-engineer-at-signal) |
-| [Tailscale](https://fossfox.com/tailscale) | [iOS Engineer](https://fossfox.com/ios-engineer-at-tailscale) | Go, Swift | - | [↗](https://fossfox.com/ios-engineer-at-tailscale) |
 
 [🔼 back to top](#-categories)
 
