@@ -132,7 +132,7 @@ Backend work involves building and maintaining the server-side logic, databases,
 | [Chatwoot](https://fossfox.com/chatwoot) | [Ruby Engineer](https://fossfox.com/ruby-engineer-at-chatwoot) | Ruby, Ruby on Rails | - | [↗](https://fossfox.com/ruby-engineer-at-chatwoot) |
 | [Nebuly](https://fossfox.com/nebuly) | [Backend Engineer](https://fossfox.com/backend-engineer-at-nebuly) | Docker, AWS, RabbitMQ, […](https://fossfox.com/backend-engineer-at-nebuly) | - | [↗](https://fossfox.com/backend-engineer-at-nebuly) |
 | [Pimcore](https://fossfox.com/pimcore-com) | [PHP Engineer](https://fossfox.com/php-engineer-at-pimcore-com) | React, MySQL, Redis, […](https://fossfox.com/php-engineer-at-pimcore-com) | - | [↗](https://fossfox.com/php-engineer-at-pimcore-com) |
-| [Arduino](https://fossfox.com/arduino) | [Go Engineer](https://fossfox.com/go-engineer-at-arduino) | Go, C, K8s, […](https://fossfox.com/go-engineer-at-arduino) | - | [↗](https://fossfox.com/go-engineer-at-arduino) |
+| [Arduino](https://fossfox.com/arduino) | [Sr Backend Dev](https://fossfox.com/senior-backend-engineer-at-arduino) | C++, AWS, Go | - | [↗](https://fossfox.com/senior-backend-engineer-at-arduino) |
 | [Metabase](https://fossfox.com/metabase) | [Backend Engineer](https://fossfox.com/backend-engineer-at-metabase) | Java, TypeScript, Clojure, […](https://fossfox.com/backend-engineer-at-metabase) | - | [↗](https://fossfox.com/backend-engineer-at-metabase) |
 | [Rotki](https://fossfox.com/rotki) | [Python Engineer](https://fossfox.com/python-engineer-at-rotki) | Ethereum, Python | - | [↗](https://fossfox.com/python-engineer-at-rotki) |
 
