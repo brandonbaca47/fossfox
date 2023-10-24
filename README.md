@@ -118,7 +118,6 @@ Backend work involves building and maintaining the server-side logic, databases,
 
 | Company | Hiring | Tech | 💵 | |
 | :--- | :--- | :--- | :--- | --- |
-| [Meltano](https://fossfox.com/meltano-com) | [Sr DB Engineer](https://fossfox.com/senior-database-engineer-at-meltano-com) | Postgres, Github Actions, Python, […](https://fossfox.com/senior-database-engineer-at-meltano-com) | $160k-180k/yr | [↗](https://fossfox.com/senior-database-engineer-at-meltano-com) |
 | [Firezone](https://fossfox.com/firezone) | [Sr Rust Engineer](https://fossfox.com/senior-rust-engineer-at-firezone) | Rust | $120k-170k/yr, 0.5-2% | [↗](https://fossfox.com/senior-rust-engineer-at-firezone) |
 | [Svix](https://fossfox.com/svix) | [Rust Engineer](https://fossfox.com/rust-engineer-at-svix) | Rust | $130k-160k/yr | [↗](https://fossfox.com/rust-engineer-at-svix) |
 | [Instill AI](https://fossfox.com/instill-ai) | [Sr Backend Dev](https://fossfox.com/senior-backend-engineer-at-instill-ai) | GCP, Docker, Go, […](https://fossfox.com/senior-backend-engineer-at-instill-ai) | £55k-75k/yr, 0.02-0.05% | [↗](https://fossfox.com/senior-backend-engineer-at-instill-ai) |
