@@ -40,6 +40,7 @@ A leadership role involves directing and inspiring a team to achieve project goa
 
 | Company | Hiring | Tech | 💵 | |
 | :--- | :--- | :--- | :--- | --- |
+| [OneUptime](https://fossfox.com/oneuptime) | [Staff Engineer](https://fossfox.com/staff-engineer-at-oneuptime) | Postgres, ClickHouse, Redis, […](https://fossfox.com/staff-engineer-at-oneuptime) | $220k-275k/yr, 0.5-1% | [↗](https://fossfox.com/staff-engineer-at-oneuptime) |
 | [Pulumi](https://fossfox.com/pulumi-com) | [Principal Engineer](https://fossfox.com/principal-engineer-at-pulumi-com) | AWS, GCP, K8s, […](https://fossfox.com/principal-engineer-at-pulumi-com) | $181k-228k/yr | [↗](https://fossfox.com/principal-engineer-at-pulumi-com) |
 | [dYdX](https://fossfox.com/dydx) | [Staff Engineer](https://fossfox.com/staff-engineer-at-dydx) | Kafka, TypeScript, Docker, […](https://fossfox.com/staff-engineer-at-dydx) | $210k-320k/yr | [↗](https://fossfox.com/staff-engineer-at-dydx) |
 
