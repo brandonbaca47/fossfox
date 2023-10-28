@@ -176,7 +176,6 @@ Security work entails identifying, assessing, and mitigating vulnerabilities and
 
 | Company | Hiring | Tech | 💵 | |
 | :--- | :--- | :--- | :--- | --- |
-| [OP Labs](https://fossfox.com/oplabs) | [Sr Security Dev](https://fossfox.com/senior-security-engineer-at-oplabs) | GCP, AWS, Azure, […](https://fossfox.com/senior-security-engineer-at-oplabs) | - | [↗](https://fossfox.com/senior-security-engineer-at-oplabs) |
 | [Lightning Labs](https://fossfox.com/lightning) | [Sr Security Dev](https://fossfox.com/senior-security-engineer-at-lightning) | Go, Rust, K8s, […](https://fossfox.com/senior-security-engineer-at-lightning) | - | [↗](https://fossfox.com/senior-security-engineer-at-lightning) |
 
 [🔼 back to top](#-categories)
