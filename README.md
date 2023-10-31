@@ -91,7 +91,6 @@ DevOps work involves streamlining and automating the software delivery pipeline,
 | [Gitlab](https://fossfox.com/gitlab) | [Sr SRE](https://fossfox.com/senior-site-reliability-engineer-at-gitlab) | Terraform, Ansible, Chef, […](https://fossfox.com/senior-site-reliability-engineer-at-gitlab) | - | [↗](https://fossfox.com/senior-site-reliability-engineer-at-gitlab) |
 | [Metabase](https://fossfox.com/metabase) | [Sr DevOps Engineer](https://fossfox.com/senior-devops-engineer-at-metabase) | AWS, RDS, Grafana, […](https://fossfox.com/senior-devops-engineer-at-metabase) | - | [↗](https://fossfox.com/senior-devops-engineer-at-metabase) |
 | [Ghost](https://fossfox.com/ghost) | [Infra Engineer](https://fossfox.com/infrastructure-engineer-at-ghost) | Node.js, Nginx, Docker, […](https://fossfox.com/infrastructure-engineer-at-ghost) | - | [↗](https://fossfox.com/infrastructure-engineer-at-ghost) |
-| [ClearML](https://fossfox.com/clearml) | [DevOps Engineer](https://fossfox.com/devops-engineer-at-clearml) | Docker, Python, Azure, […](https://fossfox.com/devops-engineer-at-clearml) | - | [↗](https://fossfox.com/devops-engineer-at-clearml) |
 | [Oven](https://fossfox.com/oven) | [Runtime Engineer](https://fossfox.com/runtime-engineer-at-oven) | TypeScript, C++, Zig, […](https://fossfox.com/runtime-engineer-at-oven) | - | [↗](https://fossfox.com/runtime-engineer-at-oven) |
 
 [🔼 back to top](#-categories)
