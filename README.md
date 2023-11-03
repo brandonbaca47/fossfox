@@ -52,7 +52,6 @@ Full-stack work involves working on both the frontend and backend of application
 
 | Company | Hiring | Tech | 💵 | |
 | :--- | :--- | :--- | :--- | --- |
-| [OneUptime](https://fossfox.com/oneuptime) | [Sr Software Dev](https://fossfox.com/senior-software-engineer-at-oneuptime) | Postgres, Tailwind CSS, React, […](https://fossfox.com/senior-software-engineer-at-oneuptime) | $200k-250k/yr, 0.1-0.5% | [↗](https://fossfox.com/senior-software-engineer-at-oneuptime) |
 | [Anyscale](https://fossfox.com/anyscale) | [Software Engineer](https://fossfox.com/software-engineer-at-anyscale) | C++, Python, Spark | $170k-237k/yr | [↗](https://fossfox.com/software-engineer-at-anyscale) |
 | [Ploomber](https://fossfox.com/ploomber) | [Sr Full-Stack Dev](https://fossfox.com/senior-full-stack-engineer-at-ploomber) | Java, JS, Docker, […](https://fossfox.com/senior-full-stack-engineer-at-ploomber) | $130k-170k/yr, 0.5% | [↗](https://fossfox.com/senior-full-stack-engineer-at-ploomber) |
 | [Sentry](https://fossfox.com/sentry) | [Sr Full-Stack Dev](https://fossfox.com/senior-full-stack-engineer-at-sentry) | Python, Django, JS, […](https://fossfox.com/senior-full-stack-engineer-at-sentry) | $80k-220k/yr | [↗](https://fossfox.com/senior-full-stack-engineer-at-sentry) |
