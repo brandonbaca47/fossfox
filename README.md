@@ -74,7 +74,6 @@ Full-stack work involves working on both the frontend and backend of application
 | [QuestDB](https://fossfox.com/questdb) | [Core Engineer](https://fossfox.com/core-engineer-at-questdb) | C, Java, C++ | - | [↗](https://fossfox.com/core-engineer-at-questdb) |
 | [Comma](https://fossfox.com/comma) | [Sr Software Dev](https://fossfox.com/senior-software-engineer-at-comma) | C++, Rust, C, […](https://fossfox.com/senior-software-engineer-at-comma) | - | [↗](https://fossfox.com/senior-software-engineer-at-comma) |
 | [Matomo](https://fossfox.com/matomo) | [Full-Stack Dev](https://fossfox.com/full-stack-engineer-at-matomo) | JS, PHP | - | [↗](https://fossfox.com/full-stack-engineer-at-matomo) |
-| [Tutao](https://fossfox.com/tutao) | [Software Engineer](https://fossfox.com/software-engineer-at-tutao) | JS, TypeScript, Java | - | [↗](https://fossfox.com/software-engineer-at-tutao) |
 
 [🔼 back to top](#-categories)
 
