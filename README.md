@@ -160,7 +160,7 @@ Blockchain work involves developing and maintaining decentralized digital ledger
 | Company | Hiring | Tech | 💵 | |
 | :--- | :--- | :--- | :--- | --- |
 | [Uniswap Labs](https://fossfox.com/uniswap-labs) | [Sr Smart Contract Dev](https://fossfox.com/senior-smart-contract-engineer-at-uniswap-labs) | Ethereum, Solidity | $210k-240k/yr | [↗](https://fossfox.com/senior-smart-contract-engineer-at-uniswap-labs) |
-| [Zama](https://fossfox.com/zama) | [Distributed Sys Dev](https://fossfox.com/distributed-systems-engineer-at-zama) | Rust | - | [↗](https://fossfox.com/distributed-systems-engineer-at-zama) |
+| [Zama](https://fossfox.com/zama) | [Blockchain Sec Dev](https://fossfox.com/blockchain-security-engineer-at-zama) | Go, Ethereum | - | [↗](https://fossfox.com/blockchain-security-engineer-at-zama) |
 | [Textile](https://fossfox.com/textile) | [Protocol Engineer](https://fossfox.com/protocol-engineer-at-textile) | TypeScript, Rust, Solidity, […](https://fossfox.com/protocol-engineer-at-textile) | - | [↗](https://fossfox.com/protocol-engineer-at-textile) |
 | [Massa Labs](https://fossfox.com/massa-labs) | [Sr Blockchain Dev](https://fossfox.com/senior-blockchain-infrastructure-engineer-at-massa-labs) | Ethereum, Rust, Bitcoin | - | [↗](https://fossfox.com/senior-blockchain-infrastructure-engineer-at-massa-labs) |
 | [OP Labs](https://fossfox.com/oplabs) | [Sr Protocol Dev](https://fossfox.com/senior-protocol-engineer-at-oplabs) | Ethereum, Solidity, Go, […](https://fossfox.com/senior-protocol-engineer-at-oplabs) | - | [↗](https://fossfox.com/senior-protocol-engineer-at-oplabs) |
