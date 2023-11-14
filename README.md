@@ -147,7 +147,6 @@ Machine learning work involves designing, training, and deploying models that ca
 
 | Company | Hiring | Tech | 💵 | |
 | :--- | :--- | :--- | :--- | --- |
-| [Hugging Face](https://fossfox.com/hugging-face) | [ML Engineer](https://fossfox.com/machine-learning-engineer-at-hugging-face) | PyTorch, Python, JAX, […](https://fossfox.com/machine-learning-engineer-at-hugging-face) | - | [↗](https://fossfox.com/machine-learning-engineer-at-hugging-face) |
 | [CrowdSec](https://fossfox.com/crowdsec-net) | [Sr Data Engineer](https://fossfox.com/senior-data-engineer-at-crowdsec-net) | Neo4j, Terraform, Kafka, […](https://fossfox.com/senior-data-engineer-at-crowdsec-net) | - | [↗](https://fossfox.com/senior-data-engineer-at-crowdsec-net) |
 
 [🔼 back to top](#-categories)
