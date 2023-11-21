@@ -132,9 +132,8 @@ Backend work involves building and maintaining the server-side logic, databases,
 
 Mobile work involves creating and optimizing applications specifically for mobile devices, using programming languages and frameworks like Java or Kotlin for Android and Swift or Objective-C for iOS.
 
-| Company | Hiring | Tech | 💵 | |
-| :--- | :--- | :--- | :--- | --- |
-| [Signal](https://fossfox.com/signal) | [Android Engineer](https://fossfox.com/android-engineer-at-signal) | Java | $160k-260k/yr | [↗](https://fossfox.com/android-engineer-at-signal) |
+> **Note**
+> 🚧 Currently no jobs. [Subscribe at Fossfox](https://fossfox.com) to get notified.
 
 [🔼 back to top](#-categories)
 
