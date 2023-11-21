@@ -118,6 +118,7 @@ Backend work involves building and maintaining the server-side logic, databases,
 | :--- | :--- | :--- | :--- | --- |
 | [Svix](https://fossfox.com/svix) | [Rust Engineer](https://fossfox.com/rust-engineer-at-svix) | Rust | $130k-160k/yr | [↗](https://fossfox.com/rust-engineer-at-svix) |
 | [Instill AI](https://fossfox.com/instill-ai) | [Sr Backend Dev](https://fossfox.com/senior-backend-engineer-at-instill-ai) | GCP, Docker, Go, […](https://fossfox.com/senior-backend-engineer-at-instill-ai) | £55k-75k/yr, 0.02-0.05% | [↗](https://fossfox.com/senior-backend-engineer-at-instill-ai) |
+| [Carto](https://fossfox.com/carto) | [Sr Backend Dev](https://fossfox.com/senior-backend-engineer-at-carto) | Node.js, TypeScript, Redshift, […](https://fossfox.com/senior-backend-engineer-at-carto) | - | [↗](https://fossfox.com/senior-backend-engineer-at-carto) |
 | [Nango](https://fossfox.com/nango) | [Sr Backend Dev](https://fossfox.com/senior-backend-engineer-at-nango) | TypeScript, JS, Node.js | - | [↗](https://fossfox.com/senior-backend-engineer-at-nango) |
 | [Offchain Labs](https://fossfox.com/offchainlabs) | [Rust Engineer](https://fossfox.com/rust-engineer-at-offchainlabs) | Rust, Ethereum | - | [↗](https://fossfox.com/rust-engineer-at-offchainlabs) |
 | [Chatwoot](https://fossfox.com/chatwoot) | [Ruby Engineer](https://fossfox.com/ruby-engineer-at-chatwoot) | Ruby, Ruby on Rails | - | [↗](https://fossfox.com/ruby-engineer-at-chatwoot) |
