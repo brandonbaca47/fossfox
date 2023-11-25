@@ -101,6 +101,7 @@ Frontend work involves designing and implementing the user interface of a web ap
 | Company | Hiring | Tech | 💵 | |
 | :--- | :--- | :--- | :--- | --- |
 | [Svix](https://fossfox.com/svix) | [Frontend Engineer](https://fossfox.com/frontend-engineer-at-svix) | TypeScript, React | $120k-150k/yr | [↗](https://fossfox.com/frontend-engineer-at-svix) |
+| [Outline](https://fossfox.com/outline) | [Sr JavaScript Dev](https://fossfox.com/senior-javascript-engineer-at-outline) | JS | - | [↗](https://fossfox.com/senior-javascript-engineer-at-outline) |
 | [Gradle](https://fossfox.com/gradle) | [Sr Frontend Dev](https://fossfox.com/senior-frontend-engineer-at-gradle) | React, JS | - | [↗](https://fossfox.com/senior-frontend-engineer-at-gradle) |
 | [Gitlab](https://fossfox.com/gitlab) | [Sr Frontend Dev](https://fossfox.com/senior-frontend-engineer-at-gitlab) | Vue.js, JS, GraphQL, […](https://fossfox.com/senior-frontend-engineer-at-gitlab) | - | [↗](https://fossfox.com/senior-frontend-engineer-at-gitlab) |
 | [Bluesky](https://fossfox.com/bluesky) | [TypeScript Dev](https://fossfox.com/typescript-engineer-at-bluesky) | TypeScript, Postgres, React, […](https://fossfox.com/typescript-engineer-at-bluesky) | - | [↗](https://fossfox.com/typescript-engineer-at-bluesky) |
