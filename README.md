@@ -105,7 +105,6 @@ Frontend work involves designing and implementing the user interface of a web ap
 | [Gradle](https://fossfox.com/gradle) | [Sr Frontend Dev](https://fossfox.com/senior-frontend-engineer-at-gradle) | React, JS | - | [↗](https://fossfox.com/senior-frontend-engineer-at-gradle) |
 | [Gitlab](https://fossfox.com/gitlab) | [Sr Frontend Dev](https://fossfox.com/senior-frontend-engineer-at-gitlab) | Vue.js, JS, GraphQL, […](https://fossfox.com/senior-frontend-engineer-at-gitlab) | - | [↗](https://fossfox.com/senior-frontend-engineer-at-gitlab) |
 | [Bluesky](https://fossfox.com/bluesky) | [TypeScript Dev](https://fossfox.com/typescript-engineer-at-bluesky) | TypeScript, Postgres, React, […](https://fossfox.com/typescript-engineer-at-bluesky) | - | [↗](https://fossfox.com/typescript-engineer-at-bluesky) |
-| [ClearML](https://fossfox.com/clearml) | [Sr Frontend Dev](https://fossfox.com/senior-frontend-engineer-at-clearml) | Angular | - | [↗](https://fossfox.com/senior-frontend-engineer-at-clearml) |
 
 [🔼 back to top](#-categories)
 
