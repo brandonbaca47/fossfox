@@ -120,6 +120,7 @@ Backend work involves building and maintaining the server-side logic, databases,
 | [Lago](https://fossfox.com/lago) | [Sr Ruby Engineer](https://fossfox.com/senior-ruby-engineer-at-lago) | Ruby | $50k-100k/yr | [↗](https://fossfox.com/senior-ruby-engineer-at-lago) |
 | [Carto](https://fossfox.com/carto) | [Sr Backend Dev](https://fossfox.com/senior-backend-engineer-at-carto) | Node.js, TypeScript, Redshift, […](https://fossfox.com/senior-backend-engineer-at-carto) | - | [↗](https://fossfox.com/senior-backend-engineer-at-carto) |
 | [Offchain Labs](https://fossfox.com/offchainlabs) | [Rust Engineer](https://fossfox.com/rust-engineer-at-offchainlabs) | Rust, Ethereum | - | [↗](https://fossfox.com/rust-engineer-at-offchainlabs) |
+| [Loft](https://fossfox.com/loft-sh) | [Go Engineer](https://fossfox.com/go-engineer-at-loft-sh) | Go, K8s | - | [↗](https://fossfox.com/go-engineer-at-loft-sh) |
 | [Chatwoot](https://fossfox.com/chatwoot) | [Ruby Engineer](https://fossfox.com/ruby-engineer-at-chatwoot) | Ruby, Ruby on Rails | - | [↗](https://fossfox.com/ruby-engineer-at-chatwoot) |
 | [Nebuly](https://fossfox.com/nebuly) | [Backend Engineer](https://fossfox.com/backend-engineer-at-nebuly) | Docker, AWS, RabbitMQ, […](https://fossfox.com/backend-engineer-at-nebuly) | - | [↗](https://fossfox.com/backend-engineer-at-nebuly) |
 | [Arduino](https://fossfox.com/arduino) | [Sr Backend Dev](https://fossfox.com/senior-backend-engineer-at-arduino) | C++, AWS, Go | - | [↗](https://fossfox.com/senior-backend-engineer-at-arduino) |
